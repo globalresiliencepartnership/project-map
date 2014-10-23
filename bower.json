@@ -1,0 +1,29 @@
+{
+  "name": "rockefeller",
+  "version": "0.0.0",
+  "homepage": "https://github.com/developmentseed/rockefeller-gpr",
+  "authors": [
+    "Scisco <alireza@developmentseed.org>"
+  ],
+  "description": "Global Resilience Map",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "underscore": "~1.6.0",
+    "backbone": "~1.1.0",
+    "modernizr": "~2.7.1",
+    "topojson": "~1.6.15"
+  }
+}

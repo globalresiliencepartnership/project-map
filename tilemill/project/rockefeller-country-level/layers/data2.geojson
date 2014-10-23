@@ -1,0 +1,383 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    46.869107,
+                    -18.766947
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Madagascar",
+                "lat": -18.766947,
+                "long": 46.869107,
+                "region": "CSA",
+                "total_budget": 0,
+                "total_locations": 21,
+                "total_partners": 1,
+                "total_projects": 1,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    34.301525,
+                    -13.254308
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Malawi",
+                "lat": -13.254308,
+                "long": 34.301525,
+                "region": "CSA",
+                "total_budget": 0,
+                "total_locations": 8,
+                "total_partners": 1,
+                "total_projects": 1,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -72.285215,
+                    18.971187
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Haiti",
+                "lat": 18.971187,
+                "long": -72.285215,
+                "region": "LAC",
+                "total_budget": 20000000.0,
+                "total_locations": 25,
+                "total_partners": 1,
+                "total_projects": 1,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -90.23075899999999,
+                    15.783471
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Guatemala",
+                "lat": 15.783471,
+                "long": -90.23075899999999,
+                "region": "LAC",
+                "total_budget": 15035600.0,
+                "total_locations": 26,
+                "total_partners": 3,
+                "total_projects": 3,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.906193,
+                    -0.023559
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Kenya",
+                "lat": -0.023559,
+                "long": 37.906193,
+                "region": "EAH",
+                "total_budget": 34003700.0,
+                "total_locations": 0,
+                "total_partners": 1,
+                "total_projects": 1,
+                "type": "Emergency"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    32.290275,
+                    1.373333
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Uganda",
+                "lat": 1.373333,
+                "long": 32.290275,
+                "region": "CSA",
+                "total_budget": 19904000.0,
+                "total_locations": 7,
+                "total_partners": 2,
+                "total_projects": 2,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -11.779889,
+                    8.460555
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Sierra Leone",
+                "lat": 8.460555,
+                "long": -11.779889,
+                "region": "WAS",
+                "total_budget": 11581000.0,
+                "total_locations": 4,
+                "total_partners": 1,
+                "total_projects": 1,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.081666,
+                    17.607789
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Niger",
+                "lat": 17.607789,
+                "long": 8.081666,
+                "region": "WAS",
+                "total_budget": 43397500.0,
+                "total_locations": 21,
+                "total_partners": 4,
+                "total_projects": 4,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -14.452362,
+                    14.497401
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Senegal",
+                "lat": 14.497401,
+                "long": -14.452362,
+                "region": "WAS",
+                "total_budget": 1896200.0,
+                "total_locations": 0,
+                "total_partners": 1,
+                "total_projects": 1,
+                "type": "Emergency"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    48.516388,
+                    15.552727
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Yemen",
+                "lat": 15.552727,
+                "long": 48.516388,
+                "region": "ANE",
+                "total_budget": 15000000.0,
+                "total_locations": 0,
+                "total_partners": 3,
+                "total_projects": 3,
+                "type": "Emergency"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    30.1589303,
+                    7.9630921
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "South Sudan",
+                "lat": 7.9630921,
+                "long": 30.1589303,
+                "region": "EAH",
+                "total_budget": 12397538.0,
+                "total_locations": 0,
+                "total_partners": 1,
+                "total_projects": 1,
+                "type": "Emergency"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -1.561593,
+                    12.238333
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Burkina Faso",
+                "lat": 12.238333,
+                "long": -1.561593,
+                "region": "WAS",
+                "total_budget": 12978800.0,
+                "total_locations": 15,
+                "total_partners": 3,
+                "total_projects": 3,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    29.154857,
+                    -19.015438
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Zimbabwe",
+                "lat": -19.015438,
+                "long": 29.154857,
+                "region": "CSA",
+                "total_budget": 29327300.0,
+                "total_locations": 10,
+                "total_partners": 3,
+                "total_projects": 3,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    90.356331,
+                    23.684994
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Bangladesh",
+                "lat": 23.684994,
+                "long": 90.356331,
+                "region": "ANE",
+                "total_budget": 33125000.0,
+                "total_locations": 17,
+                "total_partners": 3,
+                "total_projects": 3,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    40.489673,
+                    9.145000000000001
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Ethiopia",
+                "lat": 9.145000000000001,
+                "long": 40.489673,
+                "region": "EAH",
+                "total_budget": 188989400.0,
+                "total_locations": 34,
+                "total_partners": 6,
+                "total_projects": 6,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -9.429499000000002,
+                    6.428055
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Liberia",
+                "lat": 6.428055,
+                "long": -9.429499000000002,
+                "region": "WAS",
+                "total_budget": 13847700.0,
+                "total_locations": 6,
+                "total_partners": 2,
+                "total_projects": 2,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    16.1816196,
+                    -2.420088
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Congo (DRC)",
+                "lat": -2.420088,
+                "long": 16.1816196,
+                "region": "CSA",
+                "total_budget": 24824000.0,
+                "total_locations": 16,
+                "total_partners": 3,
+                "total_projects": 3,
+                "type": "Development"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    29.918886,
+                    -3.373056
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "country": "Burundi",
+                "lat": -3.373056,
+                "long": 29.918886,
+                "region": "CSA",
+                "total_budget": 0,
+                "total_locations": 12,
+                "total_partners": 1,
+                "total_projects": 1,
+                "type": "Development"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

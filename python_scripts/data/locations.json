@@ -1,0 +1,2552 @@
+[{
+    "address": "Khulna Bangladesh",
+    "lat": 22.8215655,
+    "long": 89.5526585,
+    "raw": {
+        "boundingbox": ["22.8215637207031", "22.8215656280518", "89.5526580810547", "89.5526657104492"],
+        "class": "place",
+        "display_name": "Khulna (\u0996\u09c1\u09b2\u09a8\u09be), \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_city.p.20.png",
+        "importance": 0.51848620205597,
+        "lat": "22.8215655",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "89.5526585",
+        "osm_id": "321521438",
+        "osm_type": "node",
+        "place_id": "1480780",
+        "type": "city"
+    }
+}, {
+    "address": "Narail Bangladesh",
+    "lat": 23.175,
+    "long": 89.505,
+    "raw": {
+        "boundingbox": ["23.1749992370605", "23.1750011444092", "89.504997253418", "89.5050048828125"],
+        "class": "place",
+        "display_name": "Narail, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.38810883699101,
+        "lat": "23.175",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "89.505",
+        "osm_id": "1627757206",
+        "osm_type": "node",
+        "place_id": "17897407",
+        "type": "town"
+    }
+}, {
+    "address": "Bagerhat\n Bangladesh",
+    "lat": 22.6554187,
+    "long": 89.7971746,
+    "raw": {
+        "boundingbox": ["22.6554183959961", "22.6554203033447", "89.7971725463867", "89.7971801757812"],
+        "class": "place",
+        "display_name": "\u09ac\u09be\u0997\u09c7\u09b0\u09b9\u09be\u099f, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.28323539012287,
+        "lat": "22.6554187",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "89.7971746",
+        "osm_id": "1412141766",
+        "osm_type": "node",
+        "place_id": "15920363",
+        "type": "town"
+    }
+}, {
+    "address": "Mymensingh Bangladesh",
+    "lat": 24.7612675,
+    "long": 90.3972045,
+    "raw": {
+        "boundingbox": ["24.761266708374", "24.7612686157227", "90.3972015380859", "90.3972091674805"],
+        "class": "place",
+        "display_name": "Mymensingh, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_city.p.20.png",
+        "importance": 0.49761805264168,
+        "lat": "24.7612675",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "90.3972045",
+        "osm_id": "372424877",
+        "osm_type": "node",
+        "place_id": "3802764",
+        "type": "city"
+    }
+}, {
+    "address": "Jamalpur Bangladesh",
+    "lat": 24.9271193,
+    "long": 89.9445529,
+    "raw": {
+        "boundingbox": ["24.9271183013916", "24.9271202087402", "89.9445495605469", "89.9445571899414"],
+        "class": "place",
+        "display_name": "Jamalpur, \u09a2\u09be\u0995\u09be, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.49761805264168,
+        "lat": "24.9271193",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "89.9445529",
+        "osm_id": "1472157679",
+        "osm_type": "node",
+        "place_id": "16527121",
+        "type": "town"
+    }
+}, {
+    "address": "Sunamganj Bangladesh",
+    "lat": 25.0653149,
+    "long": 91.406908,
+    "raw": {
+        "boundingbox": ["25.0653133392334", "25.065315246582", "91.4069061279297", "91.4069137573242"],
+        "class": "place",
+        "display_name": "Sunamganj, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.41,
+        "lat": "25.0653149",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "91.406908",
+        "osm_id": "2481972077",
+        "osm_type": "node",
+        "place_id": "9144093629",
+        "type": "town"
+    }
+}, {
+    "address": "Cox's Bazaar Bangladesh",
+    "lat": 21.42197345,
+    "long": 92.0244722670805,
+    "raw": {
+        "boundingbox": ["21.4217376708984", "21.422176361084", "92.0242233276367", "92.0247192382812"],
+        "class": "amenity",
+        "display_name": "BETAR Cox's Bazaar, Teknaf Road, Balukhali, \u0995\u0995\u09cd\u09b8\u09ac\u09be\u099c\u09be\u09b0 \u099c\u09c7\u09b2\u09be, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "importance": 0.401,
+        "lat": "21.42197345",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "92.0244722670805",
+        "osm_id": "259163493",
+        "osm_type": "way",
+        "place_id": "9161611107",
+        "type": "studio"
+    }
+}, {
+    "address": "Kurigram Bangladesh",
+    "lat": 25.8150669,
+    "long": 89.6367734,
+    "raw": {
+        "boundingbox": ["25.8150653839111", "25.8150672912598", "89.6367721557617", "89.6367797851562"],
+        "class": "place",
+        "display_name": "Kurigram, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.41,
+        "lat": "25.8150669",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "89.6367734",
+        "osm_id": "1478704277",
+        "osm_type": "node",
+        "place_id": "17150463",
+        "type": "town"
+    }
+}, {
+    "address": "Nilphamari Bangladesh",
+    "lat": 25.9479515,
+    "long": 88.8445081,
+    "raw": {
+        "boundingbox": ["25.9479503631592", "25.9479522705078", "88.8445053100586", "88.8445129394531"],
+        "class": "place",
+        "display_name": "Nilphamari, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.41,
+        "lat": "25.9479515",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "88.8445081",
+        "osm_id": "1478704279",
+        "osm_type": "node",
+        "place_id": "17004168",
+        "type": "town"
+    }
+}, {
+    "address": "Rangpur Bangladesh",
+    "lat": 25.8989596,
+    "long": 88.9688169050276,
+    "raw": {
+        "boundingbox": ["25.1595230102539", "26.6382541656494", "88.0855102539062", "89.865837097168"],
+        "class": "boundary",
+        "display_name": "\u09b0\u0982\u09aa\u09c1\u09b0 \u09ac\u09bf\u09ad\u09be\u0997, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.55,
+        "lat": "25.8989596",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "88.9688169050276",
+        "osm_id": "3921211",
+        "osm_type": "relation",
+        "place_id": "9198840337",
+        "type": "administrative"
+    }
+}, {
+    "address": "Dinajpur Bangladesh",
+    "lat": 25.6260712,
+    "long": 88.6346228,
+    "raw": {
+        "boundingbox": ["25.626070022583", "25.6260719299316", "88.6346206665039", "88.6346282958984"],
+        "class": "place",
+        "display_name": "Dinajpur, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.41,
+        "lat": "25.6260712",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "88.6346228",
+        "osm_id": "2444384916",
+        "osm_type": "node",
+        "place_id": "9139201244",
+        "type": "town"
+    }
+}, {
+    "address": "Bogra Bangladesh",
+    "lat": 24.8480859,
+    "long": 89.3729529,
+    "raw": {
+        "boundingbox": ["24.8480854034424", "24.848087310791", "89.3729476928711", "89.3729553222656"],
+        "class": "place",
+        "display_name": "Bogra, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_city.p.20.png",
+        "importance": 0.46763486895458,
+        "lat": "24.8480859",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "89.3729529",
+        "osm_id": "372428067",
+        "osm_type": "node",
+        "place_id": "9148103458",
+        "type": "city"
+    }
+}, {
+    "address": "Sirajganj Bangladesh",
+    "lat": 24.4566253,
+    "long": 89.7081281,
+    "raw": {
+        "boundingbox": ["24.4566249847412", "24.4566268920898", "89.708122253418", "89.7081298828125"],
+        "class": "place",
+        "display_name": "Sirajganj, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.40330015574966,
+        "lat": "24.4566253",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "89.7081281",
+        "osm_id": "1210691046",
+        "osm_type": "node",
+        "place_id": "12696264",
+        "type": "town"
+    }
+}, {
+    "address": "Pabna Bangladesh",
+    "lat": 24.005,
+    "long": 89.25,
+    "raw": {
+        "boundingbox": ["23.965", "24.045", "89.21", "89.29"],
+        "class": "place",
+        "display_name": "Pabna, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.42552078659246,
+        "lat": "24.005",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "89.25",
+        "osm_id": "1627757208",
+        "osm_type": "node",
+        "place_id": "17896585",
+        "type": "town"
+    }
+}, {
+    "address": "Barisal Bangladesh",
+    "lat": 22.42181225,
+    "long": 90.4295709174807,
+    "raw": {
+        "boundingbox": ["21.6769485473633", "23.1733531951904", "89.8476181030273", "91.0333786010742"],
+        "class": "boundary",
+        "display_name": "\u09ac\u09b0\u09bf\u09b6\u09be\u09b2, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.55,
+        "lat": "22.42181225",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "90.4295709174807",
+        "osm_id": "3921298",
+        "osm_type": "relation",
+        "place_id": "9198865464",
+        "type": "administrative"
+    }
+}, {
+    "address": "Barguna Bangladesh",
+    "lat": 22.158905,
+    "long": 90.1181456,
+    "raw": {
+        "boundingbox": ["22.1589031219482", "22.1589050292969", "90.1181411743164", "90.1181488037109"],
+        "class": "place",
+        "display_name": "Barguna, 8700, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.36401456808503,
+        "lat": "22.158905",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "90.1181456",
+        "osm_id": "1623159370",
+        "osm_type": "node",
+        "place_id": "18009777",
+        "type": "town"
+    }
+}, {
+    "address": "Patuakhali Bangladesh",
+    "lat": 22.3542,
+    "long": 90.3181,
+    "raw": {
+        "boundingbox": ["22.3541984558105", "22.3542003631592", "90.3180999755859", "90.3181076049805"],
+        "class": "place",
+        "display_name": "Patuakhali, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.36089190172262,
+        "lat": "22.3542",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "90.3181",
+        "osm_id": "1623159413",
+        "osm_type": "node",
+        "place_id": "17255865",
+        "type": "town"
+    }
+}, {
+    "address": "Barsalogho Burkina Faso",
+    "lat": 13.413889,
+    "long": -1.055833,
+    "raw": {
+        "boundingbox": ["13.4138889312744", "13.4138898849487", "-1.05583310127258", "-1.05583298206329"],
+        "class": "place",
+        "display_name": "Barsalogho, Centre-Nord, Burkina Faso",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.61,
+        "lat": "13.413889",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-1.055833",
+        "osm_id": "902926826",
+        "osm_type": "node",
+        "place_id": "8651230",
+        "type": "town"
+    }
+}, {
+    "address": "Kaya Burkina Faso",
+    "lat": 13.0864489,
+    "long": -1.0845746,
+    "raw": {
+        "boundingbox": ["13.0864486694336", "13.0864496231079", "-1.08457469940186", "-1.08457458019257"],
+        "class": "place",
+        "display_name": "Kaya, Centre-Nord, Burkina Faso",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_city.p.20.png",
+        "importance": 0.53830612824767,
+        "lat": "13.0864489",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-1.0845746",
+        "osm_id": "302738145",
+        "osm_type": "node",
+        "place_id": "9189475769",
+        "type": "city"
+    }
+}, {
+    "address": "Pissila Burkina Faso",
+    "lat": 13.164167,
+    "long": -0.8225,
+    "raw": {
+        "boundingbox": ["13.1641664505005", "13.1641674041748", "-0.822500050067902", "-0.822499990463257"],
+        "class": "place",
+        "display_name": "Pissila, Centre-Nord, Burkina Faso",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.7487768725924,
+        "lat": "13.164167",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-0.8225",
+        "osm_id": "902926990",
+        "osm_type": "node",
+        "place_id": "9009010",
+        "type": "town"
+    }
+}, {
+    "address": "Bouroum Burkina Faso",
+    "lat": 13.610329,
+    "long": -0.649467,
+    "raw": {
+        "boundingbox": ["13.6103286743164", "13.6103296279907", "-0.649467051029205", "-0.649466991424561"],
+        "class": "place",
+        "display_name": "Bouroum, Centre-Nord, Burkina Faso",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.585,
+        "lat": "13.610329",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-0.649467",
+        "osm_id": "902926756",
+        "osm_type": "node",
+        "place_id": "9019036",
+        "type": "village"
+    }
+}, {
+    "address": "Manni Burkina Faso",
+    "lat": 13.256617,
+    "long": -0.2137559,
+    "raw": {
+        "boundingbox": ["13.2566165924072", "13.2566175460815", "-0.213755905628204", "-0.213755890727043"],
+        "class": "place",
+        "display_name": "Manni, Est, Burkina Faso",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.69128284560463,
+        "lat": "13.256617",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-0.2137559",
+        "osm_id": "2146430592",
+        "osm_type": "node",
+        "place_id": "3680224994",
+        "type": "town"
+    }
+}, {
+    "address": "Thion Burkina Faso",
+    "lat": 13.064752,
+    "long": -0.314955,
+    "raw": {
+        "boundingbox": ["13.064751625061", "13.0647525787354", "-0.314955025911331", "-0.314954996109009"],
+        "class": "place",
+        "display_name": "Thion, Est, Burkina Faso",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.69105335744371,
+        "lat": "13.064752",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-0.314955",
+        "osm_id": "902927859",
+        "osm_type": "node",
+        "place_id": "9009055",
+        "type": "town"
+    }
+}, {
+    "address": "Foutouri Burkina Faso",
+    "lat": 12.722954,
+    "long": 1.050494,
+    "raw": {
+        "boundingbox": ["12.7229537963867", "12.722954750061", "1.05049395561218", "1.05049407482147"],
+        "class": "place",
+        "display_name": "Foutouri, Est, Burkina Faso",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.585,
+        "lat": "12.722954",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "1.050494",
+        "osm_id": "902927942",
+        "osm_type": "node",
+        "place_id": "8489182",
+        "type": "village"
+    }
+}, {
+    "address": "Gayeri\n\n Burkina Faso",
+    "lat": 12.6501383,
+    "long": 0.4881125,
+    "raw": {
+        "boundingbox": ["12.6501379013062", "12.6501388549805", "0.488112479448318", "0.488112509250641"],
+        "class": "place",
+        "display_name": "Gay\u00e9ri, Est, Burkina Faso",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.6443738815771,
+        "lat": "12.6501383",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "0.4881125",
+        "osm_id": "1402180193",
+        "osm_type": "node",
+        "place_id": "15305043",
+        "type": "town"
+    }
+}, {
+    "address": "Kigamba Burundi",
+    "lat": -3.03677485,
+    "long": 30.5223733836506,
+    "raw": {
+        "boundingbox": ["-3.18059802055359", "-2.89295148849487", "30.3820571899414", "30.6718559265137"],
+        "class": "boundary",
+        "display_name": "Kigamba, Cankuzo, Burundi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "-3.03677485",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "30.5223733836506",
+        "osm_id": "2985729",
+        "osm_type": "relation",
+        "place_id": "5996886611",
+        "type": "administrative"
+    }
+}, {
+    "address": "Mishiha Burundi",
+    "lat": -3.07175275,
+    "long": 30.7209276318047,
+    "raw": {
+        "boundingbox": ["-3.17402100563049", "-2.96970438957214", "30.6042518615723", "30.849796295166"],
+        "class": "boundary",
+        "display_name": "Mishiha, Cankuzo, Burundi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "-3.07175275",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "30.7209276318047",
+        "osm_id": "2985730",
+        "osm_type": "relation",
+        "place_id": "5996886612",
+        "type": "administrative"
+    }
+}, {
+    "address": "Cankuzo Burundi",
+    "lat": -3.1923528,
+    "long": 30.4680321679918,
+    "raw": {
+        "boundingbox": ["-3.31400513648987", "-3.0707004070282", "30.3147106170654", "30.6680603027344"],
+        "class": "boundary",
+        "display_name": "Cankuzo, Burundi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "-3.1923528",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "30.4680321679918",
+        "osm_id": "2985726",
+        "osm_type": "relation",
+        "place_id": "5996886608",
+        "type": "administrative"
+    }
+}, {
+    "address": "Gisagara Burundi",
+    "lat": -3.2108293,
+    "long": 30.7285896396296,
+    "raw": {
+        "boundingbox": ["-3.32077980041504", "-3.10087895393372", "30.6092987060547", "30.8479824066162"],
+        "class": "boundary",
+        "display_name": "Gisagara, Cankuzo, Burundi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "-3.2108293",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "30.7285896396296",
+        "osm_id": "2985728",
+        "osm_type": "relation",
+        "place_id": "5996886610",
+        "type": "administrative"
+    }
+}, {
+    "address": "Cendajuru Burundi",
+    "lat": -3.3127873,
+    "long": 30.6020800623485,
+    "raw": {
+        "boundingbox": ["-3.39540362358093", "-3.2301709651947", "30.5184020996094", "30.6876907348633"],
+        "class": "boundary",
+        "display_name": "Cendajuru, Cankuzo, Burundi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "-3.3127873",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "30.6020800623485",
+        "osm_id": "2985727",
+        "osm_type": "relation",
+        "place_id": "5996886609",
+        "type": "administrative"
+    }
+}, {
+    "address": "Butezi Burundi",
+    "lat": -3.3907001,
+    "long": 30.1565921,
+    "raw": {
+        "boundingbox": ["-3.39070010185242", "-3.39069986343384", "30.1565914154053", "30.1565933227539"],
+        "class": "place",
+        "display_name": "Butezi, Ruyigi, Burundi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.52,
+        "lat": "-3.3907001",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "30.1565921",
+        "osm_id": "3025119533",
+        "osm_type": "node",
+        "place_id": "9204518691",
+        "type": "town"
+    }
+}, {
+    "address": "Ruyigi Burundi",
+    "lat": -3.4733471,
+    "long": 30.2501278,
+    "raw": {
+        "boundingbox": ["-3.47334718704224", "-3.47334694862366", "30.2501277923584", "30.250129699707"],
+        "class": "place",
+        "display_name": "Ruyigi, Burundi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_city.p.20.png",
+        "importance": 0.57,
+        "lat": "-3.4733471",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "30.2501278",
+        "osm_id": "498682265",
+        "osm_type": "node",
+        "place_id": "9204161604",
+        "type": "city"
+    }
+}, {
+    "address": "Bweru Burundi",
+    "lat": -3.3228043,
+    "long": 30.4706582,
+    "raw": {
+        "boundingbox": ["-3.32280445098877", "-3.32280421257019", "30.4706573486328", "30.4706592559814"],
+        "class": "place",
+        "display_name": "Bweru, Ruyigi, Burundi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.52,
+        "lat": "-3.3228043",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "30.4706582",
+        "osm_id": "1345841605",
+        "osm_type": "node",
+        "place_id": "15562270",
+        "type": "town"
+    }
+}, {
+    "address": "Gisuru Burundi",
+    "lat": -3.4577812,
+    "long": 30.501947,
+    "raw": {
+        "boundingbox": ["-3.45778131484985", "-3.45778107643127", "30.5019454956055", "30.5019474029541"],
+        "class": "place",
+        "display_name": "Gisuru, Ruyigi, Burundi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.47985522605481,
+        "lat": "-3.4577812",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "30.501947",
+        "osm_id": "1345822568",
+        "osm_type": "node",
+        "place_id": "15424018",
+        "type": "town"
+    }
+}, {
+    "address": "Nyabitsinda Burundi",
+    "lat": -3.5386726,
+    "long": 30.2742314,
+    "raw": {
+        "boundingbox": ["-3.53867268562317", "-3.53867244720459", "30.2742309570312", "30.2742328643799"],
+        "class": "place",
+        "display_name": "Nyabitsinda, Ruyigi, Burundi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.52,
+        "lat": "-3.5386726",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "30.2742314",
+        "osm_id": "3057708440",
+        "osm_type": "node",
+        "place_id": "9206831699",
+        "type": "town"
+    }
+}, {
+    "address": "Kinyinya Burundi",
+    "lat": -3.6574594,
+    "long": 30.3430215,
+    "raw": {
+        "boundingbox": ["-3.65745949745178", "-3.6574592590332", "30.3430213928223", "30.3430233001709"],
+        "class": "place",
+        "display_name": "Kinyinya, Ruyigi, Burundi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.31305531631457,
+        "lat": "-3.6574594",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "30.3430215",
+        "osm_id": "1344518060",
+        "osm_type": "node",
+        "place_id": "15813255",
+        "type": "town"
+    }
+}, {
+    "address": "Babile Ethiopia",
+    "lat": 10.75,
+    "long": 39.83333,
+    "raw": {
+        "boundingbox": ["10.74", "10.76", "39.82333", "39.84333"],
+        "class": "place",
+        "display_name": "Babile, Kemse, Oromia Zone, Amhara, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.46,
+        "lat": "10.75",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "39.83333",
+        "osm_id": "1150898456",
+        "osm_type": "node",
+        "place_id": "11960711",
+        "type": "locality"
+    }
+}, {
+    "address": "Kersa Ethiopia",
+    "lat": 9.455,
+    "long": 41.86639,
+    "raw": {
+        "boundingbox": ["9.45499992370605", "9.45500087738037", "41.8663864135742", "41.8663902282715"],
+        "class": "place",
+        "display_name": "Kersa, Oromia, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.51,
+        "lat": "9.455",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "41.86639",
+        "osm_id": "1150978239",
+        "osm_type": "node",
+        "place_id": "11969208",
+        "type": "town"
+    }
+}, {
+    "address": "Meta Ethiopia",
+    "lat": 9.335,
+    "long": 41.86778,
+    "raw": {
+        "boundingbox": ["9.33499908447266", "9.33500003814697", "41.8677787780762", "41.8677825927734"],
+        "class": "place",
+        "display_name": "Meta, Dawo, Oromia, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.46,
+        "lat": "9.335",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "41.86778",
+        "osm_id": "1150914989",
+        "osm_type": "node",
+        "place_id": "11962877",
+        "type": "locality"
+    }
+}, {
+    "address": "Deder Ethiopia",
+    "lat": 9.3122869,
+    "long": 41.4427725,
+    "raw": {
+        "boundingbox": ["9.31228637695312", "9.31228733062744", "41.4427719116211", "41.4427757263184"],
+        "class": "place",
+        "display_name": "Deder, Oromia, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.30305531631457,
+        "lat": "9.3122869",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "41.4427725",
+        "osm_id": "316869699",
+        "osm_type": "node",
+        "place_id": "1586918",
+        "type": "town"
+    }
+}, {
+    "address": "Lasta Ethiopia",
+    "lat": 12.5,
+    "long": 39.33333,
+    "raw": {
+        "boundingbox": ["12.49", "12.51", "39.32333", "39.34333"],
+        "class": "place",
+        "display_name": "Lasta, Southern Tigray, Tigray, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.46,
+        "lat": "12.5",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "39.33333",
+        "osm_id": "1150886616",
+        "osm_type": "node",
+        "place_id": "12650709",
+        "type": "locality"
+    }
+}, {
+    "address": "Dehana Ethiopia",
+    "lat": 9.96667,
+    "long": 39.68333,
+    "raw": {
+        "boundingbox": ["9.9666690826416", "9.96667003631592", "39.6833267211914", "39.6833305358887"],
+        "class": "place",
+        "display_name": "Dehana, Debre Birhan, Amhara, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.46,
+        "lat": "9.96667",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "39.68333",
+        "osm_id": "1150885623",
+        "osm_type": "node",
+        "place_id": "12822846",
+        "type": "locality"
+    }
+}, {
+    "address": "Sekota Ethiopia",
+    "lat": 12.6256968,
+    "long": 39.0354415,
+    "raw": {
+        "boundingbox": ["12.625696182251", "12.6256971359253", "39.0354385375977", "39.0354423522949"],
+        "class": "place",
+        "display_name": "Sekota, Amhara, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.51,
+        "lat": "12.6256968",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "39.0354415",
+        "osm_id": "511984995",
+        "osm_type": "node",
+        "place_id": "5004751",
+        "type": "town"
+    }
+}, {
+    "address": "Hawzien Ethiopia",
+    "lat": 13.9797481,
+    "long": 39.4308798,
+    "raw": {
+        "boundingbox": ["13.9797477722168", "13.9797487258911", "39.4308776855469", "39.4308815002441"],
+        "class": "place",
+        "display_name": "Hawzien, Eastern Tigray, Tigray, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.51,
+        "lat": "13.9797481",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "39.4308798",
+        "osm_id": "580396445",
+        "osm_type": "node",
+        "place_id": "5575502",
+        "type": "town"
+    }
+}, {
+    "address": "Raya Azebo Ethiopia",
+    "lat": 12.66667,
+    "long": 40.33333,
+    "raw": {
+        "boundingbox": ["12.6666698455811", "12.6666707992554", "40.3333282470703", "40.3333320617676"],
+        "class": "place",
+        "display_name": "Raya Na Azebo Awraja, Afar, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.55,
+        "lat": "12.66667",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "40.33333",
+        "osm_id": "1150962393",
+        "osm_type": "node",
+        "place_id": "12772942",
+        "type": "locality"
+    }
+}, {
+    "address": "Dolo Bay Ethiopia",
+    "lat": 10.8,
+    "long": 39.53333,
+    "raw": {
+        "boundingbox": ["10.7999992370605", "10.8000001907349", "39.5333290100098", "39.533332824707"],
+        "class": "place",
+        "display_name": "Dolo, Dessie, Amhara, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.46,
+        "lat": "10.8",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "39.53333",
+        "osm_id": "1150963127",
+        "osm_type": "node",
+        "place_id": "12885816",
+        "type": "locality"
+    }
+}, {
+    "address": "Barre Ethiopia",
+    "lat": 5.45,
+    "long": 41.05,
+    "raw": {
+        "boundingbox": ["5.44999980926514", "5.45000028610229", "41.0499992370605", "41.0500030517578"],
+        "class": "place",
+        "display_name": "El Barre, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.45,
+        "lat": "5.45",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "41.05",
+        "osm_id": "1150902334",
+        "osm_type": "node",
+        "place_id": "12165929",
+        "type": "locality"
+    }
+}, {
+    "address": "Yabello Ethiopia",
+    "lat": 4.741847,
+    "long": 38.7128831,
+    "raw": {
+        "boundingbox": ["4.6584939956665", "4.86355972290039", "38.1738128662109", "39.243724822998"],
+        "class": "highway",
+        "display_name": "Yabello/Hudet Road, Oromia, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "importance": 0.3,
+        "lat": "4.741847",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "38.7128831",
+        "osm_id": "134703543",
+        "osm_type": "way",
+        "place_id": "79491810",
+        "type": "tertiary"
+    }
+}, {
+    "address": "Arero Ethiopia",
+    "lat": 5.0,
+    "long": 38.16667,
+    "raw": {
+        "boundingbox": ["4.99", "5.01", "38.15667", "38.17667"],
+        "class": "place",
+        "display_name": "Arero Awraja, Oromia, \u12a2\u1275\u12ee\u1335\u12eb Ethiopia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.45,
+        "lat": "5",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "38.16667",
+        "osm_id": "1150963689",
+        "osm_type": "node",
+        "place_id": "12168833",
+        "type": "locality"
+    }
+}, {
+    "address": "Comitancillo Guatemala",
+    "lat": 15.0909362,
+    "long": -91.7490145,
+    "raw": {
+        "boundingbox": ["15.0909357070923", "15.0909366607666", "-91.7490158081055", "-91.7490081787109"],
+        "class": "place",
+        "display_name": "Comitancillo, San Marcos, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.51497837370268,
+        "lat": "15.0909362",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-91.7490145",
+        "osm_id": "1039835953",
+        "osm_type": "node",
+        "place_id": "11799315",
+        "type": "town"
+    }
+}, {
+    "address": "San Lorenzo Guatemala",
+    "lat": 14.3989564,
+    "long": -90.6244702,
+    "raw": {
+        "boundingbox": ["14.3989562988281", "14.3989572525024", "-90.6244735717773", "-90.6244659423828"],
+        "class": "place",
+        "display_name": "San Lorenzo, Escuintla, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.61,
+        "lat": "14.3989564",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-90.6244702",
+        "osm_id": "2446014320",
+        "osm_type": "node",
+        "place_id": "9139342241",
+        "type": "town"
+    }
+}, {
+    "address": "Santa Lucia La Reforma Guatemala",
+    "lat": 15.1295485,
+    "long": -91.2367825,
+    "raw": {
+        "boundingbox": ["15.1295480728149", "15.1295490264893", "-91.2367858886719", "-91.2367782592773"],
+        "class": "place",
+        "display_name": "Santa Lucia La Reforma, Totonicap\u00e1n, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.69611063262914,
+        "lat": "15.1295485",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-91.2367825",
+        "osm_id": "1039836003",
+        "osm_type": "node",
+        "place_id": "11681471",
+        "type": "town"
+    }
+}, {
+    "address": "Momostenango Guatemala",
+    "lat": 15.0455875,
+    "long": -91.405808,
+    "raw": {
+        "boundingbox": ["15.0455865859985", "15.0455875396729", "-91.4058151245117", "-91.4058074951172"],
+        "class": "place",
+        "display_name": "Momostenango, Totonicap\u00e1n, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.49916594894371,
+        "lat": "15.0455875",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-91.405808",
+        "osm_id": "1039835864",
+        "osm_type": "node",
+        "place_id": "11687949",
+        "type": "town"
+    }
+}, {
+    "address": "Carcha Guatemala",
+    "lat": 15.4771135,
+    "long": -90.3107515,
+    "raw": {
+        "boundingbox": ["15.4771127700806", "15.4771137237549", "-90.3107528686523", "-90.3107452392578"],
+        "class": "place",
+        "display_name": "San Pedro Carcha, Alta Verapaz, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.43830612824767,
+        "lat": "15.4771135",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-90.3107515",
+        "osm_id": "1039836104",
+        "osm_type": "node",
+        "place_id": "11145859",
+        "type": "town"
+    }
+}, {
+    "address": "Nebaj Guatemala",
+    "lat": 15.6008623,
+    "long": -91.1777887211247,
+    "raw": {
+        "boundingbox": ["15.3863086700439", "15.8154153823853", "-91.3160400390625", "-91.0156173706055"],
+        "class": "boundary",
+        "display_name": "Nebaj, Quich\u00e9, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "15.6008623",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-91.1777887211247",
+        "osm_id": "377418",
+        "osm_type": "relation",
+        "place_id": "98058670",
+        "type": "administrative"
+    }
+}, {
+    "address": "Chajul Guatemala",
+    "lat": 15.6,
+    "long": -91.0,
+    "raw": {
+        "boundingbox": ["15.56", "15.64", "-91.04", "-90.96"],
+        "class": "place",
+        "display_name": "Chajul, Quich\u00e9, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.52,
+        "lat": "15.6",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-91",
+        "osm_id": "1073096848",
+        "osm_type": "node",
+        "place_id": "11294250",
+        "type": "town"
+    }
+}, {
+    "address": "Cotzal Guatemala",
+    "lat": 15.4289955,
+    "long": -90.9987283,
+    "raw": {
+        "boundingbox": ["15.4289951324463", "15.4289960861206", "-90.9987335205078", "-90.9987258911133"],
+        "class": "place",
+        "display_name": "San Juan Cotzal, Quich\u00e9, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.51,
+        "lat": "15.4289955",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-90.9987283",
+        "osm_id": "1073096917",
+        "osm_type": "node",
+        "place_id": "11982117",
+        "type": "town"
+    }
+}, {
+    "address": "Chichicastenango Guatemala",
+    "lat": 14.89798385,
+    "long": -91.1017355183608,
+    "raw": {
+        "boundingbox": ["14.8019342422485", "14.9940338134766", "-91.216178894043", "-90.9991302490234"],
+        "class": "boundary",
+        "display_name": "Chichicastenango, Quich\u00e9, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.55982781390695,
+        "lat": "14.89798385",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-91.1017355183608",
+        "osm_id": "377413",
+        "osm_type": "relation",
+        "place_id": "97958346",
+        "type": "administrative"
+    }
+}, {
+    "address": "Chiquirichapa Guatemala",
+    "lat": 14.8551265,
+    "long": -91.6239625,
+    "raw": {
+        "boundingbox": ["14.8551263809204", "14.8551273345947", "-91.6239700317383", "-91.6239624023438"],
+        "class": "place",
+        "display_name": "Concepcion Chiquirichapa, Quetzaltenango, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.44670773196559,
+        "lat": "14.8551265",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-91.6239625",
+        "osm_id": "1039836321",
+        "osm_type": "node",
+        "place_id": "10976935",
+        "type": "town"
+    }
+}, {
+    "address": "Ostuncalco Guatemala",
+    "lat": 14.869674,
+    "long": -91.6217425,
+    "raw": {
+        "boundingbox": ["14.8696737289429", "14.8696746826172", "-91.6217498779297", "-91.6217422485352"],
+        "class": "place",
+        "display_name": "Ostuncalco, Quetzaltenango, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.34027225158296,
+        "lat": "14.869674",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-91.6217425",
+        "osm_id": "1039835591",
+        "osm_type": "node",
+        "place_id": "11199364",
+        "type": "town"
+    }
+}, {
+    "address": "Jacaltenango Guatemala",
+    "lat": 15.7742536,
+    "long": -91.6941139894188,
+    "raw": {
+        "boundingbox": ["15.6783790588379", "15.8701276779175", "-91.8600006103516", "-91.5931701660156"],
+        "class": "boundary",
+        "display_name": "Jacaltenango, Huenuetenango, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.53045232539126,
+        "lat": "15.7742536",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-91.6941139894188",
+        "osm_id": "377254",
+        "osm_type": "relation",
+        "place_id": "98050180",
+        "type": "administrative"
+    }
+}, {
+    "address": "S. Antonio Huista Guatemala",
+    "lat": 15.7,
+    "long": -91.7,
+    "raw": {
+        "boundingbox": ["15.6999998092651", "15.7000007629395", "-91.7000045776367", "-91.6999969482422"],
+        "class": "place",
+        "display_name": "San Antonio Huista, Huehuetenango, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.71,
+        "lat": "15.7",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-91.7",
+        "osm_id": "1073097202",
+        "osm_type": "node",
+        "place_id": "11874968",
+        "type": "town"
+    }
+}, {
+    "address": "Todos Santos Guatemala",
+    "lat": 15.5110925,
+    "long": -91.605326,
+    "raw": {
+        "boundingbox": ["15.5110921859741", "15.5110931396484", "-91.6053314208984", "-91.6053237915039"],
+        "class": "place",
+        "display_name": "Todos Santos Cuchumatan, San Juan Atit\u00e1n, Huenuetenango, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.61,
+        "lat": "15.5110925",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-91.605326",
+        "osm_id": "1039835884",
+        "osm_type": "node",
+        "place_id": "11145840",
+        "type": "town"
+    }
+}, {
+    "address": "Chiantla Guatemala",
+    "lat": 15.5056578,
+    "long": -91.409205733169,
+    "raw": {
+        "boundingbox": ["15.3550710678101", "15.6562452316284", "-91.514045715332", "-91.2206115722656"],
+        "class": "boundary",
+        "display_name": "Chiantla, Huenuetenango, Guatemala",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.53239812023006,
+        "lat": "15.5056578",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-91.409205733169",
+        "osm_id": "377252",
+        "osm_type": "relation",
+        "place_id": "98049712",
+        "type": "administrative"
+    }
+}, {
+    "address": "Anse Rouge Haiti",
+    "lat": 19.6320067,
+    "long": -73.0550684,
+    "raw": {
+        "boundingbox": ["19.6320056915283", "19.632007598877", "-73.0550689697266", "-73.055061340332"],
+        "class": "place",
+        "display_name": "Anse-Rouge, Arrondissement Gros Morne, Artibonite, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.59378796884542,
+        "lat": "19.6320067",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-73.0550684",
+        "osm_id": "618014753",
+        "osm_type": "node",
+        "place_id": "5910642",
+        "type": "town"
+    }
+}, {
+    "address": "Terre Neuve Haiti",
+    "lat": 19.6007001,
+    "long": -72.7815744,
+    "raw": {
+        "boundingbox": ["19.6006984710693", "19.600700378418", "-72.7815780639648", "-72.7815704345703"],
+        "class": "place",
+        "display_name": "Terre Neuve, Arrondissement Gros Morne, D\u00e9partement de l'Artibonite, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.59283038881613,
+        "lat": "19.6007001",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-72.7815744",
+        "osm_id": "618035478",
+        "osm_type": "node",
+        "place_id": "6275053",
+        "type": "town"
+    }
+}, {
+    "address": "Thomassique Haiti",
+    "lat": 19.079931,
+    "long": -71.8411012,
+    "raw": {
+        "boundingbox": ["19.0799293518066", "19.0799312591553", "-71.8411026000977", "-71.8410949707031"],
+        "class": "place",
+        "display_name": "Thomassique, Arrondissement Cerca La Source, D\u00e9partement du Centre, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.50359754255689,
+        "lat": "19.079931",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-71.8411012",
+        "osm_id": "618044766",
+        "osm_type": "node",
+        "place_id": "6426139",
+        "type": "town"
+    }
+}, {
+    "address": "Cerca Carvajal Haiti",
+    "lat": 19.2697396,
+    "long": -71.9406415,
+    "raw": {
+        "boundingbox": ["19.269739151001", "19.2697410583496", "-71.9406433105469", "-71.9406356811523"],
+        "class": "place",
+        "display_name": "Cerca Carvajal, Arrondissement de Hinche, D\u00e9partement du Centre, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.475,
+        "lat": "19.2697396",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-71.9406415",
+        "osm_id": "618044767",
+        "osm_type": "node",
+        "place_id": "5977463",
+        "type": "village"
+    }
+}, {
+    "address": "Cerca La Source Haiti",
+    "lat": 19.165884,
+    "long": -71.7910696,
+    "raw": {
+        "boundingbox": ["19.1658821105957", "19.1658840179443", "-71.7910766601562", "-71.7910690307617"],
+        "class": "place",
+        "display_name": "Cerca la Source, Arrondissement Cerca La Source, D\u00e9partement du Centre, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.575,
+        "lat": "19.165884",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-71.7910696",
+        "osm_id": "618044768",
+        "osm_type": "node",
+        "place_id": "6333490",
+        "type": "village"
+    }
+}, {
+    "address": "Thomonde Haiti",
+    "lat": 19.0170164,
+    "long": -71.9597698,
+    "raw": {
+        "boundingbox": ["19.0170154571533", "19.017017364502", "-71.9597702026367", "-71.9597625732422"],
+        "class": "place",
+        "display_name": "Thomonde, Arrondissement de Hinche, D\u00e9partement du Centre, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.50321506162639,
+        "lat": "19.0170164",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-71.9597698",
+        "osm_id": "614912270",
+        "osm_type": "node",
+        "place_id": "6242198",
+        "type": "town"
+    }
+}, {
+    "address": "Hinche Haiti",
+    "lat": 19.1445541,
+    "long": -72.0087527,
+    "raw": {
+        "boundingbox": ["19.144552230835", "19.1445541381836", "-72.0087585449219", "-72.0087509155273"],
+        "class": "place",
+        "display_name": "Hinche, Arrondissement de Hinche, Centre, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_city.p.20.png",
+        "importance": 0.52170570333501,
+        "lat": "19.1445541",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-72.0087527",
+        "osm_id": "614229648",
+        "osm_type": "node",
+        "place_id": "5931185",
+        "type": "city"
+    }
+}, {
+    "address": "Boucan Carre Haiti",
+    "lat": 18.9245347,
+    "long": -72.147497,
+    "raw": {
+        "boundingbox": ["18.9245338439941", "18.9245357513428", "-72.1474990844727", "-72.1474914550781"],
+        "class": "place",
+        "display_name": "Boucan Carr\u00e9, Arrondissement Mirebalais, D\u00e9partement du Centre, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.493977856445,
+        "lat": "18.9245347",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-72.147497",
+        "osm_id": "618044763",
+        "osm_type": "node",
+        "place_id": "6467063",
+        "type": "village"
+    }
+}, {
+    "address": "Baie de Henne Haiti",
+    "lat": 19.6638592,
+    "long": -73.2097894,
+    "raw": {
+        "boundingbox": ["19.6638584136963", "19.6638603210449", "-73.2097930908203", "-73.2097854614258"],
+        "class": "place",
+        "display_name": "Baie de Henne, Arrondissement M\u00f4le-Saint-Nicolas, D\u00e9partement du Nord-Ouest, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.69321506162639,
+        "lat": "19.6638592",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-73.2097894",
+        "osm_id": "618014750",
+        "osm_type": "node",
+        "place_id": "6369250",
+        "type": "town"
+    }
+}, {
+    "address": "Bombardopolis Haiti",
+    "lat": 19.6911404,
+    "long": -73.3374997,
+    "raw": {
+        "boundingbox": ["19.6911392211914", "19.69114112854", "-73.3375015258789", "-73.3374938964844"],
+        "class": "place",
+        "display_name": "Bombardopolis, Arrondissement M\u00f4le-Saint-Nicolas, D\u00e9partement du Nord-Ouest, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.50283038881613,
+        "lat": "19.6911404",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-73.3374997",
+        "osm_id": "620529081",
+        "osm_type": "node",
+        "place_id": "6301981",
+        "type": "town"
+    }
+}, {
+    "address": "Mole Saint Nicolas Haiti",
+    "lat": 19.8078481,
+    "long": -73.377434,
+    "raw": {
+        "boundingbox": ["19.8078479766846", "19.8078498840332", "-73.37744140625", "-73.3774337768555"],
+        "class": "place",
+        "display_name": "M\u00f4le Saint-Nicolas, Arrondissement M\u00f4le-Saint-Nicolas, Nord-Ouest, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.59676353508209,
+        "lat": "19.8078481",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-73.377434",
+        "osm_id": "295327560",
+        "osm_type": "node",
+        "place_id": "1043150",
+        "type": "town"
+    }
+}, {
+    "address": " Jean Rabel Haiti",
+    "lat": 19.8557137,
+    "long": -73.1923979,
+    "raw": {
+        "boundingbox": ["19.855712890625", "19.8557147979736", "-73.1923980712891", "-73.1923904418945"],
+        "class": "place",
+        "display_name": "Jean-Rabel, Arrondissement M\u00f4le-Saint-Nicolas, D\u00e9partement du Nord-Ouest, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.59529223844486,
+        "lat": "19.8557137",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-73.1923979",
+        "osm_id": "620485972",
+        "osm_type": "node",
+        "place_id": "6300173",
+        "type": "town"
+    }
+}, {
+    "address": "Bassin Bleu Haiti",
+    "lat": 19.7805382,
+    "long": -72.7991735,
+    "raw": {
+        "boundingbox": ["19.7805366516113", "19.78053855896", "-72.7991790771484", "-72.7991714477539"],
+        "class": "place",
+        "display_name": "Bassin Bleu, D\u00e9partement du Nord-Ouest, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.59378796884542,
+        "lat": "19.7805382",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-72.7991735",
+        "osm_id": "627946786",
+        "osm_type": "node",
+        "place_id": "6372201",
+        "type": "town"
+    }
+}, {
+    "address": "Anse-a-Pitre Haiti",
+    "lat": 18.041972,
+    "long": -71.7623097,
+    "raw": {
+        "boundingbox": ["18.041971206665", "18.0419731140137", "-71.7623138427734", "-71.7623062133789"],
+        "class": "place",
+        "display_name": "Anse-\u00e0-Pitre, Arrondissement Belle-Anse, D\u00e9partement du Sud-Est, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.6,
+        "lat": "18.041972",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-71.7623097",
+        "osm_id": "617862595",
+        "osm_type": "node",
+        "place_id": "6423509",
+        "type": "town"
+    }
+}, {
+    "address": "Belle Anse Haiti",
+    "lat": 18.2383019,
+    "long": -72.0661883,
+    "raw": {
+        "boundingbox": ["18.2383003234863", "18.238302230835", "-72.0661926269531", "-72.0661849975586"],
+        "class": "place",
+        "display_name": "Belle-Anse, Arrondissement Belle-Anse, D\u00e9partement du Sud-Est, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.59359754255689,
+        "lat": "18.2383019",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-72.0661883",
+        "osm_id": "614867157",
+        "osm_type": "node",
+        "place_id": "6086198",
+        "type": "town"
+    }
+}, {
+    "address": "Grand Gosier Haiti",
+    "lat": 18.1850415,
+    "long": -71.9173723,
+    "raw": {
+        "boundingbox": ["18.1850414276123", "18.1850433349609", "-71.9173736572266", "-71.917366027832"],
+        "class": "place",
+        "display_name": "Grand Gosier, Arrondissement Belle-Anse, D\u00e9partement du Sud-Est, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.59416720839478,
+        "lat": "18.1850415",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-71.9173723",
+        "osm_id": "614876979",
+        "osm_type": "node",
+        "place_id": "6420648",
+        "type": "town"
+    }
+}, {
+    "address": "La Valle Haiti",
+    "lat": 19.6534167,
+    "long": -73.0183759,
+    "raw": {
+        "boundingbox": ["19.6534156799316", "19.6534175872803", "-73.0183792114258", "-73.0183715820312"],
+        "class": "natural",
+        "display_name": "Plaine de l'Arbre, Rue St Joseph, 1re L'Arbre, Commune Anse Rouge, Arrondissement Gros Morne, D\u00e9partement de l'Artibonite, Ayiti",
+        "importance": 0.101,
+        "lat": "19.6534167",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-73.0183759",
+        "osm_id": "990272189",
+        "osm_type": "node",
+        "place_id": "11236767",
+        "type": "valley"
+    }
+}, {
+    "address": "Cote de Fer Haiti",
+    "lat": 18.24161935,
+    "long": -72.9538432343461,
+    "raw": {
+        "boundingbox": ["18.1554622650146", "18.3269290924072", "-73.0155944824219", "-72.8592834472656"],
+        "class": "boundary",
+        "display_name": "Commune Cote-de-Fer, Arrondissement Bainet, D\u00e9partement du Sud-Est, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.65,
+        "lat": "18.24161935",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-72.9538432343461",
+        "osm_id": "391246",
+        "osm_type": "relation",
+        "place_id": "98053180",
+        "type": "administrative"
+    }
+}, {
+    "address": "Thiotte Haiti",
+    "lat": 18.2418163,
+    "long": -71.8453689,
+    "raw": {
+        "boundingbox": ["18.2418155670166", "18.2418174743652", "-71.8453750610352", "-71.8453674316406"],
+        "class": "place",
+        "display_name": "Thiotte, Arrondissement Belle-Anse, D\u00e9partement du Sud-Est, Ayiti",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.50321506162639,
+        "lat": "18.2418163",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-71.8453689",
+        "osm_id": "616680929",
+        "osm_type": "node",
+        "place_id": "6248753",
+        "type": "village"
+    }
+}, {
+    "address": "Salala Liberia",
+    "lat": 6.77694995,
+    "long": -9.96488687020726,
+    "raw": {
+        "boundingbox": ["6.60572719573975", "6.94488430023193", "-10.1763229370117", "-9.75189876556396"],
+        "class": "boundary",
+        "display_name": "Salala, Bong County, Liberia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "6.77694995",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-9.96488687020726",
+        "osm_id": "4001358",
+        "osm_type": "relation",
+        "place_id": "9206176999",
+        "type": "administrative"
+    }
+}, {
+    "address": "Zoe Gbao Liberia",
+    "lat": 6.9971915,
+    "long": -8.70343643352644,
+    "raw": {
+        "boundingbox": ["6.85616540908813", "7.13623380661011", "-8.8336124420166", "-8.55538558959961"],
+        "class": "boundary",
+        "display_name": "Zoe-Gbao, Nimba County, Liberia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.76,
+        "lat": "6.9971915",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-8.70343643352644",
+        "osm_id": "4001392",
+        "osm_type": "relation",
+        "place_id": "9206177033",
+        "type": "administrative"
+    }
+}, {
+    "address": "Gbor  Liberia",
+    "lat": 7.0963917,
+    "long": -8.71652780463446,
+    "raw": {
+        "boundingbox": ["7.03698539733887", "7.15436124801636", "-8.8276948928833", "-8.6104211807251"],
+        "class": "boundary",
+        "display_name": "Gbor, Nimba County, Liberia",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "7.0963917",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-8.71652780463446",
+        "osm_id": "4001303",
+        "osm_type": "relation",
+        "place_id": "9206176944",
+        "type": "administrative"
+    }
+}, {
+    "address": "Mananara Avaratra Madagascar",
+    "lat": -16.1687557,
+    "long": 49.7655872,
+    "raw": {
+        "boundingbox": ["-16.1687564849854", "-16.1687545776367", "49.7655868530273", "49.7655906677246"],
+        "class": "place",
+        "display_name": "Mananara Avaratra, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.5,
+        "lat": "-16.1687557",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "49.7655872",
+        "osm_id": "1842128749",
+        "osm_type": "node",
+        "place_id": "19293745",
+        "type": "town"
+    }
+}, {
+    "address": "Vavatenina Madagascar",
+    "lat": -17.4665624,
+    "long": 49.1961987,
+    "raw": {
+        "boundingbox": ["-17.4665641784668", "-17.4665622711182", "49.1961975097656", "49.1962013244629"],
+        "class": "place",
+        "display_name": "Vavatenina, Province de Tamatave, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.41,
+        "lat": "-17.4665624",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "49.1961987",
+        "osm_id": "2959022915",
+        "osm_type": "node",
+        "place_id": "9194985618",
+        "type": "town"
+    }
+}, {
+    "address": "Vatomandry Madagascar",
+    "lat": -19.3303316,
+    "long": 48.9801444,
+    "raw": {
+        "boundingbox": ["-19.3303318023682", "-19.3303298950195", "48.9801406860352", "48.9801445007324"],
+        "class": "place",
+        "display_name": "Vatomandry, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.41,
+        "lat": "-19.3303316",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "48.9801444",
+        "osm_id": "1818141766",
+        "osm_type": "node",
+        "place_id": "19765050",
+        "type": "town"
+    }
+}, {
+    "address": "Mahanoro Madagascar",
+    "lat": -19.8970139,
+    "long": 48.804549,
+    "raw": {
+        "boundingbox": ["-19.8970146179199", "-19.8970127105713", "48.8045463562012", "48.8045501708984"],
+        "class": "place",
+        "display_name": "Mahanoro, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.41,
+        "lat": "-19.8970139",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "48.804549",
+        "osm_id": "899223889",
+        "osm_type": "node",
+        "place_id": "8550763",
+        "type": "town"
+    }
+}, {
+    "address": "Nosy Varika Madagascar",
+    "lat": -20.5922038,
+    "long": 48.5336485,
+    "raw": {
+        "boundingbox": ["-20.5922050476074", "-20.5922031402588", "48.5336456298828", "48.5336494445801"],
+        "class": "place",
+        "display_name": "Nosy Varika, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.475,
+        "lat": "-20.5922038",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "48.5336485",
+        "osm_id": "1811182562",
+        "osm_type": "node",
+        "place_id": "19428162",
+        "type": "village"
+    }
+}, {
+    "address": "Mananjary Madagascar",
+    "lat": -21.2386743,
+    "long": 48.3467005,
+    "raw": {
+        "boundingbox": ["-21.238676071167", "-21.2386741638184", "48.3466987609863", "48.3467025756836"],
+        "class": "place",
+        "display_name": "Mananjary, Province de Fianarantsoa, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.41,
+        "lat": "-21.2386743",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "48.3467005",
+        "osm_id": "2577165720",
+        "osm_type": "node",
+        "place_id": "9154449086",
+        "type": "town"
+    }
+}, {
+    "address": "Fandriana Madagascar",
+    "lat": -20.2429391,
+    "long": 47.3839381,
+    "raw": {
+        "boundingbox": ["-20.24294090271", "-20.2429389953613", "47.3839378356934", "47.3839416503906"],
+        "class": "place",
+        "display_name": "Fandriana, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.41,
+        "lat": "-20.2429391",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "47.3839381",
+        "osm_id": "1917844504",
+        "osm_type": "node",
+        "place_id": "19628762",
+        "type": "town"
+    }
+}, {
+    "address": "Ambositra Madagascar",
+    "lat": -20.5330507,
+    "long": 47.2448547,
+    "raw": {
+        "boundingbox": ["-20.533052444458", "-20.5330505371094", "47.2448539733887", "47.2448577880859"],
+        "class": "place",
+        "display_name": "Ambositra, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.47174263455481,
+        "lat": "-20.5330507",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "47.2448547",
+        "osm_id": "316841166",
+        "osm_type": "node",
+        "place_id": "1445956",
+        "type": "town"
+    }
+}, {
+    "address": "Manandriana Madagascar",
+    "lat": -14.8739317,
+    "long": 49.4869124,
+    "raw": {
+        "boundingbox": ["-14.9653005599976", "-14.8259181976318", "49.3811454772949", "49.5312652587891"],
+        "class": "waterway",
+        "display_name": "Manandriana, Province d'Antsiranana, Madagasikara",
+        "importance": 0.111,
+        "lat": "-14.8739317",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "49.4869124",
+        "osm_id": "238196249",
+        "osm_type": "way",
+        "place_id": "9161157056",
+        "type": "river"
+    }
+}, {
+    "address": "Ifanadiana Madagascar",
+    "lat": -21.3035847,
+    "long": 47.6373455,
+    "raw": {
+        "boundingbox": ["-21.3035850524902", "-21.3035831451416", "47.6373443603516", "47.6373481750488"],
+        "class": "place",
+        "display_name": "Ifanadiana, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.48274364316066,
+        "lat": "-21.3035847",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "47.6373455",
+        "osm_id": "1314355275",
+        "osm_type": "node",
+        "place_id": "15013954",
+        "type": "town"
+    }
+}, {
+    "address": "Ikongo Madagascar",
+    "lat": -21.8800108,
+    "long": 47.4365109,
+    "raw": {
+        "boundingbox": ["-21.880012512207", "-21.8800106048584", "47.4365081787109", "47.4365119934082"],
+        "class": "place",
+        "display_name": "Ikongo, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.41,
+        "lat": "-21.8800108",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "47.4365109",
+        "osm_id": "1920569280",
+        "osm_type": "node",
+        "place_id": "20274459",
+        "type": "town"
+    }
+}, {
+    "address": "Vohipeno Madagascar",
+    "lat": -22.3558656,
+    "long": 47.8383672,
+    "raw": {
+        "boundingbox": ["-22.3558673858643", "-22.3558654785156", "47.8383636474609", "47.8383674621582"],
+        "class": "place",
+        "display_name": "Vohipeno, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.48428681966799,
+        "lat": "-22.3558656",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "47.8383672",
+        "osm_id": "727292575",
+        "osm_type": "node",
+        "place_id": "7424512",
+        "type": "village"
+    }
+}, {
+    "address": "Farafangana Madagascar",
+    "lat": -22.8223732,
+    "long": 47.8261225,
+    "raw": {
+        "boundingbox": ["-22.8223743438721", "-22.8223724365234", "47.8261222839355", "47.8261260986328"],
+        "class": "place",
+        "display_name": "Farafangana, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.48428681966799,
+        "lat": "-22.8223732",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "47.8261225",
+        "osm_id": "727292572",
+        "osm_type": "node",
+        "place_id": "7391877",
+        "type": "town"
+    }
+}, {
+    "address": "Ambovombe Madagascar",
+    "lat": -25.1784075,
+    "long": 46.0877839,
+    "raw": {
+        "boundingbox": ["-25.1784076690674", "-25.1784057617188", "46.0877838134766", "46.0877876281738"],
+        "class": "place",
+        "display_name": "Ambovombe, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.41,
+        "lat": "-25.1784075",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "46.0877839",
+        "osm_id": "866601087",
+        "osm_type": "node",
+        "place_id": "8437967",
+        "type": "town"
+    }
+}, {
+    "address": "Bekily Madagascar",
+    "lat": -24.221912,
+    "long": 45.3131214,
+    "raw": {
+        "boundingbox": ["-24.2219123840332", "-24.2219104766846", "45.313117980957", "45.3131217956543"],
+        "class": "place",
+        "display_name": "Bekily, Province Toliara, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.41,
+        "lat": "-24.221912",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "45.3131214",
+        "osm_id": "3029828079",
+        "osm_type": "node",
+        "place_id": "9203905998",
+        "type": "town"
+    }
+}, {
+    "address": "Beloha Madagascar",
+    "lat": -25.1738718,
+    "long": 45.0614652,
+    "raw": {
+        "boundingbox": ["-25.1738719940186", "-25.1738700866699", "45.0614624023438", "45.061466217041"],
+        "class": "place",
+        "display_name": "Beloha, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.385,
+        "lat": "-25.1738718",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "45.0614652",
+        "osm_id": "727284607",
+        "osm_type": "node",
+        "place_id": "7287481",
+        "type": "village"
+    }
+}, {
+    "address": "Tsihombe Madagascar",
+    "lat": -25.3185474,
+    "long": 45.4840566,
+    "raw": {
+        "boundingbox": ["-25.3185482025146", "-25.318546295166", "45.4840545654297", "45.484058380127"],
+        "class": "place",
+        "display_name": "Tsiombe, Madagasikara",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.26123930027934,
+        "lat": "-25.3185474",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "45.4840566",
+        "osm_id": "727284605",
+        "osm_type": "node",
+        "place_id": "3675251383",
+        "type": "town"
+    }
+}, {
+    "address": "Nsanje Malawi",
+    "lat": -16.9232359,
+    "long": 35.261946,
+    "raw": {
+        "boundingbox": ["-16.9232368469238", "-16.9232349395752", "35.2619438171387", "35.2619476318359"],
+        "class": "place",
+        "display_name": "Nsanje, Malawi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.52496966945241,
+        "lat": "-16.9232359",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "35.261946",
+        "osm_id": "276404163",
+        "osm_type": "node",
+        "place_id": "922570",
+        "type": "town"
+    }
+}, {
+    "address": "Chikwawa Malawi",
+    "lat": -16.0271313,
+    "long": 34.7912153,
+    "raw": {
+        "boundingbox": ["-16.0271320343018", "-16.0271301269531", "34.7912139892578", "34.7912178039551"],
+        "class": "place",
+        "display_name": "Chikwawa, Malawi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.42436424356534,
+        "lat": "-16.0271313",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "34.7912153",
+        "osm_id": "270501556",
+        "osm_type": "node",
+        "place_id": "894977",
+        "type": "town"
+    }
+}, {
+    "address": "Thyolo Malawi",
+    "lat": -16.0668788,
+    "long": 35.1485842,
+    "raw": {
+        "boundingbox": ["-16.0668792724609", "-16.0668773651123", "35.1485824584961", "35.1485862731934"],
+        "class": "place",
+        "display_name": "Thyolo, Malawi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.55359981948048,
+        "lat": "-16.0668788",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "35.1485842",
+        "osm_id": "317931061",
+        "osm_type": "node",
+        "place_id": "1489263",
+        "type": "town"
+    }
+}, {
+    "address": "Mulanje Malawi",
+    "lat": -16.0226923,
+    "long": 35.507446,
+    "raw": {
+        "boundingbox": ["-16.0226936340332", "-16.0226917266846", "35.5074424743652", "35.5074462890625"],
+        "class": "place",
+        "display_name": "Mulanje, Malawi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.46761685113657,
+        "lat": "-16.0226923",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "35.507446",
+        "osm_id": "269730855",
+        "osm_type": "node",
+        "place_id": "869055",
+        "type": "town"
+    }
+}, {
+    "address": "Zomba Malawi",
+    "lat": -15.3863208,
+    "long": 35.3268273,
+    "raw": {
+        "boundingbox": ["-15.3863210678101", "-15.3863201141357", "35.3268241882324", "35.3268280029297"],
+        "class": "place",
+        "display_name": "Zomba, Southern, Malawi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_city.p.20.png",
+        "importance": 0.5940320746879,
+        "lat": "-15.3863208",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "35.3268273",
+        "osm_id": "265772769",
+        "osm_type": "node",
+        "place_id": "827421",
+        "type": "city"
+    }
+}, {
+    "address": "Machinga Malawi",
+    "lat": -15.1776862,
+    "long": 35.2993599,
+    "raw": {
+        "boundingbox": ["-15.1776866912842", "-15.1776857376099", "35.2993583679199", "35.2993621826172"],
+        "class": "place",
+        "display_name": "Machinga, Malawi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.52,
+        "lat": "-15.1776862",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "35.2993599",
+        "osm_id": "285997286",
+        "osm_type": "node",
+        "place_id": "998076",
+        "type": "town"
+    }
+}, {
+    "address": "Chiradzulu Malawi",
+    "lat": -15.7046189,
+    "long": 35.182269,
+    "raw": {
+        "boundingbox": ["-15.7046194076538", "-15.7046184539795", "35.1822662353516", "35.1822700500488"],
+        "class": "place",
+        "display_name": "Chiradzulu, Malawi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.44830612824767,
+        "lat": "-15.7046189",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "35.182269",
+        "osm_id": "275658419",
+        "osm_type": "node",
+        "place_id": "918500",
+        "type": "village"
+    }
+}, {
+    "address": "Balaka Malawi",
+    "lat": -14.9858678,
+    "long": 34.9602966,
+    "raw": {
+        "boundingbox": ["-14.9858684539795", "-14.9858675003052", "34.9602928161621", "34.9602966308594"],
+        "class": "place",
+        "display_name": "Balaka, Malawi",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.52,
+        "lat": "-14.9858678",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "34.9602966",
+        "osm_id": "264956932",
+        "osm_type": "node",
+        "place_id": "823599",
+        "type": "town"
+    }
+}, {
+    "address": "Mayahi Niger",
+    "lat": 14.10835,
+    "long": 7.60884703773667,
+    "raw": {
+        "boundingbox": ["13.6998996734619", "14.5168008804321", "7.16656970977783", "8.08906078338623"],
+        "class": "boundary",
+        "display_name": "Mayahi, Maradi, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "14.10835",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "7.60884703773667",
+        "osm_id": "3219362",
+        "osm_type": "relation",
+        "place_id": "9141592159",
+        "type": "administrative"
+    }
+}, {
+    "address": "Kantche Niger",
+    "lat": 13.4137835,
+    "long": 8.55834759328358,
+    "raw": {
+        "boundingbox": ["13.1557664871216", "13.6718006134033", "8.25579261779785", "8.77934074401855"],
+        "class": "boundary",
+        "display_name": "Matam\u00e8ye, Zinder, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.56,
+        "lat": "13.4137835",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "8.55834759328358",
+        "osm_id": "3218899",
+        "osm_type": "relation",
+        "place_id": "9141529994",
+        "type": "administrative"
+    }
+}, {
+    "address": "Dogo Niger",
+    "lat": 13.4990504,
+    "long": 9.0170488,
+    "raw": {
+        "boundingbox": ["13.4990501403809", "13.4990510940552", "9.01704788208008", "9.01704883575439"],
+        "class": "place",
+        "display_name": "Dogo, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.59454060152676,
+        "lat": "13.4990504",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "9.0170488",
+        "osm_id": "473430986",
+        "osm_type": "node",
+        "place_id": "4731813",
+        "type": "town"
+    }
+}, {
+    "address": "Droum Niger",
+    "lat": 13.5680397,
+    "long": 8.8922041,
+    "raw": {
+        "boundingbox": ["13.5680389404297", "13.568039894104", "8.89220333099365", "8.89220428466797"],
+        "class": "place",
+        "display_name": "Droum Malori, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.63318752348129,
+        "lat": "13.5680397",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "8.8922041",
+        "osm_id": "473430977",
+        "osm_type": "node",
+        "place_id": "4623547",
+        "type": "village"
+    }
+}, {
+    "address": "Mirriah Niger",
+    "lat": 13.87695,
+    "long": 9.11173075,
+    "raw": {
+        "boundingbox": ["13.2451992034912", "14.5087003707886", "8.22415924072266", "9.96569061279297"],
+        "class": "boundary",
+        "display_name": "Mirriah, Zinder, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "13.87695",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "9.11173075",
+        "osm_id": "3218900",
+        "osm_type": "relation",
+        "place_id": "9141529995",
+        "type": "administrative"
+    }
+}, {
+    "address": "Zermou Niger",
+    "lat": 13.8688786,
+    "long": 9.317714,
+    "raw": {
+        "boundingbox": ["13.868878364563", "13.8688793182373", "9.31771373748779", "9.31771469116211"],
+        "class": "place",
+        "display_name": "Zermou, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.495,
+        "lat": "13.8688786",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "9.317714",
+        "osm_id": "469725891",
+        "osm_type": "node",
+        "place_id": "4547112",
+        "type": "village"
+    }
+}, {
+    "address": "Dakoussa  Niger",
+    "lat": 13.8666667,
+    "long": 8.8166667,
+    "raw": {
+        "boundingbox": ["13.8666658401489", "13.8666667938232", "8.81666660308838", "8.8166675567627"],
+        "class": "place",
+        "display_name": "Dakoussa, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.64294164327344,
+        "lat": "13.8666667",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "8.8166667",
+        "osm_id": "473431587",
+        "osm_type": "node",
+        "place_id": "4717306",
+        "type": "village"
+    }
+}, {
+    "address": "Guidan Roumdji  Niger",
+    "lat": 13.54673695,
+    "long": 6.95665536934322,
+    "raw": {
+        "boundingbox": ["13.1862735748291", "13.9072008132935", "6.27733373641968", "7.48743009567261"],
+        "class": "boundary",
+        "display_name": "Guidan-Roumdji, Maradi, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.76,
+        "lat": "13.54673695",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "6.95665536934322",
+        "osm_id": "3219360",
+        "osm_type": "relation",
+        "place_id": "9141592157",
+        "type": "administrative"
+    }
+}, {
+    "address": "Bombali Sierra Leone",
+    "lat": 9.2388372,
+    "long": -12.1148024,
+    "raw": {
+        "boundingbox": ["8.66213798522949", "9.94018268585205", "-12.5915565490723", "-11.7627687454224"],
+        "class": "boundary",
+        "display_name": "Bombali District, Northern Province, Sierra Leone",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.62876858236251,
+        "lat": "9.2388372",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-12.1148024",
+        "osm_id": "3230900",
+        "osm_type": "relation",
+        "place_id": "9142541351",
+        "type": "administrative"
+    }
+}, {
+    "address": "Koinadugu Sierra Leone",
+    "lat": 9.3727454,
+    "long": -11.3253109,
+    "raw": {
+        "boundingbox": ["8.65826797485352", "10.0000486373901", "-12.134916305542", "-10.5716667175293"],
+        "class": "boundary",
+        "display_name": "Koinadugu District, Northern Province, Sierra Leone",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.61850462100944,
+        "lat": "9.3727454",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-11.3253109",
+        "osm_id": "3230906",
+        "osm_type": "relation",
+        "place_id": "9142541354",
+        "type": "administrative"
+    }
+}, {
+    "address": "Kailahun Sierra Leone",
+    "lat": 8.2769105,
+    "long": -10.5737536,
+    "raw": {
+        "boundingbox": ["8.27690982818604", "8.27691078186035", "-10.5737543106079", "-10.5737533569336"],
+        "class": "place",
+        "display_name": "Kailahun, Sierra Leone",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.59891132353959,
+        "lat": "8.2769105",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-10.5737536",
+        "osm_id": "2992144237",
+        "osm_type": "node",
+        "place_id": "9199545910",
+        "type": "state"
+    }
+}, {
+    "address": "Tonkolili Sierra Leone",
+    "lat": 8.964186,
+    "long": -11.7194488,
+    "raw": {
+        "boundingbox": ["8.94620609283447", "8.98049259185791", "-11.723123550415", "-11.7144966125488"],
+        "class": "waterway",
+        "display_name": "Tonkolili, Tonkolili District, Northern Province, Sierra Leone",
+        "importance": 0.635,
+        "lat": "8.964186",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "-11.7194488",
+        "osm_id": "286028178",
+        "osm_type": "way",
+        "place_id": "9188463672",
+        "type": "stream"
+    }
+}, {
+    "address": "Napak Uganda",
+    "lat": 2.3981753,
+    "long": 34.171415903571,
+    "raw": {
+        "boundingbox": ["1.88323903083801", "2.91311168670654", "33.6307601928711", "34.5901870727539"],
+        "class": "boundary",
+        "display_name": "Napak, Karamoja, Northern Region, Uganda",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "2.3981753",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "34.171415903571",
+        "osm_id": "3497439",
+        "osm_type": "relation",
+        "place_id": "9186707584",
+        "type": "administrative"
+    }
+}, {
+    "address": "Nakapiripirit Uganda",
+    "lat": 1.9958654,
+    "long": 34.6301039763043,
+    "raw": {
+        "boundingbox": ["1.54921495914459", "2.44251585006714", "34.2212677001953", "34.8732681274414"],
+        "class": "boundary",
+        "display_name": "Nakapiripirit, Karamoja, Northern Region, Uganda",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "1.9958654",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "34.6301039763043",
+        "osm_id": "3498251",
+        "osm_type": "relation",
+        "place_id": "9186707586",
+        "type": "administrative"
+    }
+}, {
+    "address": "Moroto Uganda",
+    "lat": 2.6178066,
+    "long": 34.6388513118983,
+    "raw": {
+        "boundingbox": ["2.12523984909058", "3.11037349700928", "34.2807464599609", "34.9549789428711"],
+        "class": "boundary",
+        "display_name": "Moroto, Karamoja, Northern Region, Uganda",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "2.6178066",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "34.6388513118983",
+        "osm_id": "3501830",
+        "osm_type": "relation",
+        "place_id": "9186707591",
+        "type": "administrative"
+    }
+}, {
+    "address": "Amudat Uganda",
+    "lat": 1.8267827,
+    "long": 34.9312877848654,
+    "raw": {
+        "boundingbox": ["1.3652241230011", "2.28834128379822", "34.622184753418", "35.0003089904785"],
+        "class": "boundary",
+        "display_name": "Amudat, Karamoja, Northern Region, Uganda",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "1.8267827",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "34.9312877848654",
+        "osm_id": "3501835",
+        "osm_type": "relation",
+        "place_id": "9186707348",
+        "type": "administrative"
+    }
+}, {
+    "address": "Kaabong Uganda",
+    "lat": 3.6582768,
+    "long": 34.014708076739,
+    "raw": {
+        "boundingbox": ["3.08247685432434", "4.23407697677612", "33.5145149230957", "34.5589447021484"],
+        "class": "boundary",
+        "display_name": "Kaabong, Karamoja, Northern Region, Uganda",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "3.6582768",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "34.014708076739",
+        "osm_id": "3501829",
+        "osm_type": "relation",
+        "place_id": "9186707347",
+        "type": "administrative"
+    }
+}, {
+    "address": "Kotido Uganda",
+    "lat": 3.0305243,
+    "long": 34.0397789934975,
+    "raw": {
+        "boundingbox": ["2.61941146850586", "3.44163703918457", "33.5497779846191", "34.3968124389648"],
+        "class": "boundary",
+        "display_name": "Kotido, Karamoja, Northern Region, Uganda",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "3.0305243",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "34.0397789934975",
+        "osm_id": "3497438",
+        "osm_type": "relation",
+        "place_id": "9186707339",
+        "type": "administrative"
+    }
+}, {
+    "address": "Abim Uganda",
+    "lat": 2.8044216,
+    "long": 33.7510230937431,
+    "raw": {
+        "boundingbox": ["2.45648765563965", "3.15235543251038", "33.5206527709961", "34.0360908508301"],
+        "class": "boundary",
+        "display_name": "Abim, Karamoja, Northern Region, Uganda",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.67,
+        "lat": "2.8044216",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "33.7510230937431",
+        "osm_id": "3497425",
+        "osm_type": "relation",
+        "place_id": "9186707338",
+        "type": "administrative"
+    }
+}, {
+    "address": "Chivi Zimbabwe",
+    "lat": -20.3109568,
+    "long": 30.5022135,
+    "raw": {
+        "boundingbox": ["-20.3109569549561", "-20.3109550476074", "30.5022125244141", "30.5022144317627"],
+        "class": "place",
+        "display_name": "Chivi, Masvingo Province, Zimbabwe",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.52,
+        "lat": "-20.3109568",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "30.5022135",
+        "osm_id": "305478461",
+        "osm_type": "node",
+        "place_id": "1447023",
+        "type": "town"
+    }
+}, {
+    "address": "Zaka Zimbabwe",
+    "lat": -20.3505504,
+    "long": 31.4679024,
+    "raw": {
+        "boundingbox": ["-20.3505516052246", "-20.350549697876", "31.4679012298584", "31.467903137207"],
+        "class": "place",
+        "display_name": "Zaka Business Centre, Masvingo Province, Zimbabwe",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.485,
+        "lat": "-20.3505504",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "31.4679024",
+        "osm_id": "2710595859",
+        "osm_type": "node",
+        "place_id": "9167823321",
+        "type": "hamlet"
+    }
+}, {
+    "address": "Chipinge Zimbabwe",
+    "lat": -20.188929,
+    "long": 32.6194251,
+    "raw": {
+        "boundingbox": ["-20.1889305114746", "-20.188928604126", "32.6194229125977", "32.6194267272949"],
+        "class": "place",
+        "display_name": "Chipinge, Zimbabwe",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.52,
+        "lat": "-20.188929",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "32.6194251",
+        "osm_id": "305463169",
+        "osm_type": "node",
+        "place_id": "1379733",
+        "type": "town"
+    }
+}, {
+    "address": "Chimanimani  Zimbabwe",
+    "lat": -19.8041326,
+    "long": 32.8707267,
+    "raw": {
+        "boundingbox": ["-19.8041343688965", "-19.8041324615479", "32.8707237243652", "32.8707275390625"],
+        "class": "place",
+        "display_name": "Chimanimani, Zimbabwe",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.52,
+        "lat": "-19.8041326",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "32.8707267",
+        "osm_id": "1363423672",
+        "osm_type": "node",
+        "place_id": "15940274",
+        "type": "town"
+    }
+}, {
+    "address": "Tsholotsho Zimbabwe",
+    "lat": -19.7662902,
+    "long": 27.7570633,
+    "raw": {
+        "boundingbox": ["-19.7662906646729", "-19.7662887573242", "27.7570629119873", "27.7570648193359"],
+        "class": "place",
+        "display_name": "Tsholotsho, Matabeleland North, Zimbabwe",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png",
+        "importance": 0.495,
+        "lat": "-19.7662902",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "27.7570633",
+        "osm_id": "2839095762",
+        "osm_type": "node",
+        "place_id": "9181753688",
+        "type": "village"
+    }
+}, {
+    "address": "Gwanda Zimbabwe",
+    "lat": -20.9454025,
+    "long": 29.009328,
+    "raw": {
+        "boundingbox": ["-20.9454040527344", "-20.9454021453857", "29.0093269348145", "29.0093288421631"],
+        "class": "place",
+        "display_name": "Gwanda, Zimbabwe",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png",
+        "importance": 0.53908579539046,
+        "lat": "-20.9454025",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "29.009328",
+        "osm_id": "297522524",
+        "osm_type": "node",
+        "place_id": "1369376",
+        "type": "town"
+    }
+}, {
+    "address": "Agadez Niger",
+    "lat": 19.8800366,
+    "long": 11.0310512,
+    "raw": {
+        "boundingbox": ["19.8800354003906", "19.8800373077393", "11.0310506820679", "11.0310516357422"],
+        "class": "place",
+        "display_name": "Agadez, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.77,
+        "lat": "19.8800366",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "11.0310512",
+        "osm_id": "2671914028",
+        "osm_type": "node",
+        "place_id": "9163859188",
+        "type": "state"
+    }
+}, {
+    "address": "Diffa Niger",
+    "lat": 15.6714814,
+    "long": 13.1735642,
+    "raw": {
+        "boundingbox": ["15.6714811325073", "15.6714820861816", "13.1735639572144", "13.1735649108887"],
+        "class": "place",
+        "display_name": "Diffa, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.77,
+        "lat": "15.6714814",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "13.1735642",
+        "osm_id": "2671914029",
+        "osm_type": "node",
+        "place_id": "9163859189",
+        "type": "state"
+    }
+}, {
+    "address": "Dosso Niger",
+    "lat": 13.3336993,
+    "long": 3.621398,
+    "raw": {
+        "boundingbox": ["13.3336992263794", "13.3337001800537", "3.62139797210693", "3.62139821052551"],
+        "class": "place",
+        "display_name": "Dosso, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.77,
+        "lat": "13.3336993",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "3.621398",
+        "osm_id": "2671914030",
+        "osm_type": "node",
+        "place_id": "9163859190",
+        "type": "state"
+    }
+}, {
+    "address": "Maradi Niger",
+    "lat": 13.9804249,
+    "long": 7.2605583,
+    "raw": {
+        "boundingbox": ["13.9804248809814", "13.9804258346558", "7.26055812835693", "7.26055860519409"],
+        "class": "place",
+        "display_name": "Maradi, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.77,
+        "lat": "13.9804249",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "7.2605583",
+        "osm_id": "2671914035",
+        "osm_type": "node",
+        "place_id": "9163859195",
+        "type": "state"
+    }
+}, {
+    "address": "Tahoua Niger",
+    "lat": 15.7368385,
+    "long": 5.2010508,
+    "raw": {
+        "boundingbox": ["15.7368383407593", "15.7368392944336", "5.20105075836182", "5.20105123519897"],
+        "class": "place",
+        "display_name": "Tahoua, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.77,
+        "lat": "15.7368385",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "5.2010508",
+        "osm_id": "2671914048",
+        "osm_type": "node",
+        "place_id": "9163859205",
+        "type": "state"
+    }
+}, {
+    "address": "Zinder Niger",
+    "lat": 14.9021888,
+    "long": 9.9578259,
+    "raw": {
+        "boundingbox": ["14.9021883010864", "14.9021892547607", "9.95782566070557", "9.95782661437988"],
+        "class": "place",
+        "display_name": "Zinder, Niger",
+        "icon": "http://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png",
+        "importance": 0.77,
+        "lat": "14.9021888",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+        "lon": "9.9578259",
+        "osm_id": "2671914052",
+        "osm_type": "node",
+        "place_id": "9163859209",
+        "type": "state"
+    }
+}]

@@ -1,0 +1,5111 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"ACDI",
+            "program_name":"Program for Strengthening Household Access to Resources (PROSHAR)",
+            "award_date":"5/24/10",
+            "expiration_date":"",
+            "fy14_contrib":" $7,384,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"ACDI",
+            "city":"Khulna"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               89.55,
+               22.816667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"ACDI",
+            "program_name":"Program for Strengthening Household Access to Resources (PROSHAR)",
+            "award_date":"5/24/10",
+            "expiration_date":"",
+            "fy14_contrib":" $7,384,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"ACDI",
+            "city":"Narail"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               89.4990219,
+               23.1656982
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"ACDI",
+            "program_name":"Program for Strengthening Household Access to Resources (PROSHAR)",
+            "award_date":"5/24/10",
+            "expiration_date":"",
+            "fy14_contrib":" $7,384,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"ACDI",
+            "city":"Bagerhat\n"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               89.7661527,
+               22.6554516
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"ACDI",
+            "program_name":"Program for Strengthening Household Access to Resources (PROSHAR)",
+            "award_date":"5/24/10",
+            "expiration_date":"",
+            "fy14_contrib":" $7,384,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"ACDI",
+            "city":"Bagerhat\n"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               89.7661527,
+               22.6554516
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"CARE",
+            "program_name":"Strengthening Households' Ability to Partner for New Opportunities (SHAPNO)",
+            "award_date":"2/17/04",
+            "expiration_date":"",
+            "fy14_contrib":" $18,475,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"CARE",
+            "city":"Mymensingh"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               90.40305599999999,
+               24.753889
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"CARE",
+            "program_name":"Strengthening Households' Ability to Partner for New Opportunities (SHAPNO)",
+            "award_date":"2/17/04",
+            "expiration_date":"",
+            "fy14_contrib":" $18,475,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"CARE",
+            "city":"Jamalpur"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               89.9463408,
+               24.9249785
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"CARE",
+            "program_name":"Strengthening Households' Ability to Partner for New Opportunities (SHAPNO)",
+            "award_date":"2/17/04",
+            "expiration_date":"",
+            "fy14_contrib":" $18,475,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"CARE",
+            "city":"Sunamganj"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               91.39999999999999,
+               25.066667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"CARE",
+            "program_name":"Strengthening Households' Ability to Partner for New Opportunities (SHAPNO)",
+            "award_date":"2/17/04",
+            "expiration_date":"",
+            "fy14_contrib":" $18,475,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"CARE",
+            "city":"Cox's Bazaar"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               92.0077316,
+               21.4394636
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"CARE",
+            "program_name":"Strengthening Households' Ability to Partner for New Opportunities (SHAPNO)",
+            "award_date":"2/17/04",
+            "expiration_date":"",
+            "fy14_contrib":" $18,475,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"CARE",
+            "city":"Kurigram"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               89.6486979,
+               25.810346
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"CARE",
+            "program_name":"Strengthening Households' Ability to Partner for New Opportunities (SHAPNO)",
+            "award_date":"2/17/04",
+            "expiration_date":"",
+            "fy14_contrib":" $18,475,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"CARE",
+            "city":"Nilphamari"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               88.846667,
+               25.941667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"CARE",
+            "program_name":"Strengthening Households' Ability to Partner for New Opportunities (SHAPNO)",
+            "award_date":"2/17/04",
+            "expiration_date":"",
+            "fy14_contrib":" $18,475,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"CARE",
+            "city":"Rangpur"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               89.275227,
+               25.7438916
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"CARE",
+            "program_name":"Strengthening Households' Ability to Partner for New Opportunities (SHAPNO)",
+            "award_date":"2/17/04",
+            "expiration_date":"",
+            "fy14_contrib":" $18,475,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"CARE",
+            "city":"Dinajpur"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               88.64343079999999,
+               25.6210504
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"CARE",
+            "program_name":"Strengthening Households' Ability to Partner for New Opportunities (SHAPNO)",
+            "award_date":"2/17/04",
+            "expiration_date":"",
+            "fy14_contrib":" $18,475,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"CARE",
+            "city":"Bogra"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               89.36666699999999,
+               24.85
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"CARE",
+            "program_name":"Strengthening Households' Ability to Partner for New Opportunities (SHAPNO)",
+            "award_date":"2/17/04",
+            "expiration_date":"",
+            "fy14_contrib":" $18,475,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"CARE",
+            "city":"Sirajganj"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               89.69102230000001,
+               24.4645469
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"CARE",
+            "program_name":"Strengthening Households' Ability to Partner for New Opportunities (SHAPNO)",
+            "award_date":"2/17/04",
+            "expiration_date":"",
+            "fy14_contrib":" $18,475,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"CARE",
+            "city":"Pabna"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               89.216667,
+               24.016667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"CARE",
+            "program_name":"Strengthening Households' Ability to Partner for New Opportunities (SHAPNO)",
+            "award_date":"2/17/04",
+            "expiration_date":"",
+            "fy14_contrib":" $18,475,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"CARE",
+            "city":"Pabna"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               89.216667,
+               24.016667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"Save the Children",
+            "program_name":"Nobo Jibon",
+            "award_date":"6/30/04",
+            "expiration_date":"",
+            "fy14_contrib":" $7,266,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"Save the Children",
+            "city":"Barisal"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               90.36666699999999,
+               22.7
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"Save the Children",
+            "program_name":"Nobo Jibon",
+            "award_date":"6/30/04",
+            "expiration_date":"",
+            "fy14_contrib":" $7,266,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"Save the Children",
+            "city":"Barguna"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               90.11440789999999,
+               22.157885
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"Save the Children",
+            "program_name":"Nobo Jibon",
+            "award_date":"6/30/04",
+            "expiration_date":"",
+            "fy14_contrib":" $7,266,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"Save the Children",
+            "city":"Patuakhali"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               90.3348372,
+               22.3542954
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"ANE",
+            "country":"Bangladesh",
+            "partner":"Save the Children",
+            "program_name":"Nobo Jibon",
+            "award_date":"6/30/04",
+            "expiration_date":"",
+            "fy14_contrib":" $7,266,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"Save the Children",
+            "city":"Patuakhali"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               90.3348372,
+               22.3542954
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Burkina Faso",
+            "partner":"ACDI",
+            "program_name":"Victory Against Malnutrition (ViM)",
+            "award_date":"7/11/11",
+            "expiration_date":"",
+            "fy14_contrib":" $6,609,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"ACDI",
+            "city":"Barsalogho"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -1.0522,
+               13.4108
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Burkina Faso",
+            "partner":"ACDI",
+            "program_name":"Victory Against Malnutrition (ViM)",
+            "award_date":"7/11/11",
+            "expiration_date":"",
+            "fy14_contrib":" $6,609,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"ACDI",
+            "city":"Kaya"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -1.083333,
+               13.083333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Burkina Faso",
+            "partner":"ACDI",
+            "program_name":"Victory Against Malnutrition (ViM)",
+            "award_date":"7/11/11",
+            "expiration_date":"",
+            "fy14_contrib":" $6,609,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"ACDI",
+            "city":"Pissila"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -0.81943,
+               13.1637
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Burkina Faso",
+            "partner":"ACDI",
+            "program_name":"Victory Against Malnutrition (ViM)",
+            "award_date":"7/11/11",
+            "expiration_date":"",
+            "fy14_contrib":" $6,609,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"ACDI",
+            "city":"Namissiguima"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -1.266667,
+               13.516667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Burkina Faso",
+            "partner":"ACDI",
+            "program_name":"Victory Against Malnutrition (ViM)",
+            "award_date":"7/11/11",
+            "expiration_date":"",
+            "fy14_contrib":" $6,609,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"ACDI",
+            "city":"Namissiguima"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -1.266667,
+               13.516667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Burkina Faso",
+            "partner":"CRS",
+            "program_name":"Families Achieving Sustainable Outcomes (FASO)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $5,856,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Tougouri"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -0.5237269999999999,
+               13.30912
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Burkina Faso",
+            "partner":"CRS",
+            "program_name":"Families Achieving Sustainable Outcomes (FASO)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $5,856,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Bouroum"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -0.65,
+               13.613333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Burkina Faso",
+            "partner":"CRS",
+            "program_name":"Families Achieving Sustainable Outcomes (FASO)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $5,856,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Koalla"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -0.1518394,
+               13.1768739
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Burkina Faso",
+            "partner":"CRS",
+            "program_name":"Families Achieving Sustainable Outcomes (FASO)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $5,856,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Manni"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -0.213056,
+               13.258333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Burkina Faso",
+            "partner":"CRS",
+            "program_name":"Families Achieving Sustainable Outcomes (FASO)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $5,856,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Thion"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -0.320153,
+               13.07438
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Burkina Faso",
+            "partner":"CRS",
+            "program_name":"Families Achieving Sustainable Outcomes (FASO)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $5,856,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Gayeri\n\n"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               0.4915329000000001,
+               12.6513142
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Burkina Faso",
+            "partner":"CRS",
+            "program_name":"Families Achieving Sustainable Outcomes (FASO)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $5,856,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Gayeri\n\n"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               0.4915329000000001,
+               12.6513142
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Burundi",
+            "partner":"CRS",
+            "program_name":"Tubaramure (PM2A)",
+            "award_date":"8/4/08",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new program in FY14",
+            "implementer":"CRS",
+            "city":"Kigamba"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.4818446,
+               -3.0524174
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Burundi",
+            "partner":"CRS",
+            "program_name":"Tubaramure (PM2A)",
+            "award_date":"8/4/08",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new program in FY14",
+            "implementer":"CRS",
+            "city":"Mishiha"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.73499499999999,
+               -3.0618745
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Burundi",
+            "partner":"CRS",
+            "program_name":"Tubaramure (PM2A)",
+            "award_date":"8/4/08",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new program in FY14",
+            "implementer":"CRS",
+            "city":"Cankuzo"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.5466187,
+               -3.2196819
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Burundi",
+            "partner":"CRS",
+            "program_name":"Tubaramure (PM2A)",
+            "award_date":"8/4/08",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new program in FY14",
+            "implementer":"CRS",
+            "city":"Gisagara"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.77091249999999,
+               -3.1991342
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Burundi",
+            "partner":"CRS",
+            "program_name":"Tubaramure (PM2A)",
+            "award_date":"8/4/08",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new program in FY14",
+            "implementer":"CRS",
+            "city":"Cendajuru"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.6020104,
+               -3.286264
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Burundi",
+            "partner":"CRS",
+            "program_name":"Tubaramure (PM2A)",
+            "award_date":"8/4/08",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new program in FY14",
+            "implementer":"CRS",
+            "city":"Butezi"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.25,
+               -3.866666999999999
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Burundi",
+            "partner":"CRS",
+            "program_name":"Tubaramure (PM2A)",
+            "award_date":"8/4/08",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new program in FY14",
+            "implementer":"CRS",
+            "city":"Ruyigi"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.2483881,
+               -3.4750027
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Burundi",
+            "partner":"CRS",
+            "program_name":"Tubaramure (PM2A)",
+            "award_date":"8/4/08",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new program in FY14",
+            "implementer":"CRS",
+            "city":"Bweru"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.46666699999999,
+               -3.3166669
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Burundi",
+            "partner":"CRS",
+            "program_name":"Tubaramure (PM2A)",
+            "award_date":"8/4/08",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new program in FY14",
+            "implementer":"CRS",
+            "city":"Gisuru"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.5005605,
+               -3.4583645
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Burundi",
+            "partner":"CRS",
+            "program_name":"Tubaramure (PM2A)",
+            "award_date":"8/4/08",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new program in FY14",
+            "implementer":"CRS",
+            "city":"Nyabitsinda"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.2757905,
+               -3.5392028
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Burundi",
+            "partner":"CRS",
+            "program_name":"Tubaramure (PM2A)",
+            "award_date":"8/4/08",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new program in FY14",
+            "implementer":"CRS",
+            "city":"Kinyinya"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.342222,
+               -3.660556
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Burundi",
+            "partner":"CRS",
+            "program_name":"Tubaramure (PM2A)",
+            "award_date":"8/4/08",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new program in FY14",
+            "implementer":"CRS",
+            "city":"Kinyinya"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.342222,
+               -3.660556
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"ADRA",
+            "program_name":"JENGA II",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $8,991,000 ",
+            "notes":"",
+            "implementer":"ADRA",
+            "city":"Minova"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"ADRA",
+            "program_name":"JENGA II",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $8,991,000 ",
+            "notes":"",
+            "implementer":"ADRA",
+            "city":"Kalehe"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"ADRA",
+            "program_name":"JENGA II",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $8,991,000 ",
+            "notes":"",
+            "implementer":"ADRA",
+            "city":"Lemera"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               15.2858236,
+               -4.3045353
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"ADRA",
+            "program_name":"JENGA II",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $8,991,000 ",
+            "notes":"",
+            "implementer":"ADRA",
+            "city":"Ruzizi"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"ADRA",
+            "program_name":"JENGA II",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $8,991,000 ",
+            "notes":"",
+            "implementer":"ADRA",
+            "city":"Uvira"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               15.2755582,
+               -4.310105099999999
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"ADRA",
+            "program_name":"JENGA II",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $8,991,000 ",
+            "notes":"",
+            "implementer":"ADRA",
+            "city":"Nundu"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"ADRA",
+            "program_name":"JENGA II",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $8,991,000 ",
+            "notes":"",
+            "implementer":"ADRA",
+            "city":"Fizi"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"ADRA",
+            "program_name":"JENGA II",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $8,991,000 ",
+            "notes":"",
+            "implementer":"ADRA",
+            "city":"Fizi"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"FHI",
+            "program_name":"",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $10,445,000 ",
+            "notes":"",
+            "implementer":"FHI",
+            "city":"Walungu"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"FHI",
+            "program_name":"",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $10,445,000 ",
+            "notes":"",
+            "implementer":"FHI",
+            "city":"Mubumbano"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"FHI",
+            "program_name":"",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $10,445,000 ",
+            "notes":"",
+            "implementer":"FHI",
+            "city":"Nyemba"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"FHI",
+            "program_name":"",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $10,445,000 ",
+            "notes":"",
+            "implementer":"FHI",
+            "city":"Kalemie"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               15.2945121,
+               -4.3034194
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"FHI",
+            "program_name":"",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $10,445,000 ",
+            "notes":"",
+            "implementer":"FHI",
+            "city":"Moba"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               15.3957379,
+               -4.4071248
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"FHI",
+            "program_name":"",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $10,445,000 ",
+            "notes":"",
+            "implementer":"FHI",
+            "city":"Kasimba"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"FHI",
+            "program_name":"",
+            "award_date":"7/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $10,445,000 ",
+            "notes":"",
+            "implementer":"FHI",
+            "city":"Kasimba"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"Mercy Corps",
+            "program_name":"RISE",
+            "award_date":"8/5/11",
+            "expiration_date":"",
+            "fy14_contrib":" $5,388,000 ",
+            "notes":"",
+            "implementer":"Mercy Corps",
+            "city":"Birambizo"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"Mercy Corps",
+            "program_name":"RISE",
+            "award_date":"8/5/11",
+            "expiration_date":"",
+            "fy14_contrib":" $5,388,000 ",
+            "notes":"",
+            "implementer":"Mercy Corps",
+            "city":"Butembo"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"Mercy Corps",
+            "program_name":"RISE",
+            "award_date":"8/5/11",
+            "expiration_date":"",
+            "fy14_contrib":" $5,388,000 ",
+            "notes":"",
+            "implementer":"Mercy Corps",
+            "city":"Beni"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Congo (DRC)",
+            "partner":"Mercy Corps",
+            "program_name":"RISE",
+            "award_date":"8/5/11",
+            "expiration_date":"",
+            "fy14_contrib":" $5,388,000 ",
+            "notes":"",
+            "implementer":"Mercy Corps",
+            "city":"Beni"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               16.1816196,
+               -2.420088
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"CRS",
+            "program_name":"Development Food Aid Program (DFAP)",
+            "award_date":"8/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $15,011,000 ",
+            "notes":"",
+            "implementer":"CRS",
+            "city":"Babile"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               42.333333,
+               9.216667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"CRS",
+            "program_name":"Development Food Aid Program (DFAP)",
+            "award_date":"8/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $15,011,000 ",
+            "notes":"",
+            "implementer":"CRS",
+            "city":"Kersa"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               38.63873359999999,
+               7.1549314
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"CRS",
+            "program_name":"Development Food Aid Program (DFAP)",
+            "award_date":"8/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $15,011,000 ",
+            "notes":"",
+            "implementer":"CRS",
+            "city":"Meta"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               41.516667,
+               9.35
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"CRS",
+            "program_name":"Development Food Aid Program (DFAP)",
+            "award_date":"8/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $15,011,000 ",
+            "notes":"",
+            "implementer":"CRS",
+            "city":"Deder"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               41.4462559,
+               9.321887199999999
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"CRS",
+            "program_name":"Development Food Aid Program (DFAP)",
+            "award_date":"8/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $15,011,000 ",
+            "notes":"",
+            "implementer":"CRS",
+            "city":"Deder"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               41.4462559,
+               9.321887199999999
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"FHI",
+            "program_name":"Productive Safety Net Program (PSNP)",
+            "award_date":"8/16/11",
+            "expiration_date":"",
+            "fy14_contrib":" $25,330,000 ",
+            "notes":"",
+            "implementer":"FHI",
+            "city":"Dehana"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               39.683333,
+               9.966667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"FHI",
+            "program_name":"Productive Safety Net Program (PSNP)",
+            "award_date":"8/16/11",
+            "expiration_date":"",
+            "fy14_contrib":" $25,330,000 ",
+            "notes":"",
+            "implementer":"FHI",
+            "city":"Sekota"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               39.033333,
+               12.633333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"FHI",
+            "program_name":"Productive Safety Net Program (PSNP)",
+            "award_date":"8/16/11",
+            "expiration_date":"",
+            "fy14_contrib":" $25,330,000 ",
+            "notes":"",
+            "implementer":"FHI",
+            "city":"Sekota"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               39.033333,
+               12.633333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"REST",
+            "program_name":"Tigray Productive Safeyty Net Program (TPSNP)",
+            "award_date":"8/16/11",
+            "expiration_date":"",
+            "fy14_contrib":" $36,519,000 ",
+            "notes":"",
+            "implementer":"REST",
+            "city":"Hawzien"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               39.433333,
+               13.983333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"Save the Children",
+            "program_name":"Transformation to Food Security Development Food Aid Program (T2FS DFAP)",
+            "award_date":"9/30/11",
+            "expiration_date":"",
+            "fy14_contrib":" $17,760,000 ",
+            "notes":"",
+            "implementer":"Save the Children",
+            "city":"Barre"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               39.8675,
+               14.77
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"Save the Children",
+            "program_name":"Transformation to Food Security Development Food Aid Program (T2FS DFAP)",
+            "award_date":"9/30/11",
+            "expiration_date":"",
+            "fy14_contrib":" $17,760,000 ",
+            "notes":"",
+            "implementer":"Save the Children",
+            "city":"Yabello"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               39.1833333,
+               3.4833333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"Save the Children",
+            "program_name":"Transformation to Food Security Development Food Aid Program (T2FS DFAP)",
+            "award_date":"9/30/11",
+            "expiration_date":"",
+            "fy14_contrib":" $17,760,000 ",
+            "notes":"",
+            "implementer":"Save the Children",
+            "city":"Dhas"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               38.7219894,
+               4.2223581
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"Save the Children",
+            "program_name":"Transformation to Food Security Development Food Aid Program (T2FS DFAP)",
+            "award_date":"9/30/11",
+            "expiration_date":"",
+            "fy14_contrib":" $17,760,000 ",
+            "notes":"",
+            "implementer":"Save the Children",
+            "city":"Arero"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               38.7629949,
+               4.7259125
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"Save the Children",
+            "program_name":"Transformation to Food Security Development Food Aid Program (T2FS DFAP)",
+            "award_date":"9/30/11",
+            "expiration_date":"",
+            "fy14_contrib":" $17,760,000 ",
+            "notes":"",
+            "implementer":"Save the Children",
+            "city":"Arero"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               38.7629949,
+               4.7259125
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"CRS",
+            "program_name":"Seguridad Alimentaria Enfocada en los Primeros 1,000 D&iacute;as (SEGAMIL)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,276,200 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Comitancillo"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.7477976,
+               15.0914189
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"CRS",
+            "program_name":"Seguridad Alimentaria Enfocada en los Primeros 1,000 D&iacute;as (SEGAMIL)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,276,200 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"San Lorenzo"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.7356319,
+               15.0301602
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"CRS",
+            "program_name":"Seguridad Alimentaria Enfocada en los Primeros 1,000 D&iacute;as (SEGAMIL)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,276,200 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Concepci&oacute;n Tutuapa"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.8434162,
+               15.239019
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"CRS",
+            "program_name":"Seguridad Alimentaria Enfocada en los Primeros 1,000 D&iacute;as (SEGAMIL)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,276,200 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":" San Jos&eacute; Ojetenam"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.23075899999999,
+               15.783471
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"CRS",
+            "program_name":"Seguridad Alimentaria Enfocada en los Primeros 1,000 D&iacute;as (SEGAMIL)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,276,200 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Santa Lucia La Reforma"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.23677169999999,
+               15.1291103
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"CRS",
+            "program_name":"Seguridad Alimentaria Enfocada en los Primeros 1,000 D&iacute;as (SEGAMIL)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,276,200 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Santa Maria Chiquimula"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.329444,
+               15.029167
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"CRS",
+            "program_name":"Seguridad Alimentaria Enfocada en los Primeros 1,000 D&iacute;as (SEGAMIL)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,276,200 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Momostenango"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.408333,
+               15.044444
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"CRS",
+            "program_name":"Seguridad Alimentaria Enfocada en los Primeros 1,000 D&iacute;as (SEGAMIL)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,276,200 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Totonicap&aacute;n "
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.360556,
+               14.910833
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"CRS",
+            "program_name":"Seguridad Alimentaria Enfocada en los Primeros 1,000 D&iacute;as (SEGAMIL)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,276,200 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Totonicap&aacute;n "
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.360556,
+               14.910833
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Mercy Corps",
+            "program_name":"Programa Comunitario Materno Infantil de Diversificaci&oacute;n Alimentaria (PROCOMIDA)",
+            "award_date":"7/1/09",
+            "expiration_date":"",
+            "fy14_contrib":" $2,159,300 ",
+            "notes":"NCE into 2015",
+            "implementer":"Mercy Corps",
+            "city":"Cob&aacute;n"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.36666699999999,
+               15.483333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Mercy Corps",
+            "program_name":"Programa Comunitario Materno Infantil de Diversificaci&oacute;n Alimentaria (PROCOMIDA)",
+            "award_date":"7/1/09",
+            "expiration_date":"",
+            "fy14_contrib":" $2,159,300 ",
+            "notes":"NCE into 2015",
+            "implementer":"Mercy Corps",
+            "city":"Carcha"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.3196979,
+               15.4511363
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Mercy Corps",
+            "program_name":"Programa Comunitario Materno Infantil de Diversificaci&oacute;n Alimentaria (PROCOMIDA)",
+            "award_date":"7/1/09",
+            "expiration_date":"",
+            "fy14_contrib":" $2,159,300 ",
+            "notes":"NCE into 2015",
+            "implementer":"Mercy Corps",
+            "city":"Cahab&oacute;n"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -89.8118642,
+               15.607452
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Mercy Corps",
+            "program_name":"Programa Comunitario Materno Infantil de Diversificaci&oacute;n Alimentaria (PROCOMIDA)",
+            "award_date":"7/1/09",
+            "expiration_date":"",
+            "fy14_contrib":" $2,159,300 ",
+            "notes":"NCE into 2015",
+            "implementer":"Mercy Corps",
+            "city":"Lanqu&iacute;n"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -89.9801782,
+               15.5752827
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Mercy Corps",
+            "program_name":"Programa Comunitario Materno Infantil de Diversificaci&oacute;n Alimentaria (PROCOMIDA)",
+            "award_date":"7/1/09",
+            "expiration_date":"",
+            "fy14_contrib":" $2,159,300 ",
+            "notes":"NCE into 2015",
+            "implementer":"Mercy Corps",
+            "city":"Senah&uacute;"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -89.820278,
+               15.416389
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Mercy Corps",
+            "program_name":"Programa Comunitario Materno Infantil de Diversificaci&oacute;n Alimentaria (PROCOMIDA)",
+            "award_date":"7/1/09",
+            "expiration_date":"",
+            "fy14_contrib":" $2,159,300 ",
+            "notes":"NCE into 2015",
+            "implementer":"Mercy Corps",
+            "city":"Senah&uacute;"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -89.820278,
+               15.416389
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Nebaj"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.147222,
+               15.408333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Chajul"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.034722,
+               15.487222
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Cotzal"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.035556,
+               15.435278
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Cun&eacute;n"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.026303,
+               15.335655
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Uspant&aacute;n"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -90.869444,
+               15.345833
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Chichicastenango"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.10892439999999,
+               14.9449723
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Chiquirichapa"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.62144060000001,
+               14.8558277
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Ostuncalco"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.61666699999999,
+               14.866667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Jacaltenango"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.7113107,
+               15.6653998
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"S. Antonio Huista"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.76666700000001,
+               15.65
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Concepci&oacute;n Huita"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.6651379,
+               15.6247111
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Todos Santos"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.603653,
+               15.50437
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Chiantla"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.45192709999999,
+               15.3596486
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Guatemala",
+            "partner":"Save the Children",
+            "program_name":"Integrated Food Security Actions in the Western Highlands (PAISANO)",
+            "award_date":"8/1/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,600,100 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Chiantla"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -91.45192709999999,
+               15.3596486
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Gonaives (Rural)"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -72.6833,
+               19.45
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Anse Rouge"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.05,
+               19.633333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Terre Neuve"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -72.7281884,
+               19.5615114
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Thomassique"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -71.833333,
+               19.083333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Cerca Carvajal"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -71.9386521,
+               19.2695772
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Cerca La Source"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -71.7889374,
+               19.1641495
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Thomonde"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -71.96236259999999,
+               19.0171148
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Hinche"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -72.014223,
+               19.1411602
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Boucan Carre"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -72.1467965,
+               18.9245185
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Baie de Henne"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.2123957,
+               19.6659808
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Bombardopolis"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.32665589999999,
+               19.6775885
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Mole Saint Nicolas"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.37529049999999,
+               19.8047689
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":" Jean Rabel"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.19248639999999,
+               19.8535692
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Bassin Bleu"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -72.8,
+               19.783333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Port-de-Paix (Rural)"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -72.8308692,
+               19.9348887
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Port-de-Paix (Urban)"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -72.8308692,
+               19.9348887
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Anse-a-Pitre"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -71.75,
+               18.05
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Belle Anse"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -72.0690372,
+               18.2382167
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Grand Gosier"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -71.9201269,
+               18.1874336
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"La Valle"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -100.2062712,
+               25.6365327
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Cote de Fer"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.00289149999999,
+               18.18877
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Thiotte"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -71.8437916,
+               18.2449605
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Anse-&agrave;-Galets"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -72.86666699999999,
+               18.833333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Pointe-&agrave;-Raquette"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.0619261,
+               18.7855574
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"LAC",
+            "country":"Haiti",
+            "partner":"CARE",
+            "program_name":"Kore Lavi",
+            "award_date":"8/12/13",
+            "expiration_date":"",
+            "fy14_contrib":" $20,000,000 ",
+            "notes":"Each year includes projected $12 million in CDF",
+            "implementer":"CARE",
+            "city":"Pointe-&agrave;-Raquette"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.0619261,
+               18.7855574
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Liberia",
+            "partner":"ACDI",
+            "program_name":"Liberian Agricultural Upgrading, Nutrition and Child Health (LAUNCH)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $8,066,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"ACDI",
+            "city":"Salala"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -10.107422,
+               6.746441
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Liberia",
+            "partner":"ACDI",
+            "program_name":"Liberian Agricultural Upgrading, Nutrition and Child Health (LAUNCH)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $8,066,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"ACDI",
+            "city":"Zoe Gbao"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -8.770147,
+               6.946970400000001
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Liberia",
+            "partner":"ACDI",
+            "program_name":"Liberian Agricultural Upgrading, Nutrition and Child Health (LAUNCH)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $8,066,000 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"ACDI",
+            "city":"Gbor "
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -8.6820636,
+               7.118921899999999
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Liberia",
+            "partner":"OICI",
+            "program_name":"Health, Agriculture and Nutrition Development for Sustainability (HANDS)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $5,781,700 ",
+            "notes":"FFP anticipates awarding new programs in FY15",
+            "implementer":"OICI",
+            "city":"YarpeaMah"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -9.429499000000002,
+               6.428055
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Mananara Avaratra"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               49.766667,
+               -16.166667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Eenoarivo Atsinanana"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               47.95,
+               -20.083333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Vavatenina"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               49.2,
+               -17.466667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Vatomandry"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               48.978056,
+               -19.330833
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Mahanoro"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               48.8070527,
+               -19.894468
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Nosy Varika"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               48.533333,
+               -20.583333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Mananjary"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               48.341944,
+               -21.231111
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Fandriana"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               47.383333,
+               -20.233333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Ambositra"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               47.25,
+               -20.516667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Manandriana"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               47.058302,
+               -20.5196486
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Ifanadiana"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               47.633333,
+               -21.3
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Mananakra"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               48.00000000000001,
+               -22.15
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Ikongo"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               43.55,
+               -21.766667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Vohipeno"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               47.84026009999999,
+               -22.3539973
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Farafangana"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               47.816667,
+               -22.816667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Vangaindranao"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               47.59999999999999,
+               -23.35
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Amboasary Atismo"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               46.385278,
+               -25.043056
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Ambovombe"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               46.0897124,
+               -25.1720132
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Bekily"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               46.016667,
+               -23.6
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Beloha"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               48.48333299999999,
+               -20.266667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Tsihombe"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               45.486149,
+               -25.31793
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Madagascar",
+            "partner":"CRS",
+            "program_name":"SALOHI",
+            "award_date":"5/19/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Tsihombe"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               45.486149,
+               -25.31793
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Malawi",
+            "partner":"CRS",
+            "program_name":"WALA",
+            "award_date":"5/8/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Nsanje"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               35.266667,
+               -16.916667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Malawi",
+            "partner":"CRS",
+            "program_name":"WALA",
+            "award_date":"5/8/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Chikwawa"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               34.801,
+               -16.035
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Malawi",
+            "partner":"CRS",
+            "program_name":"WALA",
+            "award_date":"5/8/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Thyolo"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               35.133333,
+               -16.066667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Malawi",
+            "partner":"CRS",
+            "program_name":"WALA",
+            "award_date":"5/8/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Mulanje"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               35.5,
+               -16.033333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Malawi",
+            "partner":"CRS",
+            "program_name":"WALA",
+            "award_date":"5/8/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Zomba"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               35.333333,
+               -15.383333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Malawi",
+            "partner":"CRS",
+            "program_name":"WALA",
+            "award_date":"5/8/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Machinga"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               35.2999779,
+               -15.1699934
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Malawi",
+            "partner":"CRS",
+            "program_name":"WALA",
+            "award_date":"5/8/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Chiradzulu"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               35.1406293,
+               -15.6759485
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Malawi",
+            "partner":"CRS",
+            "program_name":"WALA",
+            "award_date":"5/8/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Balaka"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               34.9561748,
+               -14.9876054
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Malawi",
+            "partner":"CRS",
+            "program_name":"WALA",
+            "award_date":"5/8/09",
+            "expiration_date":"",
+            "fy14_contrib":" $-   ",
+            "notes":"FFP anticipates awarding new programs in FY14",
+            "implementer":"CRS",
+            "city":"Balaka"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               34.9561748,
+               -14.9876054
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"CRS",
+            "program_name":"PASAM-TAI",
+            "award_date":"7/27/12",
+            "expiration_date":"",
+            "fy14_contrib":" $8,334,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Mayahi"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               7.666667,
+               13.95
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"CRS",
+            "program_name":"PASAM-TAI",
+            "award_date":"7/27/12",
+            "expiration_date":"",
+            "fy14_contrib":" $8,334,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Kantche"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               8.4869905,
+               13.5526328
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"CRS",
+            "program_name":"PASAM-TAI",
+            "award_date":"7/27/12",
+            "expiration_date":"",
+            "fy14_contrib":" $8,334,000 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"CRS",
+            "city":"Kantche"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               8.4869905,
+               13.5526328
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"Mercy Corps",
+            "program_name":"SAWKI",
+            "award_date":"9/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $5,571,000 ",
+            "notes":"Includes $4 million in CDF each year",
+            "implementer":"Mercy Corps",
+            "city":"Chadakori"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               7.057910799999999,
+               13.5913879
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"Mercy Corps",
+            "program_name":"SAWKI",
+            "award_date":"9/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $5,571,000 ",
+            "notes":"Includes $4 million in CDF each year",
+            "implementer":"Mercy Corps",
+            "city":"Dogo"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               9.016943999999999,
+               13.499167
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"Mercy Corps",
+            "program_name":"SAWKI",
+            "award_date":"9/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $5,571,000 ",
+            "notes":"Includes $4 million in CDF each year",
+            "implementer":"Mercy Corps",
+            "city":"Droum"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               8.943854199999999,
+               13.5939821
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"Mercy Corps",
+            "program_name":"SAWKI",
+            "award_date":"9/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $5,571,000 ",
+            "notes":"Includes $4 million in CDF each year",
+            "implementer":"Mercy Corps",
+            "city":"Mirriah"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               9.1594532,
+               13.7122103
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"Mercy Corps",
+            "program_name":"SAWKI",
+            "award_date":"9/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $5,571,000 ",
+            "notes":"Includes $4 million in CDF each year",
+            "implementer":"Mercy Corps",
+            "city":"Zermou"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               9.313948,
+               13.8655
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"Mercy Corps",
+            "program_name":"SAWKI",
+            "award_date":"9/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $5,571,000 ",
+            "notes":"Includes $4 million in CDF each year",
+            "implementer":"Mercy Corps",
+            "city":"Gafati"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               9.083333,
+               13.833333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"Mercy Corps",
+            "program_name":"SAWKI",
+            "award_date":"9/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $5,571,000 ",
+            "notes":"Includes $4 million in CDF each year",
+            "implementer":"Mercy Corps",
+            "city":"Dakoussa "
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               8.816666999999999,
+               13.866667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"Mercy Corps",
+            "program_name":"SAWKI",
+            "award_date":"9/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $5,571,000 ",
+            "notes":"Includes $4 million in CDF each year",
+            "implementer":"Mercy Corps",
+            "city":"Dakoussa "
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               8.816666999999999,
+               13.866667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"Save the Children",
+            "program_name":"Livelihoods, Agriculture and Health Interventions in Action (LAHIA)",
+            "award_date":"9/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,072,000 ",
+            "notes":"Includes $4 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Agui&eacute;"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               7.776943999999999,
+               13.503333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"Save the Children",
+            "program_name":"Livelihoods, Agriculture and Health Interventions in Action (LAHIA)",
+            "award_date":"9/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,072,000 ",
+            "notes":"Includes $4 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Guidan Roumdji "
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               6.695832999999999,
+               13.6575
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"Save the Children",
+            "program_name":"Livelihoods, Agriculture and Health Interventions in Action (LAHIA)",
+            "award_date":"9/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $6,072,000 ",
+            "notes":"Includes $4 million in CDF each year",
+            "implementer":"Save the Children",
+            "city":"Guidan Roumdji "
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               6.695832999999999,
+               13.6575
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Sierra Leone",
+            "partner":"ACDI",
+            "program_name":"Sustainable Nutrition and Agricultural Promotion (SNAP)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $11,581,000 ",
+            "notes":"Funding ends in 2015",
+            "implementer":"ACDI",
+            "city":"Bombali"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -12.1632718,
+               9.2475837
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Sierra Leone",
+            "partner":"ACDI",
+            "program_name":"Sustainable Nutrition and Agricultural Promotion (SNAP)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $11,581,000 ",
+            "notes":"Funding ends in 2015",
+            "implementer":"ACDI",
+            "city":"Koinadugu"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -11.36363,
+               9.5168769
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Sierra Leone",
+            "partner":"ACDI",
+            "program_name":"Sustainable Nutrition and Agricultural Promotion (SNAP)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $11,581,000 ",
+            "notes":"Funding ends in 2015",
+            "implementer":"ACDI",
+            "city":"Kailahun"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -10.573889,
+               8.277222
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Sierra Leone",
+            "partner":"ACDI",
+            "program_name":"Sustainable Nutrition and Agricultural Promotion (SNAP)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $11,581,000 ",
+            "notes":"Funding ends in 2015",
+            "implementer":"ACDI",
+            "city":"Tonkolili"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -11.7947561,
+               8.9804274
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"WAS",
+            "country":"Sierra Leone",
+            "partner":"ACDI",
+            "program_name":"Sustainable Nutrition and Agricultural Promotion (SNAP)",
+            "award_date":"6/10/10",
+            "expiration_date":"",
+            "fy14_contrib":" $11,581,000 ",
+            "notes":"Funding ends in 2015",
+            "implementer":"ACDI",
+            "city":"Tonkolili"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -11.7947561,
+               8.9804274
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"EAH",
+            "country":"South Sudan",
+            "partner":"CRS",
+            "program_name":"Jonglei Food Security Program (JFSP)",
+            "award_date":"8/15/11",
+            "expiration_date":"",
+            "fy14_contrib":" $12,397,538 ",
+            "notes":"Emergency $ used in FY14; unclear if program will require additional funds in FY15",
+            "implementer":"CRS",
+            "city":"Tonkolili"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.1589303,
+               7.9630921
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Uganda",
+            "partner":"ACDI",
+            "program_name":"RWANU",
+            "award_date":"8/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $10,977,313 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"ACDI",
+            "city":"Napak"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               34.3764819,
+               2.3522705
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Uganda",
+            "partner":"ACDI",
+            "program_name":"RWANU",
+            "award_date":"8/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $10,977,313 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"ACDI",
+            "city":"Nakapiripirit"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               34.7215859,
+               1.8502515
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Uganda",
+            "partner":"ACDI",
+            "program_name":"RWANU",
+            "award_date":"8/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $10,977,313 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"ACDI",
+            "city":"Moroto"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               34.67,
+               2.53
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Uganda",
+            "partner":"ACDI",
+            "program_name":"RWANU",
+            "award_date":"8/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $10,977,313 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"ACDI",
+            "city":"Amudat"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               34.944444,
+               1.952222
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Uganda",
+            "partner":"ACDI",
+            "program_name":"RWANU",
+            "award_date":"8/17/12",
+            "expiration_date":"",
+            "fy14_contrib":" $10,977,313 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"ACDI",
+            "city":"Amudat"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               34.944444,
+               1.952222
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Uganda",
+            "partner":"Mercy Corps",
+            "program_name":"",
+            "award_date":"7/20/12",
+            "expiration_date":"",
+            "fy14_contrib":" $8,926,687 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Mercy Corps",
+            "city":"Kaabong"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               34.1337219,
+               3.5124436
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Uganda",
+            "partner":"Mercy Corps",
+            "program_name":"",
+            "award_date":"7/20/12",
+            "expiration_date":"",
+            "fy14_contrib":" $8,926,687 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Mercy Corps",
+            "city":"Kotido"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               34.1125,
+               3.006111
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Uganda",
+            "partner":"Mercy Corps",
+            "program_name":"",
+            "award_date":"7/20/12",
+            "expiration_date":"",
+            "fy14_contrib":" $8,926,687 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Mercy Corps",
+            "city":"Abim"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               33.6595337,
+               2.706698
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Uganda",
+            "partner":"Mercy Corps",
+            "program_name":"",
+            "award_date":"7/20/12",
+            "expiration_date":"",
+            "fy14_contrib":" $8,926,687 ",
+            "notes":"Includes $5 million in CDF each year",
+            "implementer":"Mercy Corps",
+            "city":"Abim"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               33.6595337,
+               2.706698
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Zimbabwe",
+            "partner":"WV",
+            "program_name":"ENSURE",
+            "award_date":"6/14/13",
+            "expiration_date":"",
+            "fy14_contrib":" $12,083,000 ",
+            "notes":"",
+            "implementer":"WV",
+            "city":"Bikita"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               31.615219,
+               -20.0957389
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Zimbabwe",
+            "partner":"WV",
+            "program_name":"ENSURE",
+            "award_date":"6/14/13",
+            "expiration_date":"",
+            "fy14_contrib":" $12,083,000 ",
+            "notes":"",
+            "implementer":"WV",
+            "city":"Chivi"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               30.4357631,
+               -20.3594165
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Zimbabwe",
+            "partner":"WV",
+            "program_name":"ENSURE",
+            "award_date":"6/14/13",
+            "expiration_date":"",
+            "fy14_contrib":" $12,083,000 ",
+            "notes":"",
+            "implementer":"WV",
+            "city":"Zaka"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               31.4484747,
+               -20.4036628
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Zimbabwe",
+            "partner":"WV",
+            "program_name":"ENSURE",
+            "award_date":"6/14/13",
+            "expiration_date":"",
+            "fy14_contrib":" $12,083,000 ",
+            "notes":"",
+            "implementer":"WV",
+            "city":"Buhera"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               31.435,
+               -19.3325
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Zimbabwe",
+            "partner":"WV",
+            "program_name":"ENSURE",
+            "award_date":"6/14/13",
+            "expiration_date":"",
+            "fy14_contrib":" $12,083,000 ",
+            "notes":"",
+            "implementer":"WV",
+            "city":"Chipinge"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               32.62,
+               -20.2
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Zimbabwe",
+            "partner":"WV",
+            "program_name":"ENSURE",
+            "award_date":"6/14/13",
+            "expiration_date":"",
+            "fy14_contrib":" $12,083,000 ",
+            "notes":"",
+            "implementer":"WV",
+            "city":"Chimanimani "
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               32.8733117,
+               -19.8032402
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Zimbabwe",
+            "partner":"WV",
+            "program_name":"ENSURE",
+            "award_date":"6/14/13",
+            "expiration_date":"",
+            "fy14_contrib":" $12,083,000 ",
+            "notes":"",
+            "implementer":"WV",
+            "city":"Chimanimani "
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               32.8733117,
+               -19.8032402
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Zimbabwe",
+            "partner":"CNFA",
+            "program_name":"",
+            "award_date":"6/14/13",
+            "expiration_date":"",
+            "fy14_contrib":" $7,746,000 ",
+            "notes":"",
+            "implementer":"CNFA",
+            "city":"Tsholotsho"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               27.75,
+               -19.766667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Zimbabwe",
+            "partner":"CNFA",
+            "program_name":"",
+            "award_date":"6/14/13",
+            "expiration_date":"",
+            "fy14_contrib":" $7,746,000 ",
+            "notes":"",
+            "implementer":"CNFA",
+            "city":"Mangwe"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               28.066667,
+               -20.7
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Zimbabwe",
+            "partner":"CNFA",
+            "program_name":"",
+            "award_date":"6/14/13",
+            "expiration_date":"",
+            "fy14_contrib":" $7,746,000 ",
+            "notes":"",
+            "implementer":"CNFA",
+            "city":"Gwanda"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               29.025,
+               -20.945
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Development",
+            "region":"CSA",
+            "country":"Zimbabwe",
+            "partner":"CNFA",
+            "program_name":"",
+            "award_date":"6/14/13",
+            "expiration_date":"",
+            "fy14_contrib":" $7,746,000 ",
+            "notes":"",
+            "implementer":"CNFA",
+            "city":"Gwanda"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               29.025,
+               -20.945
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"ANE",
+            "country":"Yemen",
+            "partner":"Save the Children",
+            "program_name":"EFSP",
+            "award_date":"9/27/13",
+            "expiration_date":"12/30/16",
+            "fy14_contrib":"$5,000,000 ",
+            "notes":"",
+            "implementer":"Save the Children",
+            "city":"Gwanda"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               48.516388,
+               15.552727
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"ANE",
+            "country":"Yemen",
+            "partner":"Global Communities",
+            "program_name":"EFSP",
+            "award_date":"9/27/13",
+            "expiration_date":"12/30/16",
+            "fy14_contrib":"$5,000,000 ",
+            "notes":"",
+            "implementer":"Global Communities",
+            "city":"Gwanda"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               48.516388,
+               15.552727
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"ANE",
+            "country":"Yemen",
+            "partner":"Mercy Corps",
+            "program_name":"EFSP",
+            "award_date":"9/27/13",
+            "expiration_date":"12/30/16",
+            "fy14_contrib":"$5,000,000 ",
+            "notes":"",
+            "implementer":"Mercy Corps",
+            "city":"Gwanda"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               48.516388,
+               15.552727
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"CSA",
+            "country":"Zimbabwe",
+            "partner":"WFP",
+            "program_name":"PRRO 200453",
+            "award_date":"5/1/13",
+            "expiration_date":"4/30/15",
+            "fy14_contrib":"9,498,300",
+            "notes":"",
+            "implementer":"WFP",
+            "city":"Gwanda"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               29.154857,
+               -19.015438
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"CRS",
+            "program_name":"JEOP",
+            "award_date":"8/1/12",
+            "expiration_date":"7/31/14",
+            "fy14_contrib":"64,136,400",
+            "notes":"",
+            "implementer":"CRS",
+            "city":"Gwanda"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               40.489673,
+               9.145000000000001
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"EAH",
+            "country":"Ethiopia",
+            "partner":"WFP",
+            "program_name":"PRRO 200290",
+            "award_date":"10/7/11",
+            "expiration_date":"9/30/14",
+            "fy14_contrib":"30,233,000",
+            "notes":"",
+            "implementer":"WFP",
+            "city":"Gwanda"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               40.489673,
+               9.145000000000001
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"EAH",
+            "country":"Kenya",
+            "partner":"WFP",
+            "program_name":"PRRO 200294",
+            "award_date":"5/1/12",
+            "expiration_date":"9/30/14",
+            "fy14_contrib":"34,003,700",
+            "notes":"",
+            "implementer":"WFP",
+            "city":"Gwanda"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               37.906193,
+               -0.023559
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"WFP",
+            "program_name":"PRRO 200583",
+            "award_date":"1/1/14",
+            "expiration_date":"12/30/16",
+            "fy14_contrib":"23,420,500",
+            "notes":"",
+            "implementer":"WFP",
+            "city":"Agadez"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               7.986535,
+               16.9741689
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"WFP",
+            "program_name":"PRRO 200583",
+            "award_date":"1/1/14",
+            "expiration_date":"12/30/16",
+            "fy14_contrib":"23,420,500",
+            "notes":"",
+            "implementer":"WFP",
+            "city":"Diffa"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               12.616667,
+               13.316667
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"WFP",
+            "program_name":"PRRO 200583",
+            "award_date":"1/1/14",
+            "expiration_date":"12/30/16",
+            "fy14_contrib":"23,420,500",
+            "notes":"",
+            "implementer":"WFP",
+            "city":"Dosso"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               3.2,
+               13.05
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"WFP",
+            "program_name":"PRRO 200583",
+            "award_date":"1/1/14",
+            "expiration_date":"12/30/16",
+            "fy14_contrib":"23,420,500",
+            "notes":"",
+            "implementer":"WFP",
+            "city":"Maradi"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               7.1,
+               13.483333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"WFP",
+            "program_name":"PRRO 200583",
+            "award_date":"1/1/14",
+            "expiration_date":"12/30/16",
+            "fy14_contrib":"23,420,500",
+            "notes":"",
+            "implementer":"WFP",
+            "city":"Tahoua"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               5.266667,
+               14.883333
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"WFP",
+            "program_name":"PRRO 200583",
+            "award_date":"1/1/14",
+            "expiration_date":"12/30/16",
+            "fy14_contrib":"23,420,500",
+            "notes":"",
+            "implementer":"WFP",
+            "city":"Tillab&eacute;ri "
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               2.1450245,
+               14.6489525
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"WFP",
+            "program_name":"PRRO 200583",
+            "award_date":"1/1/14",
+            "expiration_date":"12/30/16",
+            "fy14_contrib":"23,420,500",
+            "notes":"",
+            "implementer":"WFP",
+            "city":"Zinder"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               8.988332999999999,
+               13.805278
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"WAS",
+            "country":"Niger",
+            "partner":"WFP",
+            "program_name":"PRRO 200583",
+            "award_date":"1/1/14",
+            "expiration_date":"12/30/16",
+            "fy14_contrib":"23,420,500",
+            "notes":"",
+            "implementer":"WFP",
+            "city":"Zinder"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               8.988332999999999,
+               13.805278
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "type":"Emergency",
+            "region":"WAS",
+            "country":"Senegal",
+            "partner":"WFP",
+            "program_name":"PRRO 200138 turning into 200681",
+            "award_date":"6/1/14",
+            "expiration_date":"12/30/16",
+            "fy14_contrib":"$1,896,200 ",
+            "notes":"",
+            "implementer":"WFP",
+            "city":"Zinder"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -14.452362,
+               14.497401
+            ]
+         }
+      }
+   ]
+}

@@ -1,4 +1,11 @@
-grp-map
-=======
+Rockefeller Resilient
+=====================
 
-Projects map for the Global Resilience Partnership
+To setup:
+
+    $: npm install
+    $: bower install
+
+To Run:
+
+    $: grunt serve

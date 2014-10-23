@@ -6,7 +6,7 @@ GPR.Models = GPR.Models || {};
     'use strict';
 
     GPR.Models.Location = Backbone.Model.extend({
-        urlRoot: '/data/locations.geojson',
+        urlRoot: '/grp-map/data/locations.geojson',
 
         marker: {
             radius: 10,

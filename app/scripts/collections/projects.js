@@ -7,7 +7,7 @@ GPR.Collections = GPR.Collections || {};
 
     GPR.Collections.Projects = Backbone.Collection.extend({
         // model: GPR.Models.Project,
-        url: '/data/projects.json',
+        url: '/grp-map/data/projects.json',
 
         initialize: function() {
             var that = this;

@@ -6,7 +6,7 @@ GPR.Collections = GPR.Collections || {};
     'use strict';
 
     GPR.Collections.Countries = Backbone.Collection.extend({
-        url: '/data/country_level_list.geojson',
+        url: '/grp-map/data/country_level_list.geojson',
 
         marker: {
             radius: 15,

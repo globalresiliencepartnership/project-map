@@ -1,11 +1,12 @@
 {
-  "name": "rockefeller",
-  "version": "0.0.0",
-  "homepage": "https://github.com/developmentseed/rockefeller-gpr",
+  "name": "grp-map",
+  "version": "1.0.0",
+  "homepage": "https://github.com/developmentseed/grp-map",
   "authors": [
-    "Scisco <alireza@developmentseed.org>"
+    "Development Seed"
   ],
-  "description": "Global Resilience Map",
+  "description": "Global Resilience Project Map",
+  "main": "index.html",
   "moduleType": [
     "globals"
   ],
@@ -15,15 +16,11 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "app/bower_components",
     "test",
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.1.1",
-    "underscore": "~1.6.0",
-    "backbone": "~1.1.0",
-    "modernizr": "~2.7.1",
-    "topojson": "~1.6.15"
+    "backbone": "~1.1.2",
+    "jquery": "~2.1.3",
   }
 }

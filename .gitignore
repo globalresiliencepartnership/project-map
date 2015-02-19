@@ -1,5 +1,20 @@
-.tmp
-bower_components
+# System files
+.project
+.DS_Store
+.sass-cache
 node_modules
+source_assets/bower_components
+
+# Compiled Files
+app/assets/scripts/*
+app/assets/styles/*
+app/assets/templates/*
+!app/assets/**/.gitkeep
+
+# Local
+.resources
+
+.tmp
 *.pyc
 dist
+

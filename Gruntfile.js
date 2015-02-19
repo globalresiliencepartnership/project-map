@@ -62,6 +62,7 @@ module.exports = function(grunt) {
             'source_assets/bower_components/requirejs/require.js',
             'source_assets/bower_components/jquery/dist/jquery.min.js',
             'source_assets/bower_components/underscore/underscore-min.js',
+            'source_assets/bower_components/async/lib/async.js',
             'source_assets/bower_components/backbone/backbone.js',
           ]
         },
@@ -69,7 +70,7 @@ module.exports = function(grunt) {
       main: {
         files: {
           './app/assets/scripts/main.min.js': [
-            'source_assets/scripts/**.js',
+            'source_assets/scripts/**/*.js',
           ]
         }
       }
@@ -94,14 +95,14 @@ module.exports = function(grunt) {
     // https://npmjs.org/package/grunt-contrib-watch
     watch : {
       css: {
-        files: ['source_assets/styles/**.scss'],
+        files: ['source_assets/styles/**/*.scss'],
         tasks: ['css'],
         options: {
           livereload: true,
         },
       },
       js: {
-        files: ['source_assets/scripts/**.js'],
+        files: ['source_assets/scripts/**/*.js'],
         tasks: ['js'],
         options: {
           livereload: true,

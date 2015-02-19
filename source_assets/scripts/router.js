@@ -10,7 +10,7 @@ Grp.Routers = Grp.Routers || {};
     },
 
     start : function() {
-      console.log('Hello');
+      Grp.View = new Grp.Views.Map();
     }
 
   });

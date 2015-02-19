@@ -1,1 +1,12 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+@import "compass";
+
+// Normalize and reset default browser styles
+@import "normalize";
+@import "normalize-opentype";
+@import "reset";
+
+@import "settings";
+
 @import "base";

@@ -75,7 +75,7 @@ module.exports = function(grunt) {
         }
       }
     },
-
+/*
     // https://github.com/gruntjs/grunt-contrib-copy
     copy: {
       templates: {
@@ -84,11 +84,25 @@ module.exports = function(grunt) {
         ]
       }
     },
+*/
+    // https://github.com/gruntjs/grunt-contrib-jst
+    jst: {
+      compile: {
+        options: {
+          processName: function(filepath) {
+            return filepath.replace('source_assets/scripts/templates/', '');
+          }
+        },
+        files: {
+          "app/assets/scripts/templates.js": ["source_assets/scripts/templates/**/*.ejs"]
+        }
+      }
+    },
 
     // https://github.com/joeytrapp/grunt-focus
     focus: {
       main: {
-        include: ['css', 'js']
+        include: ['css', 'js', 'templates']
       }
     },
 
@@ -109,7 +123,7 @@ module.exports = function(grunt) {
         },
       },
       templates: {
-        files: ['source_assets/scripts/templates/**.html', 'app/*.html'],
+        files: ['source_assets/scripts/templates/**/*.ejs', 'app/*.html'],
         tasks: ['templates'],
         options: {
           livereload: true,
@@ -155,13 +169,14 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-focus');
+  grunt.loadNpmTasks('grunt-contrib-jst');
 
   /////////////////////////////////////
   // Register tasks.
 
   grunt.registerTask('css', ['compass:dev']);
   grunt.registerTask('js', ['jshint:dev', 'uglify:main']);
-  grunt.registerTask('templates', ['copy:templates']);
+  grunt.registerTask('templates', ['jst']);
   // Aggregate tasks.
   grunt.registerTask('build', ['css', 'uglify:deps', 'js', 'templates']);
   grunt.registerTask('serve', ['connect:server']);

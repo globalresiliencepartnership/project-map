@@ -39,7 +39,7 @@ Grp.Views = Grp.Views || {};
         .bind('nav:prev', this.sidebarNavPrevBtnClick, this)
         .bind('nav:next', this.sidebarNavNextBtnClick, this);
 
-      this.map = L.mapbox.map('map', 'examples.map-i86nkdio', { zoomControl: false });
+      this.map = L.mapbox.map('map', 'devseed.la1fieg0', { maxZoom: 10, zoomControl: false });
                                                                                     window.map = this.map;
       // Create new cluster.
       this.markerCluster = new L.MarkerClusterGroup({
@@ -65,6 +65,9 @@ Grp.Views = Grp.Views || {};
     ///  
 
     sidebarNavUpBtnClick: function() {
+    
+      $('nav').hide();
+      
       this.resetMarkers();
     },
 
@@ -133,6 +136,8 @@ Grp.Views = Grp.Views || {};
         // Click event for the markers.
         // On click, only show markers of this project.
         markers.on('click', function(e) {
+        
+          $('nav').show();
                                                                                   console.log('click');
           var props = e.layer.feature.properties;
           var pid = props.pid;

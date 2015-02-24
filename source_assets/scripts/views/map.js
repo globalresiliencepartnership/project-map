@@ -50,7 +50,7 @@ Grp.Views = Grp.Views || {};
 
       this.sidebarView = new Grp.Views.Sidebar();
 
-      this.map = L.mapbox.map('map', 'examples.map-i86nkdio', { zoomControl: false });
+      this.map = L.mapbox.map('map', 'devseed.la1fieg0', { maxZoom: 10, zoomControl: false });
                                                                                     window.map = this.map;
       // Create new cluster.
       this.markerClusterLayer = new L.MarkerClusterGroup({

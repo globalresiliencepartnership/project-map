@@ -3,8 +3,11 @@ html, body {
   height: 100%;
   font-size: 100%;
   line-height: 1.5;
+  background: #000;
 }
-
+a {
+  text-decoration: none;
+}
 
 
 
@@ -16,6 +19,11 @@ html, body {
   bottom: 0;
   z-index: 1;
   width: 100%;
+  background: #000;
+}
+
+.leaflet-tile-pane {
+  opacity: 0.6;
 }
 
 .marker {
@@ -61,11 +69,11 @@ html, body {
   z-index: 100;
   width: 20%;
   min-width: 20rem;
-  background-color: rgba(255, 255, 255, 0.2);
   padding: 1.5rem;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   margin-left: -23rem;
   color: #FFF;
+  
 
   &.revealed {
     transition: margin-left 0.3s ease 0s;
@@ -75,6 +83,8 @@ html, body {
   .title {
     font-weight: normal;
     line-height: 1.2;
+    max-height: 190px;
+    overflow: hidden;
   }
   .subtitle {
     text-transform: uppercase;
@@ -98,6 +108,46 @@ html, body {
 
     .budget + dd {
       font-size: 1rem;
+    }
+  }
+}
+
+#sidebar nav {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  display: none;
+
+  &.revealed {
+    display: block;
+  }
+
+  ul {
+    list-style-type: none;
+    width: 100%;
+    @extend .clearfix;
+
+    li {
+      float: left;
+      margin-right: 0.5rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    a {
+      display: block;
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.25rem;
+      font-weight: bold;
+      line-height: 2.5rem;
+      text-align: center;
+
+      color: #333;
+      background: #FFF;
+      border-radius: $global-rounded;
     }
   }
 }

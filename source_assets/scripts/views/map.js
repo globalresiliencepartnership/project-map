@@ -21,6 +21,8 @@ Grp.Views = Grp.Views || {};
     markerCluster: null,
     filteredMarkers: null,
 
+    tooltipTemplate: JST['map-tooltip.ejs'],
+
     initialize: function() {
       var _self = this;
       this.processApiData(function(err, geojson) {
@@ -53,6 +55,20 @@ Grp.Views = Grp.Views || {};
         }
       });
 
+      $('#map').on('click', '.view-more', function(e) {
+        e.preventDefault();
+
+        var pid = $(this).data('pid').toString();
+                                                                                  console.log('PID', pid);
+        _self.currentProj = _.findWhere(_self.projects, {pid: pid});
+        _self.filterByPid(pid);
+
+        // Sidebar.
+                                                                                  console.log('Clicked marker props', _self.currentProj);
+        _self.sidebar.setData(_self.currentProj).render();
+
+      });
+
       // Add the processed geoJson layer to the marker cluster.
       this.filteredMarkers = this.getFilteredMarkers(null);
       this.markerCluster.addLayer(this.filteredMarkers);
@@ -68,7 +84,7 @@ Grp.Views = Grp.Views || {};
       this.resetMarkers();
     },
 
-    sidebarNavPrevBtnClick: function() {
+    sidebarNavNextBtnClick: function() {
                                                                                     console.log('projectIds', this.projectIds);
       var cIndex = _.indexOf(this.projectIds, this.currentProj.pid);
                                                                                     console.log('currentPid', this.projectIds);
@@ -77,19 +93,21 @@ Grp.Views = Grp.Views || {};
                                                                                     console.log('currentPid', nextPid);
       // Find the project with the next PID.
       this.currentProj = _.findWhere(this.projects, {pid: nextPid});
+                                                                                    console.log('currentProj', this.currentProj);
       this.filterByPid(this.currentProj.pid);
       this.sidebar.setData(this.currentProj).render();
     },
 
-    sidebarNavNextBtnClick: function() {
+    sidebarNavPrevBtnClick: function() {
                                                                                     console.log('projectIds', this.projectIds);
       var cIndex = _.indexOf(this.projectIds, this.currentProj.pid);
                                                                                     console.log('currentPid', this.projectIds);
       var nIndex = cIndex - 1;
-      var prevPid = nIndex <0 ? this.projectIds[this.projectIds.length - 1] : this.projectIds[nIndex];
+      var prevPid = nIndex < 0 ? this.projectIds[this.projectIds.length - 1] : this.projectIds[nIndex];
                                                                                     console.log('currentPid', prevPid);
       // Find the project with the next PID.
       this.currentProj = _.findWhere(this.projects, {pid: prevPid});
+                                                                                    console.log('currentProj', this.currentProj);
       this.filterByPid(this.currentProj.pid);
       this.sidebar.setData(this.currentProj).render();
     },
@@ -129,27 +147,10 @@ Grp.Views = Grp.Views || {};
           return layer.properties.pid == pid;
         });
       }
-      else {
-        // Click event for the markers.
-        // On click, only show markers of this project.
-        markers.on('click', function(e) {
-                                                                                  console.log('click');
-          var props = e.layer.feature.properties;
-          var pid = props.pid;
-
-          _self.currentProj = props;
-
-          // When filtering we don't show marker clusters.
-          // Instead show individual markers.
-          _self.filterByPid(pid);
-
-          // Sidebar.
-                                                                                    console.log('Clicked marker props', props);
-          _self.sidebar.setData(props).render();
-        });
-      }
 
       markers.eachLayer(function (layer) {
+        var props = layer.feature.properties;
+
         var marker_icon = L.divIcon({
           className : 'marker single',
           iconSize: [],
@@ -157,8 +158,11 @@ Grp.Views = Grp.Views || {};
         });
         // Set the icon.
         layer.setIcon(marker_icon);
-      });
 
+        // Marker popup.
+        var popup = _self.tooltipTemplate(props);
+        layer.bindPopup(popup);
+      });
 
       return markers;
     },

@@ -9,6 +9,17 @@ Grp.Views = Grp.Views || {};
     el: '#map',
 
     mapGeojson: null,
+    projectIds: [],
+    projects: [],
+
+    sidebar: null,
+
+    currentProj: null,
+
+    // Map elements.
+    map: null,
+    markerCluster: null,
+    filteredMarkers: null,
 
     initialize: function() {
       var _self = this;
@@ -19,10 +30,19 @@ Grp.Views = Grp.Views || {};
     },
 
     render: function() {
-      var map = L.mapbox.map('map', 'examples.map-i86nkdio');
+      var _self = this;
 
+      this.sidebar = new Grp.Views.Sidebar();
+
+      this.sidebar
+        .on('nav:up', this.sidebarNavUpBtnClick, this)
+        .bind('nav:prev', this.sidebarNavPrevBtnClick, this)
+        .bind('nav:next', this.sidebarNavNextBtnClick, this);
+
+      this.map = L.mapbox.map('map', 'examples.map-i86nkdio', { zoomControl: false });
+                                                                                    window.map = this.map;
       // Create new cluster.
-      var clusterGroup = new L.MarkerClusterGroup({
+      this.markerCluster = new L.MarkerClusterGroup({
         showCoverageOnHover: false,
         iconCreateFunction: function(cluster) {
           return new L.DivIcon({
@@ -33,45 +53,114 @@ Grp.Views = Grp.Views || {};
         }
       });
 
-      // Create a markers layer from the processed geojson.
-      var markers = L.geoJson(this.mapGeojson, {
-        onEachFeature: function (feature, layer) {
-          setIcon(layer, 'marker single');
-        }
-      });
-
-      // Click event for the markers.
-      // On click, fade all markers not belonging to the given project.
-      markers.on('click', function(e) {
-        var pid = e.layer.feature.properties.pid;
-
-        markers.eachLayer(function(layer) {
-          if (layer.feature.properties.pid != pid) {
-            setIcon(layer, 'marker single faded');
-          }
-          else {
-            setIcon(layer, 'marker single');
-          }
-        });
-      });
-      
       // Add the processed geoJson layer to the marker cluster.
-      clusterGroup.addLayer(markers);
+      this.filteredMarkers = this.getFilteredMarkers(null);
+      this.markerCluster.addLayer(this.filteredMarkers);
       // Add clusters to the map.
-      map.addLayer(clusterGroup);
+      this.map.addLayer(this.markerCluster);
+    },
 
-      // Helper function to set the icon for the marker layer.
-      function setIcon(layer, classes) {
-        // Create a divIcon for the marker.
+    /////////////////////////////////////////////////
+    /// Event Listeners
+    ///  
+
+    sidebarNavUpBtnClick: function() {
+      this.resetMarkers();
+    },
+
+    sidebarNavPrevBtnClick: function() {
+                                                                                    console.log('projectIds', this.projectIds);
+      var cIndex = _.indexOf(this.projectIds, this.currentProj.pid);
+                                                                                    console.log('currentPid', this.projectIds);
+      var nIndex = cIndex + 1;
+      var nextPid = nIndex >= this.projectIds.length ? this.projectIds[0] : this.projectIds[nIndex];
+                                                                                    console.log('currentPid', nextPid);
+      // Find the project with the next PID.
+      this.currentProj = _.findWhere(this.projects, {pid: nextPid});
+      this.filterByPid(this.currentProj.pid);
+      this.sidebar.setData(this.currentProj).render();
+    },
+
+    sidebarNavNextBtnClick: function() {
+                                                                                    console.log('projectIds', this.projectIds);
+      var cIndex = _.indexOf(this.projectIds, this.currentProj.pid);
+                                                                                    console.log('currentPid', this.projectIds);
+      var nIndex = cIndex - 1;
+      var prevPid = nIndex <0 ? this.projectIds[this.projectIds.length - 1] : this.projectIds[nIndex];
+                                                                                    console.log('currentPid', prevPid);
+      // Find the project with the next PID.
+      this.currentProj = _.findWhere(this.projects, {pid: prevPid});
+      this.filterByPid(this.currentProj.pid);
+      this.sidebar.setData(this.currentProj).render();
+    },
+
+    /////////////////////////////////////////////////
+    /// Helpers
+    /// 
+    resetMarkers: function () {
+      // Remove individual markers from map.
+      this.map.removeLayer(this.filteredMarkers);
+      this.markerCluster.clearLayers();
+
+      // Add marker cluster back.
+      this.filteredMarkers = this.getFilteredMarkers(null);
+      this.markerCluster.addLayer(this.filteredMarkers);
+      this.map.addLayer(this.markerCluster);
+      this.map.fitBounds(this.filteredMarkers.getBounds());
+    },
+
+    filterByPid: function (pid) {
+      // Remove individual markers from map.
+      this.map.removeLayer(this.filteredMarkers);
+      this.map.removeLayer(this.markerCluster);
+
+      this.filteredMarkers = this.getFilteredMarkers(pid);
+      this.map.addLayer(this.filteredMarkers);
+      this.map.fitBounds(this.filteredMarkers.getBounds());
+    },
+
+    getFilteredMarkers: function (pid) {
+      var _self = this;
+      // Create a markers layer from the processed geojson.
+      var markers = L.mapbox.featureLayer().setGeoJSON(this.mapGeojson);
+
+      if (pid) {
+        markers.setFilter(function(layer) {
+          return layer.properties.pid == pid;
+        });
+      }
+      else {
+        // Click event for the markers.
+        // On click, only show markers of this project.
+        markers.on('click', function(e) {
+                                                                                  console.log('click');
+          var props = e.layer.feature.properties;
+          var pid = props.pid;
+
+          _self.currentProj = props;
+
+          // When filtering we don't show marker clusters.
+          // Instead show individual markers.
+          _self.filterByPid(pid);
+
+          // Sidebar.
+                                                                                    console.log('Clicked marker props', props);
+          _self.sidebar.setData(props).render();
+        });
+      }
+
+      markers.eachLayer(function (layer) {
         var marker_icon = L.divIcon({
-          className : classes,
+          className : 'marker single',
           iconSize: [],
           popupAnchor : [0, 0],
         });
         // Set the icon.
         layer.setIcon(marker_icon);
-      }
+      });
 
+
+      return markers;
     },
 
     processApiData: function(callback) {
@@ -118,7 +207,12 @@ Grp.Views = Grp.Views || {};
           features: []
         };
 
+        // Store a list of pids for the navigation.
+        _self.projectIds = _.pluck(projects, 'pid');
+        _self.projects = projects;
+
         locations.forEach(function(obj) {
+
           // Base feature structure. 
           var feature = {
             type: "Feature",

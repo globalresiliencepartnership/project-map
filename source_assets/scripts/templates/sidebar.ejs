@@ -1,0 +1,28 @@
+<small class="subtitle">Project</small>
+<h1 class="title"><%- project %></h1>
+
+<dl class="metadata">
+  <dt class="budget">Budget</dt>
+  <dd>$125,000,000 USD</dd>
+
+  <dt>Focus</dt>
+  <dd><%- focus %></dd>
+
+  <dt>Partners</dt>
+  <dd>
+    <ul>
+    <% _.each(partners, function(part) { %>
+      <li><%- part %></li>
+    <% }); %>
+    </ul>
+  </dd>
+
+  <dt>Locations</dt>
+  <dd>
+    <ul>
+      <li>Location</li>
+      <li>Location</li>
+      <li>Location</li>
+    </ul>
+  </dd>
+</dl>

@@ -50,3 +50,53 @@ html, body {
     background-color: #AAA;
   }
 }
+
+#sidebar {
+  transition: margin-left 0.3s ease 0s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  width: 20%;
+  min-width: 20rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1.5rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  margin-left: -23rem;
+  color: #FFF;
+
+  &.revealed {
+    transition: margin-left 0.3s ease 0s;
+    margin-left: 0rem;
+  }
+
+  .title {
+    font-weight: normal;
+    line-height: 1.2;
+  }
+  .subtitle {
+    text-transform: uppercase;
+  }
+
+  .metadata {
+    font-size: 0.825rem;
+    margin-top: 2rem;
+
+    dt {
+      text-transform: uppercase;
+    }
+    dd {
+      margin-bottom: 1rem;
+      font-size: 0.75rem;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .budget + dd {
+      font-size: 1rem;
+    }
+  }
+}

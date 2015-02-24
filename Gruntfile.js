@@ -12,7 +12,8 @@ module.exports = function(grunt) {
       // Default options.
       options : {
           sassDir : 'source_assets/styles',
-          cssDir : 'app/assets/styles'
+          cssDir : 'app/assets/styles',
+          raw : 'require "sass-css-importer";'
       },
 
       dev : {
@@ -59,11 +60,13 @@ module.exports = function(grunt) {
         },
         files: {
           './app/assets/scripts/deps.min.js': [
-            'source_assets/bower_components/requirejs/require.js',
             'source_assets/bower_components/jquery/dist/jquery.min.js',
             'source_assets/bower_components/underscore/underscore-min.js',
             'source_assets/bower_components/async/lib/async.js',
             'source_assets/bower_components/backbone/backbone.js',
+
+            'source_assets/bower_components/leaflet.markercluster/dist/leaflet.markercluster.js',
+            'source_assets/bower_components/turf/turf.min.js',
           ]
         },
       },

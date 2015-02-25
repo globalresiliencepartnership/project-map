@@ -56,7 +56,8 @@ module.exports = function(grunt) {
       deps: {
         options: {
           mangle: false,
-          sourceMap: false
+          sourceMap: false,
+          compress: false,
         },
         files: {
           './app/assets/scripts/deps.min.js': [

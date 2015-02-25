@@ -68,6 +68,7 @@ module.exports = function(grunt) {
 
             'source_assets/bower_components/leaflet.markercluster/dist/leaflet.markercluster.js',
             'source_assets/bower_components/turf/turf.min.js',
+            'source_assets/bower_components/parse/index.js',
           ]
         },
       },

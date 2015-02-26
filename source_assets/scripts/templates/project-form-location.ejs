@@ -1,0 +1,26 @@
+<fieldset class="location">
+  <a href="#" class="remove revealed" title="Remove this project location">Remove</a>
+  <div class="form-control">
+    <label for="location[country][]">Country:</label>
+    <select name="location[country][]" id="location[country][]">
+    <option value="--">Select country</option>
+      <% _.each(countries, function(v, k) { %>
+        <option value="<%- k %>"><%- v.name %></option>
+      <% }); %>
+    </select>
+  </div>
+
+  <div class="map"><!-- Map here --></div>
+
+  <div class="geolocation">
+    <div class="form-control">
+      <label for="location[long][]">Longitude:</label>
+      <input type="text" name="location[long][]" id="location[long][]">
+    </div>
+
+    <div class="form-control">
+      <label for="location[lat][]">Latitude:</label>
+      <input type="text" name="location[lat][]" id="location[lat][]">
+    </div>
+  </div>
+</fieldset>

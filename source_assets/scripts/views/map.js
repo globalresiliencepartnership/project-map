@@ -339,7 +339,7 @@ Grp.Views = Grp.Views || {};
 
       // All published projects.
       var ProjectQuery = new Parse.Query(Grp.Models.Project);
-      ProjectQuery.equalTo("published", '2');
+      ProjectQuery.equalTo("published", 1);
 
       // All the locations of the published projects.
       var LocationQuery = new Parse.Query(Grp.Models.Location);

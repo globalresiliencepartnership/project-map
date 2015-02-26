@@ -35,4 +35,14 @@
       display: block;
     }
   }
+
+  .map {
+    width: 350px;
+    height: 350px;
+    display: none;
+
+    &.revealed {
+      display: block;
+    }
+  }
 }

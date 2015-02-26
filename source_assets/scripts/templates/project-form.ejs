@@ -11,6 +11,7 @@
     <div class="form-control">
       <label for="type">Type:</label>
       <select name="type" id="type">
+        <option value="--">Select type</option>
         <option value="Private Sector">Private Sector</option>
         <option value="Other">Other</option>
         <option value="Academic Institution">Academic Institution</option>
@@ -26,12 +27,7 @@
       <label for="innovation">Innovation:</label>
       <input type="text" name="innovation" id="innovation">
     </div>
-    
-    <div class="form-control">
-      <label for="region">Region:</label>
-      <input type="text" name="region" id="region">
-    </div>
-    
+
     <div class="form-control">
       <label for="partnersint">International partners:</label>
       <textarea name="partnersint" id="partnersint"></textarea>
@@ -46,30 +42,6 @@
 
     <div id="proj-locations">
       <h2>Project locations <a href="#" class="add" title="Add new project location">+</a></h2>
-
-      <fieldset class="location">
-        <a href="#" class="remove" title="Remove this project location">Remove</a>
-        <div class="form-control">
-          <label for="location[country][]">Country:</label>
-          <select name="location[country][]" id="location[country][]">
-            <option value="c">Country</option>
-            <option value="c2">Country2</option>
-          </select>
-        </div>
-
-        <div class="geolocation">
-          <div class="form-control">
-            <label for="location[long][]">Longitude:</label>
-            <input type="text" name="location[long][]" id="location[long][]">
-          </div>
-
-          <div class="form-control">
-            <label for="location[lat][]">Latitude:</label>
-            <input type="text" name="location[lat][]" id="location[lat][]">
-          </div>
-        </div>
-      </fieldset>
-
     </div>
 
     <div class="form-control">

@@ -93,12 +93,12 @@ Grp.Views = Grp.Views || {};
 
         var pid = $(this).data('pid').toString();
                                                                                   console.log('PID', pid);
-        _self.currentProj = _.findWhere(_self.projects, {pid: pid});
+        _self.currentProj = _.findWhere(_self.projects, {id: pid});
         _self.filterByPid(pid);
 
         // Sidebar.
                                                                                   console.log('Clicked marker props', _self.currentProj);
-        _self.sidebarView.setData(_self.currentProj).render();
+        _self.sidebarView.setData(_self.currentProj.attributes).render();
 
       });
 
@@ -123,16 +123,16 @@ Grp.Views = Grp.Views || {};
      */
     sidebarNavNextBtnClick: function() {
                                                                                     console.log('projectIds', this.projectIds);
-      var cIndex = _.indexOf(this.projectIds, this.currentProj.pid);
+      var cIndex = _.indexOf(this.projectIds, this.currentProj.id);
                                                                                     console.log('currentPid', this.projectIds);
       var nIndex = cIndex + 1;
       var nextPid = nIndex >= this.projectIds.length ? this.projectIds[0] : this.projectIds[nIndex];
                                                                                     console.log('currentPid', nextPid);
       // Find the project with the next PID.
-      this.currentProj = _.findWhere(this.projects, {pid: nextPid});
+      this.currentProj = _.findWhere(this.projects, {id: nextPid});
                                                                                     console.log('currentProj', this.currentProj);
-      this.filterByPid(this.currentProj.pid);
-      this.sidebarView.setData(this.currentProj).render();
+      this.filterByPid(this.currentProj.id);
+      this.sidebarView.setData(this.currentProj.attributes).render();
     },
 
     /**
@@ -141,16 +141,16 @@ Grp.Views = Grp.Views || {};
      */
     sidebarNavPrevBtnClick: function() {
                                                                                     console.log('projectIds', this.projectIds);
-      var cIndex = _.indexOf(this.projectIds, this.currentProj.pid);
+      var cIndex = _.indexOf(this.projectIds, this.currentProj.id);
                                                                                     console.log('currentPid', this.projectIds);
       var nIndex = cIndex - 1;
       var prevPid = nIndex < 0 ? this.projectIds[this.projectIds.length - 1] : this.projectIds[nIndex];
                                                                                     console.log('currentPid', prevPid);
       // Find the project with the next PID.
-      this.currentProj = _.findWhere(this.projects, {pid: prevPid});
+      this.currentProj = _.findWhere(this.projects, {id: prevPid});
                                                                                     console.log('currentProj', this.currentProj);
-      this.filterByPid(this.currentProj.pid);
-      this.sidebarView.setData(this.currentProj).render();
+      this.filterByPid(this.currentProj.id);
+      this.sidebarView.setData(this.currentProj.attributes).render();
     },
 
     /////////////////////////////////////////////////
@@ -326,7 +326,7 @@ Grp.Views = Grp.Views || {};
     },
 
     /**
-     * Converts the data from the google spreadsheet to geojson.
+     * Process the data from the parse api creating a geojson.
      * 
      * @param  {Function} callback 
      *  Callback when process is complete. Called with two arguments (err, res) 
@@ -334,52 +334,48 @@ Grp.Views = Grp.Views || {};
     processApiData: function(callback) {
       var _self = this;
 
+      // All published projects.
+      var ProjectQuery = new Parse.Query(Grp.Models.Project);
+      ProjectQuery.equalTo("published", '2');
+
+      // All the locations of the published projects.
+      var LocationQuery = new Parse.Query(Grp.Models.Location);
+      LocationQuery.matchesQuery('project', ProjectQuery);
+      LocationQuery.include('project');
+
       async.parallel([
         function(cb){
-          $.get('https://spreadsheets.google.com/feeds/list/1a3dc9MtXMHbeY9KusCKFh8u6x6W0EzHvKyHUTsatZmg/1/public/values?alt=json')
-            .success(function(data) {
-              cb(null, _self.cleanSpreadsheetData(data));
-            })
-            .fail(function() {
-              cb('Fail to load projects from api.');
-            });
-        },
-        function(cb){
-          $.get('https://spreadsheets.google.com/feeds/list/1a3dc9MtXMHbeY9KusCKFh8u6x6W0EzHvKyHUTsatZmg/2/public/values?alt=json')
-            .success(function(data) {
-              cb(null, _self.cleanSpreadsheetData(data));
-            })
-            .fail(function() {
-              cb('Fail to load projects\' location from api.');
-            });
-        },
-        function(cb){
-          $.get('/country_centroids.json')
-            .success(function(data) {
-              cb(null, data);
-            })
-            .fail(function() {
-              cb('Fail to load country_centroids.');
-            });
+          LocationQuery.find({
+            success: function(locations) {
+              cb(null, locations);
+            },
+            error: function(error) {
+              cb(error.message);
+            },
+          });
         },
       ],
       function(err, res) {
         if (err) { throw new Error(err); }
 
-        var projects = res[0];
-        var locations = res[1];
-        var centroids = res[2];
+        var locations = res[0];
 
         var geojson = {
           type: "FeatureCollection",
           features: []
         };
 
-        // Store a list of pids for the navigation.
-        _self.projectIds = _.pluck(projects, 'pid');
-        _self.projects = projects;
+        console.log('locations', locations);
 
         locations.forEach(function(obj) {
+          var project = obj.get('project');
+
+          if (_self.projectIds.indexOf(project.id) == -1) {
+            // Store a list of all projects.
+            _self.projects.push(project);
+            // Store a list of pids for the navigation.
+            _self.projectIds.push(project.id);
+          }
 
           // Base feature structure. 
           var feature = {
@@ -389,60 +385,20 @@ Grp.Views = Grp.Views || {};
           };
 
           // The feature properties will be the related project.
-          feature.properties = _.findWhere(projects, {pid: obj.pid});
-          // Add the country as a property.
-          feature.properties.country = obj.country;
-          // If there are coordinates use them, otherwise use the country centroid.
-          feature.geometry.coordinates = obj.longitude && obj.latitude ? [obj.longitude, obj.latitude] : centroids[obj.countrycode].coordinates;
+          feature.properties = project.attributes;
+          feature.properties.pid = project.id;
+
+          var loc = obj.get('location');
+          feature.geometry.coordinates = [loc.longitude, loc.latitude];
 
           geojson.features.push(feature);
+
         });
 
         callback(null, geojson);
 
       });
-
-    },
-
-    // Transform this:
-    // "feed": {
-    //  "entry": [
-    //    {
-    //      "gsx$pid": {
-    //        "$t": "value"
-    //      }
-    //      ...
-    //    }
-    //    ...
-    //  ]
-    // }
-    // 
-    // Into this:
-    // [
-    //  {
-    //    "pid": "value",
-    //    "project": "value"
-    //    ...
-    //  }
-    // ]
-    // 
-    // It will only extract keys that start with gsx$
-    cleanSpreadsheetData: function(raw) {
-      var entries = raw.feed.entry;
-        var cleanEntries = [];
-        entries.forEach(function(obj) {
-          var clean = {};
-          for (var key in obj) {
-            var pieces = key.match(/^gsx\$(.+)/);
-            if (obj.hasOwnProperty(key) && pieces) {
-              clean[pieces[1]] = obj[key].$t;
-            }
-          }
-          cleanEntries.push(clean);
-        });
-
-        return cleanEntries;
-    },
+    }
 
   });
 

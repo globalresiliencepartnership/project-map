@@ -3,12 +3,16 @@ html, body {
   height: 100%;
   font-size: 100%;
   line-height: 1.5;
-  background: #000;
 }
 a {
   text-decoration: none;
 }
 
+#site-canvas {
+  #map {
+    background: #000;
+  }
+}
 
 
 #map {

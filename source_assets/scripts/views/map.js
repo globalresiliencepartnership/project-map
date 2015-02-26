@@ -6,7 +6,8 @@ Grp.Views = Grp.Views || {};
 
   Grp.Views.Map = Backbone.View.extend({
 
-    el: '#map',
+    el: '#site-canvas',
+    template: JST['map.ejs'],
 
     // GeoJSON created from the conversion of the spreadsheet data.
     // This should not be modified as we frequently need a reference.
@@ -47,6 +48,8 @@ Grp.Views = Grp.Views || {};
      */
     render: function() {
       var _self = this;
+
+      this.$el.html(this.template());
 
       this.sidebarView = new Grp.Views.Sidebar();
 

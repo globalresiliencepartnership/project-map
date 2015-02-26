@@ -1,0 +1,38 @@
+.form-control {
+  margin-bottom: 1rem;
+  @extend .clearfix;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+  .help-text {
+    margin: 0.5rem 0 0 0 ;
+    font-size: 0.75rem;
+  }
+  .error {
+    margin: 0.5rem 0 0 0 ;
+  }
+
+  label, input, textarea, select {
+    display: block;
+  }
+}
+
+#project-submission {
+  .geolocation {
+    @extend .clearfix;
+
+    .form-control {
+      float: left;
+      width: 50%;
+    }
+  }
+
+  .remove {
+    display: none;
+
+    &.revealed {
+      display: block;
+    }
+  }
+}

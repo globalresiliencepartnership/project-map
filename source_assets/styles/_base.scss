@@ -6,6 +6,10 @@ html, body {
 }
 a {
   text-decoration: none;
+  color: #009ede;
+}
+a:hover {
+  color: #46863C;
 }
 
 #site-canvas {
@@ -14,6 +18,10 @@ a {
   }
 }
 
+
+h2 {
+  margin-bottom: 20px;
+}
 
 #map {
   position: absolute;

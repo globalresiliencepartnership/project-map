@@ -34,17 +34,17 @@ Grp.Views = Grp.Views || {};
       console.log('sidebar data', this.data);
       this.$el.find('.content').html(this.template(this.data));
       this.$el.addClass('revealed');
-      this.$el.find('nav').addClass('revealed');
+      this.$el.find('.project-cntrl').addClass('revealed');
       return this;
     },
 
-    ///////////////////////////////////7
+    ///////////////////////////////////
     /// Event listeners
     
     navUpBtnClick: function(e) {
       e.preventDefault();
       this.$el.removeClass('revealed');
-      this.$el.find('nav').removeClass('revealed');
+      this.$el.find('.project-cntrl').removeClass('revealed');
       this.trigger('nav:up');
     },
 

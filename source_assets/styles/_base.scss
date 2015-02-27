@@ -85,7 +85,7 @@ h2 {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   margin-left: -23rem;
   color: #FFF;
-  
+  background: linear-gradient(to right, #000, transparent); /* Standard syntax (must be last) */
 
   &.revealed {
     transition: margin-left 0.3s ease 0s;
@@ -93,10 +93,9 @@ h2 {
   }
 
   .title {
-    font-weight: normal;
     line-height: 1.2;
-    max-height: 190px;
     overflow: hidden;
+    font-size: 1.5rem;
   }
   .subtitle {
     text-transform: uppercase;
@@ -126,12 +125,17 @@ h2 {
 
 #sidebar nav {
   position: fixed;
-  right: 2rem;
-  top: 2rem;
-  display: none;
+  right: 1.5rem;
+  top: 1.5rem;
 
-  &.revealed {
+ 
+  
+  .project-cntrl {
+    display: none;
+     
+     &.revealed {
     display: block;
+    }
   }
 
   ul {
@@ -156,10 +160,12 @@ h2 {
       font-weight: bold;
       line-height: 2.5rem;
       text-align: center;
-
       color: #333;
       background: #FFF;
       border-radius: $global-rounded;
+    }
+    a:hover {
+      opacity: 0.6;
     }
   }
 }

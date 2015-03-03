@@ -227,12 +227,13 @@ Grp.Views = Grp.Views || {};
 
       this.nearbyMarkersLayer = this.getNearbyMarkers(this.markerNearbyZone);
 
-                                                                                    // Add turf area to map.
-                                                                                    this.nearbyMarkersZoneLayer = L.mapbox.featureLayer().setGeoJSON(this.markerNearbyZone).addTo(_self.map);
+       // Add turf area to map.
+      this.nearbyMarkersZoneLayer = L.mapbox.featureLayer().setGeoJSON(this.markerNearbyZone);
+      
       this.map
         .addLayer(this.nearbyMarkersLayer)
         .addLayer(this.filteredMarkersLayer)
-        .fitBounds(this.filteredMarkersLayer.getBounds());
+        .fitBounds(this.filteredMarkersLayer.getBounds(), {'padding': [200, 200]});
 
       return this;
     },

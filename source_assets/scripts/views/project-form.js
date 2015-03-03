@@ -74,7 +74,8 @@ Grp.Views = Grp.Views || {};
           var $mapContainer = $loc.find('.map');
           $mapContainer.addClass('revealed');
           map = L.mapbox.map($mapContainer[0], 'examples.map-i86nkdio');
-
+		  map.scrollWheelZoom.disable(); 
+		  
           var marker = null
           // Map click event to get the coordinates.
           map.on('click', function(e) {

@@ -1,10 +1,13 @@
-.form-control {
+fieldset {
   margin-bottom: 1rem;
+  border: 0px;
+  
   @extend .clearfix;
 
   &:last-child {
     margin-bottom: 0;
   }
+  
   .help-text {
     margin: 0.5rem 0 0 0 ;
     font-size: 0.75rem;
@@ -13,23 +16,54 @@
     margin: 0.5rem 0 0 0 ;
   }
 
-  label, input, textarea, select {
+   label, input, textarea, select {
     display: block;
+  }
+  
+  label {
+    font-weight: bold;
   }
 }
 
+.form-control {  
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+}
+
 #project-submission {
-  .geolocation {
-    @extend .clearfix;
+  padding: 4rem;
+  color: #555;
+  background: #f9f9f9;
+  
+   .location {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background: #fff;
+   }
+	
 
-    .form-control {
-      float: left;
-      width: 50%;
-    }
+  .add {
+    font-size: 0.8rem;
+    text-align: center;
+    display: block;
+    margin: -15px 0 40px 0;
   }
-
+  
   .remove {
     display: none;
+    float: right;
+    font-size: 0.8rem;
 
     &.revealed {
       display: block;
@@ -37,7 +71,7 @@
   }
 
   .map {
-    width: 350px;
+    width: 100%;
     height: 350px;
     display: none;
 
@@ -45,4 +79,28 @@
       display: block;
     }
   }
+  
+}
+
+
+input, textarea, select, .uneditable-input {
+    max-width: 100%;
+    width: auto;
+}
+
+
+.btn {
+    border: 1px solid #009ede;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    background: #009ede;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding: 10px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
 }

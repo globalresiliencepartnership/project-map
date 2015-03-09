@@ -72,18 +72,26 @@ h2 {
   }
 }
 
+#grad {
+  position: fixed;
+  width: 20rem;
+  z-index: 90;
+  top: 0;
+  left: 0;  
+  height: 100%;
+  background: linear-gradient(to right, #000, transparent);
+}
+
 #sidebar {
   position: absolute;
-  top: 0;
   left: 0;
-  bottom: 0;
+  bottom: 4rem;
   z-index: 100;
   width: 15rem;
   padding: 1.5rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   margin-left: -23rem;
   color: #FFF;
-  background: linear-gradient(to right, #000, transparent);
 
   &.revealed {
     transition: margin-left 0.3s ease 0s;
@@ -96,6 +104,7 @@ h2 {
     min-width: 20rem;
   }
 
+	
   .title {
     line-height: 1.2;
     overflow: hidden;
@@ -129,8 +138,8 @@ h2 {
 
 #sidebar nav {
   position: fixed;
-  right: 1.5rem;
-  top: 1.5rem;
+  left: 1.5rem;
+  bottom: 1.5rem;
 
  
   

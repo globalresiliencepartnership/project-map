@@ -45,7 +45,7 @@ Grp.Views = Grp.Views || {};
       var _self = this;
       this.processApiData(function(err, geojson, tourItems) {
         _self.mapGeojson = geojson;
-        _self.tourItems = tourItems;
+        _self.tourItems = _.sortBy(tourItems, function(o) { return o.attributes.Weight; });
         _self.render();
       });
       
@@ -64,11 +64,13 @@ Grp.Views = Grp.Views || {};
       this.sidebarView = new Grp.Views.Sidebar();
       
       this.tourView = new Grp.Views.Tour();
+      
+      
       _self.tourView.setData(_self.tourItems[0].attributes).render();
       
       console.log(_self.tourItems);
 
-      this.map = L.mapbox.map('map', 'devseed.la1fieg0', { maxZoom: 10, zoomControl: false });
+      this.map = L.mapbox.map('map', 'devseed.la1fieg0', { maxZoom: 20, zoomControl: false });
                                                                                     window.map = this.map;
       // Create new cluster.
       this.markerClusterLayer = new L.MarkerClusterGroup({
@@ -81,6 +83,11 @@ Grp.Views = Grp.Views || {};
           });
         }
       });
+      
+      
+      var location = this.tourItems[0].attributes.location;
+      var zoom = this.tourItems[0].attributes.zoom;
+      this.map.setView([location.latitude, location.longitude], zoom);
 
       // Add the processed geoJson layer to the marker cluster.
       this.filteredMarkersLayer = this.getFilteredMarkers(null);

@@ -65,7 +65,6 @@ module.exports = function(grunt) {
             'source_assets/bower_components/underscore/underscore-min.js',
             'source_assets/bower_components/async/lib/async.js',
             'source_assets/bower_components/backbone/backbone.js',
-
             'source_assets/bower_components/leaflet.markercluster/dist/leaflet.markercluster.js',
             'source_assets/bower_components/turf/turf.min.js',
             'source_assets/bower_components/parse/index.js',
@@ -80,16 +79,16 @@ module.exports = function(grunt) {
         }
       }
     },
-/*
+
     // https://github.com/gruntjs/grunt-contrib-copy
     copy: {
-      templates: {
-        files: [
-          {expand: true, cwd: 'source_assets/scripts/templates/', src: '*', dest: 'app/assets/templates/'}
-        ]
-      }
+        main: {
+          expand: true,
+          flatten: true,
+          src: 'source_assets/styles/images/*', 
+          dest: 'app/assets/styles/images/'
+        },
     },
-*/
     // https://github.com/gruntjs/grunt-contrib-jst
     jst: {
       compile: {
@@ -183,7 +182,7 @@ module.exports = function(grunt) {
   grunt.registerTask('js', ['jshint:dev', 'uglify:main']);
   grunt.registerTask('templates', ['jst']);
   // Aggregate tasks.
-  grunt.registerTask('build', ['css', 'uglify:deps', 'js', 'templates']);
+  grunt.registerTask('build', ['css', 'uglify:deps', 'js', 'copy', 'templates']);
   grunt.registerTask('serve', ['connect:server']);
   // Default task with watch.
   grunt.registerTask('default', ['build', 'connect:livereload', 'focus:main']);

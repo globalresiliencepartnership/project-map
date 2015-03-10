@@ -38,6 +38,20 @@ h2 {
   opacity: 0.6;
 }
 
+
+#logo {
+  width: 150px;
+  height: 100px;
+  background: url("images/grp-logo.png") no-repeat;
+  display: block;
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 100;
+  background-size: contain;
+  text-indent: -9999px;
+}
+
 .marker {
   &.cluster {
     width: 2rem;

@@ -100,7 +100,7 @@ Grp.Views = Grp.Views || {};
 	  
       this.clickTimer = window.setInterval(function(){
         $('#tour-next').trigger('click');
-	  }, 10000);
+	  }, 15000);
 
       // Add the processed geoJson layer to the marker cluster.
       this.filteredMarkersLayer = this.getFilteredMarkers(null);

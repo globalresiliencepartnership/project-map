@@ -30,6 +30,8 @@ Grp.Views = Grp.Views || {};
 
     // Project being displayed.
     currentProj: null,
+    
+    timer: null,
 
     // Map elements.
     map: null,
@@ -71,7 +73,7 @@ Grp.Views = Grp.Views || {};
       console.log(_self.tourItems);
 
       this.map = L.mapbox.map('map', 'devseed.la1fieg0', { maxZoom: 20, zoomControl: false });
-                                                                                    window.map = this.map;
+                                                                                    window.map = this.map                                                                                                                                                            
       // Create new cluster.
       this.markerClusterLayer = new L.MarkerClusterGroup({
         showCoverageOnHover: false,
@@ -88,6 +90,11 @@ Grp.Views = Grp.Views || {};
       var location = this.tourItems[0].attributes.location;
       var zoom = this.tourItems[0].attributes.zoom;
       this.map.setView([location.latitude, location.longitude], zoom);
+      
+      this.timer = window.setInterval(function(){
+        location.longitude = location.longitude + 0.001;
+		this.map.setView([location.latitude, location.longitude], zoom)
+	  }, 20);
 
       // Add the processed geoJson layer to the marker cluster.
       this.filteredMarkersLayer = this.getFilteredMarkers(null);
@@ -198,6 +205,8 @@ Grp.Views = Grp.Views || {};
       var tourLength = this.tourItems.length;
       console.log(this.currentTourItem);
       
+      clearInterval(this.timer);
+      
       if (this.currentTourItem == -1) {
         this.currentTourItem = tourLength -1;
       } 
@@ -221,6 +230,8 @@ Grp.Views = Grp.Views || {};
       if (this.currentTourItem >= tourLength) {
         this.currentTourItem = 0;
       } 
+      
+     clearInterval(this.timer);
       
       var location = this.tourItems[this.currentTourItem].attributes.location;
       var zoom = this.tourItems[this.currentTourItem].attributes.zoom;

@@ -31,8 +31,6 @@ Grp.Views = Grp.Views || {};
     // Project being displayed.
     currentProj: null,
     
-    scrollTimer: null,
-    
     clickTimer: null,
 
     // Map elements.
@@ -92,11 +90,6 @@ Grp.Views = Grp.Views || {};
       var location = this.tourItems[0].attributes.location;
       var zoom = this.tourItems[0].attributes.zoom;
       this.map.setView([location.latitude, location.longitude], zoom);
-      
-      this.scrollTimer = window.setInterval(function(){
-        location.longitude = location.longitude + 0.001;
-		this.map.setView([location.latitude, location.longitude], zoom)
-	  }, 20);
 	  
       this.clickTimer = window.setInterval(function(){
         $('#tour-next').trigger('click');
@@ -216,7 +209,7 @@ Grp.Views = Grp.Views || {};
       var tourLength = this.tourItems.length;
       console.log(this.currentTourItem);
       
-      clearInterval(this.scrollTimer);
+      clearInterval(this.clickTimer);
       
       if (this.currentTourItem == -1) {
         this.currentTourItem = tourLength -1;
@@ -242,7 +235,7 @@ Grp.Views = Grp.Views || {};
         this.currentTourItem = 0;
       } 
       
-     clearInterval(this.scrollTimer);
+     clearInterval(this.clickTimer);
       
       var location = this.tourItems[this.currentTourItem].attributes.location;
       var zoom = this.tourItems[this.currentTourItem].attributes.zoom;

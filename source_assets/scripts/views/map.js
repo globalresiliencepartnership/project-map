@@ -130,7 +130,7 @@ Grp.Views = Grp.Views || {};
         .bind('tour:next', this.tourNavNextBtnClick, this)
         .bind('tour:prev', this.tourNavPrevBtnClick, this);
         
-      $('html').on('click', function() {
+      $('#map').on('click', function() {
         clearInterval(_self.clickTimer);
         clearInterval(_self.scrollTimer);
       });

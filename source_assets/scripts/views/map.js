@@ -31,7 +31,9 @@ Grp.Views = Grp.Views || {};
     // Project being displayed.
     currentProj: null,
     
-    timer: null,
+    scrollTimer: null,
+    
+    clickTimer: null,
 
     // Map elements.
     map: null,
@@ -91,10 +93,14 @@ Grp.Views = Grp.Views || {};
       var zoom = this.tourItems[0].attributes.zoom;
       this.map.setView([location.latitude, location.longitude], zoom);
       
-      this.timer = window.setInterval(function(){
+      this.scrollTimer = window.setInterval(function(){
         location.longitude = location.longitude + 0.001;
 		this.map.setView([location.latitude, location.longitude], zoom)
 	  }, 20);
+	  
+      this.clickTimer = window.setInterval(function(){
+        $('#tour-next').trigger('click');
+	  }, 10000);
 
       // Add the processed geoJson layer to the marker cluster.
       this.filteredMarkersLayer = this.getFilteredMarkers(null);
@@ -123,6 +129,11 @@ Grp.Views = Grp.Views || {};
       this.tourView
         .bind('tour:next', this.tourNavNextBtnClick, this)
         .bind('tour:prev', this.tourNavPrevBtnClick, this);
+        
+      $('html').on('click', function() {
+        clearInterval(_self.clickTimer);
+        clearInterval(_self.scrollTimer);
+      });
 
       $('#map').on('click', '.view-more', function(e) {
         e.preventDefault();
@@ -205,7 +216,7 @@ Grp.Views = Grp.Views || {};
       var tourLength = this.tourItems.length;
       console.log(this.currentTourItem);
       
-      clearInterval(this.timer);
+      clearInterval(this.scrollTimer);
       
       if (this.currentTourItem == -1) {
         this.currentTourItem = tourLength -1;
@@ -231,7 +242,7 @@ Grp.Views = Grp.Views || {};
         this.currentTourItem = 0;
       } 
       
-     clearInterval(this.timer);
+     clearInterval(this.scrollTimer);
       
       var location = this.tourItems[this.currentTourItem].attributes.location;
       var zoom = this.tourItems[this.currentTourItem].attributes.zoom;

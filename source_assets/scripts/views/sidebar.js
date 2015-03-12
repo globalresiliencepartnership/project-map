@@ -14,6 +14,7 @@ Grp.Views = Grp.Views || {};
       'click #nav-up' : 'navUpBtnClick',
       'click #nav-prev' : 'navPrevBtnClick',
       'click #nav-next' : 'navNextBtnClick',
+      'click #nav-about' : 'navAboutBtnClick'
     },
 
     data: null,
@@ -55,6 +56,11 @@ Grp.Views = Grp.Views || {};
     navNextBtnClick: function(e) {
       e.preventDefault();
       this.trigger('nav:next');
+    },
+    
+    navAboutBtnClick: function(e) {
+      e.preventDefault();
+      this.trigger('nav:about');
     },
 
   });

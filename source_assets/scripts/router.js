@@ -11,10 +11,14 @@ Grp.Routers = Grp.Routers || {};
     },
 
     start : function() {
+      $("#site-canvas").unbind();
       Grp.View = new Grp.Views.Map();
+      
     },
 
     addProject : function() {
+    
+      $("#site-canvas").unbind();
       console.log('dhb');
       Grp.View = new Grp.Views.ProjectForm();
     }

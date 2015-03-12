@@ -72,7 +72,7 @@ Grp.Views = Grp.Views || {};
       
       console.log(_self.tourItems);
 
-      this.map = L.mapbox.map('map', 'devseed.la1fieg0', { maxZoom: 20, zoomControl: false });
+      this.map = L.mapbox.map('map', 'devseed.la1fieg0', { maxZoom: 15, zoomControl: false });
                                                                                     window.map = this.map                                                                                                                                                            
       // Create new cluster.
       this.markerClusterLayer = new L.MarkerClusterGroup({
@@ -90,10 +90,6 @@ Grp.Views = Grp.Views || {};
       var location = this.tourItems[0].attributes.location;
       var zoom = this.tourItems[0].attributes.zoom;
       this.map.setView([location.latitude, location.longitude], zoom);
-	  
-      this.clickTimer = window.setInterval(function(){
-        $('#tour-next').trigger('click');
-	  }, 15000);
 
       // Add the processed geoJson layer to the marker cluster.
       this.filteredMarkersLayer = this.getFilteredMarkers(null);
@@ -117,15 +113,15 @@ Grp.Views = Grp.Views || {};
       this.sidebarView
         .bind('nav:up', this.sidebarNavUpBtnClick, this)
         .bind('nav:prev', this.sidebarNavPrevBtnClick, this)
-        .bind('nav:next', this.sidebarNavNextBtnClick, this);
+        .bind('nav:next', this.sidebarNavNextBtnClick, this)
+        .bind('nav:about', this.sidebarNavAboutBtnClick, this);
         
       this.tourView
         .bind('tour:next', this.tourNavNextBtnClick, this)
         .bind('tour:prev', this.tourNavPrevBtnClick, this);
         
-      $('#map').on('click', function() {
-        clearInterval(_self.clickTimer);
-        clearInterval(_self.scrollTimer);
+      $(document).on('click', '#close-about', function(e) {
+        $('#about').removeClass('revealed');
       });
 
       $('#map').on('click', '.view-more', function(e) {
@@ -209,8 +205,6 @@ Grp.Views = Grp.Views || {};
       var tourLength = this.tourItems.length;
       console.log(this.currentTourItem);
       
-      clearInterval(this.clickTimer);
-      
       if (this.currentTourItem == -1) {
         this.currentTourItem = tourLength -1;
       } 
@@ -235,8 +229,6 @@ Grp.Views = Grp.Views || {};
         this.currentTourItem = 0;
       } 
       
-     clearInterval(this.clickTimer);
-      
       var location = this.tourItems[this.currentTourItem].attributes.location;
       var zoom = this.tourItems[this.currentTourItem].attributes.zoom;
       this.map.setView([location.latitude, location.longitude], zoom);
@@ -245,6 +237,17 @@ Grp.Views = Grp.Views || {};
 
     },
 
+    /**
+     * Event listener for 'nav:about'.
+     * This event is triggered from the sidebar view.
+     */
+    sidebarNavAboutBtnClick: function() {
+          
+      $('#about').addClass('revealed');
+
+    },
+    
+    
     /////////////////////////////////////////////////
     /// Helpers
     /// 

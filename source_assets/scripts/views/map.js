@@ -76,9 +76,8 @@ Grp.Views = Grp.Views || {};
       console.log(_self.tourItems);
 
       this.map = L.mapbox.map('map', 'devseed.la1fieg0', { maxZoom: 12, minZoom: 2, zoomControl: false }).on('ready', function() {
-    
+       new L.Control.Zoom({ position: 'topright' }).addTo(_self.map);
        new L.Control.MiniMap(L.mapbox.tileLayer('devseed.la1fieg0'), {zoomLevelFixed: 2, aimingRectOptions: {color: '#26C9FF', weight: 3, fill: false}}).addTo(_self.map);
-       
        });
        
        window.map = this.map;
@@ -172,6 +171,12 @@ Grp.Views = Grp.Views || {};
       this.tourView
         .bind('tour:next', this.tourNavNextBtnClick, this)
         .bind('tour:prev', this.tourNavPrevBtnClick, this);
+        
+        
+      this.map.on('zoomend', function() {
+  		var currentZoom = map.getZoom();
+ 		 $('body').attr('id', 'zoom-' + currentZoom);
+	});  
         
       $(document).on('click', '#close-about', function(e) {
         $('#about').removeClass('revealed');

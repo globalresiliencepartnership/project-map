@@ -79,6 +79,20 @@ h2 {
   z-index: 100;
   background-size: contain;
   text-indent: -9999px;
+  outline: none;
+}
+
+#zoom-6 .marker,
+#zoom-7 .marker,
+#zoom-8 .marker,
+#zoom-9 .marker,
+#zoom-10 .marker,
+#zoom-11 .marker,
+#zoom-12 .marker {
+  &.single {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
 }
 
 .marker {
@@ -390,5 +404,17 @@ h2 {
     overflow-y: scroll;
  }
 
+.ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default {
+   background: #009ede;
+   color: #fff;
+   border: none;
+   border-radius: 10rem;
+   outline: none;
+}
 
-
+.leaflet-control-zoom {
+ margin-top: 20px !important;
+ margin-right: 20px !important;
+}

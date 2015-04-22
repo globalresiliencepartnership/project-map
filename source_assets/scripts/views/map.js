@@ -186,6 +186,16 @@ Grp.Views = Grp.Views || {};
       });
       */
       
+      $(document).on('click', '#logo', function(e) {
+      
+        e.preventDefault();
+        
+        $('#search-box').val('');
+         _self.sidebarNavSearchQuery();
+         _self.map.setView([0,0], 2);
+        
+      });
+      
       $('#select-facet-filter').selectmenu({
         change: function( event, data ) {
           if (data.item.value === 'City') {

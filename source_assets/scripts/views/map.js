@@ -36,6 +36,7 @@ Grp.Views = Grp.Views || {};
     // Map elements.
     map: null,
     markerClusterLayer: null,
+    markerAggregateLayer: null,
     filteredMarkersLayer: null,
     // Area to use for checking nearby markers. From turf.buffer()
     markerNearbyZone: null,
@@ -67,14 +68,24 @@ Grp.Views = Grp.Views || {};
       
       this.tourView = new Grp.Views.Tour();
       
+      $('#more-info').popover({trigger: 'hover'});
+      
       
       _self.tourView.setData(_self.tourItems[0].attributes).render();
       
       console.log(_self.tourItems);
 
-      this.map = L.mapbox.map('map', 'devseed.la1fieg0', { maxZoom: 15, zoomControl: false });
-                                                                                    window.map = this.map                                                                                                                                                            
+      this.map = L.mapbox.map('map', 'devseed.la1fieg0', { maxZoom: 12, minZoom: 2, zoomControl: false }).on('ready', function() {
+    
+       new L.Control.MiniMap(L.mapbox.tileLayer('devseed.la1fieg0'), {zoomLevelFixed: 2, aimingRectOptions: {color: '#26C9FF', weight: 3, fill: false}}).addTo(_self.map);
+       
+       });
+       
+       window.map = this.map;
+    
+                                                                                                                                                                 
       // Create new cluster.
+      /*
       this.markerClusterLayer = new L.MarkerClusterGroup({
         showCoverageOnHover: false,
         iconCreateFunction: function(cluster) {
@@ -85,7 +96,47 @@ Grp.Views = Grp.Views || {};
           });
         }
       });
+      */
       
+      this.markerClusterLayer = L.mapbox.featureLayer();
+      
+      this.markerAggregateLayer = L.mapbox.featureLayer();
+  
+    
+      console.log(_self.mapGeojson);
+      var projects = []
+      var cities = [];
+      var countries = [];
+      $.each(_self.mapGeojson.features, function(index, value) {
+        console.log(value.properties.region);
+         projects.push(value.properties.project.substring(0, 30));
+         cities.push(value.properties.city);
+         countries.push(value.properties.country);
+      });
+      
+      var filterCities = _.unique(cities);
+      $.each(filterCities, function(index, value) {
+         console.log(value);
+         $('#select-city-filter').append('<option value="' + value + '">' + value + '</option>');
+      });
+      
+      var filterCountries = _.unique(countries);
+      $.each(filterCountries, function(index, value) {
+         console.log(value);
+         $('#select-country-filter').append('<option value="' + value + '">' + value + '</option>');
+      });
+      
+      var filterProjects = _.unique(projects);
+      $.each(filterProjects, function(index, value) {
+         console.log(value);
+         $('#select-project-filter').append('<option value="' + value + '">' + value + '</option>');
+      });
+      
+      $("#select-facet-filter").selectmenu();
+      $("#select-city-filter").selectmenu();
+      $("#select-country-filter").selectmenu();
+      $("#select-project-filter").selectmenu();
+      $('#select-city-filter-button, #select-project-filter-button').hide();
       
       var location = this.tourItems[0].attributes.location;
       var zoom = this.tourItems[0].attributes.zoom;
@@ -93,10 +144,10 @@ Grp.Views = Grp.Views || {};
 
       // Add the processed geoJson layer to the marker cluster.
       this.filteredMarkersLayer = this.getFilteredMarkers(null);
-      this.markerClusterLayer.addLayer(this.filteredMarkersLayer);
+      this.markerClusterLayer.addLayer(this.filteredMarkersLayer)
       // Add clusters to the map.
       this.map.addLayer(this.markerClusterLayer);
-
+      //this.map.addLayer(this.markerAggregateLayer);
       this.addEventListeners();
 
       return this;
@@ -114,7 +165,9 @@ Grp.Views = Grp.Views || {};
         .bind('nav:up', this.sidebarNavUpBtnClick, this)
         .bind('nav:prev', this.sidebarNavPrevBtnClick, this)
         .bind('nav:next', this.sidebarNavNextBtnClick, this)
-        .bind('nav:about', this.sidebarNavAboutBtnClick, this);
+        .bind('nav:about', this.sidebarNavAboutBtnClick, this)
+        .bind('nav:search', this.sidebarNavSearchBtnClick, this)
+        .bind('nav:searchQuery', this.sidebarNavSearchQuery, this);
         
       this.tourView
         .bind('tour:next', this.tourNavNextBtnClick, this)
@@ -123,20 +176,70 @@ Grp.Views = Grp.Views || {};
       $(document).on('click', '#close-about', function(e) {
         $('#about').removeClass('revealed');
       });
+      
+      
+      /*
+      $(document).on('change', '#select-city-filter-button', function(e) {
+        var selected = $(this).find('.ui-selectmenu-text');
+        $('#search-box').val(selected);
+        _self.sidebarNavSearchQuery();
+      });
+      */
+      
+      $('#select-facet-filter').selectmenu({
+        change: function( event, data ) {
+          if (data.item.value === 'City') {
+            $('#select-country-filter-button, #select-project-filter-button').hide();
+            $('#select-city-filter-button').show();
+          }
+          if (data.item.value === 'Country') {
+            $('#select-city-filter-button, #select-project-filter-button').hide();
+            $('#select-country-filter-button').show();
+          }
+          if (data.item.value === 'Project') {
+            $('#select-city-filter-button, #select-country-filter-button').hide();
+            $('#select-project-filter-button').show();
+          }
+         }
+        });
+      $('#select-city-filter').selectmenu({
+        change: function( event, data ) {
+          $('#search-box').val(data.item.value);
+          _self.sidebarNavSearchQuery();
+        }
+      });
+      $('#select-country-filter').selectmenu({
+        change: function( event, data ) {
+          $('#search-box').val(data.item.value);
+          _self.sidebarNavSearchQuery();
+        }
+      });
+      $('#select-project-filter').selectmenu({
+        change: function( event, data ) {
+          $('#search-box').val(data.item.value);
+          _self.sidebarNavSearchQuery();
+        }
+      });
+      
 
       $('#map').on('click', '.view-more', function(e) {
         e.preventDefault();
 		
 		$('.tour-cntrl, #sidebar .tour').hide();
 		$('#sidebar .project').show();
-
+		
+		
         var pid = $(this).data('pid').toString();
-                                                                                  console.log('PID', pid);
+        console.log('PID', pid);
+        
         _self.currentProj = _.findWhere(_self.projects, {id: pid});
+        
         _self.filterByPid(pid);
-
+		
+		
+		
         // Sidebar.
-                                                                                  console.log('Clicked marker props', _self.currentProj);
+        console.log('Clicked marker props', _self.currentProj);
         _self.sidebarView.setData(_self.currentProj.attributes).render();
 
       });
@@ -246,6 +349,97 @@ Grp.Views = Grp.Views || {};
       $('#about').addClass('revealed');
 
     },
+  
+    
+     /**
+     * Event listener for 'nav:search'.
+     * This event is triggered from the sidebar view.
+     */  
+    sidebarNavSearchBtnClick: function() {
+    
+      console.log('Search!');
+      $('#search').fadeIn();
+      
+    },
+    
+    
+        
+     /**
+     * Event listener for 'nav:searchQuery'.
+     * This event is triggered from the sidebar view.
+     */  
+    sidebarNavSearchQuery: function() {
+    
+    
+      var selectedFacet = $('#select-facet-filter').find(":selected").val().toLowerCase();
+         
+      var searchString = $('#search-box').val().toLowerCase();
+      
+      console.log(selectedFacet);
+      
+      //console.log(this.markerClusterLayer);
+      
+      this.filteredMarkersLayer.setFilter(showProject); 
+      
+      //this.markerClusterLayer.setFilter(showProject); 
+      
+      function showProject(feature) {
+        
+        if (selectedFacet === 'city') {
+      
+         return feature.properties.city
+            .toLowerCase()
+            .indexOf(searchString) !== -1;
+        }
+        if (selectedFacet === 'project') {
+      
+         return feature.properties.project
+            .toLowerCase()
+            .indexOf(searchString) !== -1;
+        }  
+        if (selectedFacet === 'country') {
+      
+         return feature.properties.country
+            .toLowerCase()
+            .indexOf(searchString) !== -1;
+        } 
+        if (selectedFacet === 'region') {
+      
+         return feature.properties.region
+            .toLowerCase()
+            .indexOf(searchString) !== -1;
+        } 
+        if (selectedFacet === 'international partner') {
+      
+         return feature.properties.partnersint
+            .toLowerCase()
+            .indexOf(searchString) !== -1;
+        } 
+        
+      }
+      
+      
+      var _self = this;
+      
+        this.filteredMarkersLayer.eachLayer(function (layer) {
+        var props = layer.feature.properties;
+
+        var marker_icon = L.divIcon({
+          className : 'marker single',
+          iconSize: [],
+          popupAnchor : [-6, -12],
+        });
+        // Set the icon.
+        layer.setIcon(marker_icon);
+
+        // Marker popup.
+        var popup = _self.tooltipTemplate(props);
+        layer.bindPopup(popup);
+      });
+      
+       this.map.fitBounds(this.filteredMarkersLayer.getBounds());
+    
+    },
     
     
     /////////////////////////////////////////////////
@@ -315,15 +509,15 @@ Grp.Views = Grp.Views || {};
 
       // The turf api needs the a geojson input.
       var geoJson = this.filteredMarkersLayer.toGeoJSON();
-      this.markerNearbyZone = turf.buffer(geoJson, 1000, 'kilometers');
+      //this.markerNearbyZone = turf.buffer(geoJson, 1000, 'kilometers');
 
-      this.nearbyMarkersLayer = this.getNearbyMarkers(this.markerNearbyZone);
+     // this.nearbyMarkersLayer = this.getNearbyMarkers(this.markerNearbyZone);
 
        // Add turf area to map.
-      this.nearbyMarkersZoneLayer = L.mapbox.featureLayer().setGeoJSON(this.markerNearbyZone);
+      //this.nearbyMarkersZoneLayer = L.mapbox.featureLayer().setGeoJSON(this.markerNearbyZone);
       
       this.map
-        .addLayer(this.nearbyMarkersLayer)
+        //.addLayer(this.nearbyMarkersLayer)
         .addLayer(this.filteredMarkersLayer)
         .fitBounds(this.filteredMarkersLayer.getBounds(), {'padding': [200, 200]});
 
@@ -365,11 +559,13 @@ Grp.Views = Grp.Views || {};
       // The icon and tooltip have the same style as the other markers.
       nearbyMarkersLayer.eachLayer(function (layer) {
         var props = layer.feature.properties;
+        
+        console.log(props);
 
         var marker_icon = L.divIcon({
           className : 'marker single secondary',
           iconSize: [],
-          popupAnchor : [0, -16],
+          popupAnchor : [-6, -12],
         });
         // Set the icon.
         layer.setIcon(marker_icon);
@@ -408,7 +604,7 @@ Grp.Views = Grp.Views || {};
         var marker_icon = L.divIcon({
           className : 'marker single',
           iconSize: [],
-          popupAnchor : [0, -16],
+          popupAnchor : [-6, -12],
         });
         // Set the icon.
         layer.setIcon(marker_icon);
@@ -504,9 +700,16 @@ Grp.Views = Grp.Views || {};
           // The feature properties will be the related project.
           feature.properties = project.attributes;
           feature.properties.pid = project.id;
+          
 
           var loc = obj.get('location');
           feature.geometry.coordinates = [loc.longitude, loc.latitude];
+          
+          var city = obj.get('city');
+          feature.properties.city = city;
+          
+          var country = obj.get('country');
+          feature.properties.country = country;
 
           geojson.features.push(feature);
 

@@ -62,6 +62,7 @@ module.exports = function(grunt) {
         files: {
           './app/assets/scripts/deps.min.js': [
             'source_assets/bower_components/jquery/dist/jquery.min.js',
+            'source_assets/bower_components/jquery-ui/jquery-ui.min.js',
             'source_assets/bower_components/underscore/underscore-min.js',
             'source_assets/bower_components/async/lib/async.js',
             'source_assets/bower_components/backbone/backbone.js',

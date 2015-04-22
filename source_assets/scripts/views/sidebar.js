@@ -14,7 +14,10 @@ Grp.Views = Grp.Views || {};
       'click #nav-up' : 'navUpBtnClick',
       'click #nav-prev' : 'navPrevBtnClick',
       'click #nav-next' : 'navNextBtnClick',
-      'click #nav-about' : 'navAboutBtnClick'
+      'click #nav-about' : 'navAboutBtnClick',
+      'click #nav-search' : 'navSearchBtnClick',
+      'change #search-box' : 'navSearchKeyup',
+      'keyup #search-box' : 'navSearchKeyup'
     },
 
     data: null,
@@ -61,6 +64,16 @@ Grp.Views = Grp.Views || {};
     navAboutBtnClick: function(e) {
       e.preventDefault();
       this.trigger('nav:about');
+    },
+    
+    navSearchBtnClick: function(e) {
+      e.preventDefault();
+      this.trigger('nav:search');
+    },
+    
+    navSearchKeyup: function(e) {
+      e.preventDefault();
+      this.trigger('nav:searchQuery');
     },
 
   });

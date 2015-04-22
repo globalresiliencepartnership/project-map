@@ -6,11 +6,11 @@ html, body {
   background: #000;
 }
 a {
-  text-decoration: none;
   color: #009ede;
 }
 a:hover {
   color: #46863C;
+  text-decoration: none;
 }
 
 #site-canvas {
@@ -21,7 +21,8 @@ a:hover {
 
 
 h2 {
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
+  font-size: 30px;
 }
 
 #map {
@@ -33,11 +34,13 @@ h2 {
   z-index: 1;
   width: 100%;
   background: #000;
+  
+  .leaflet-tile-pane {
+  opacity: 0.5;
+  }
 }
 
-.leaflet-tile-pane {
-  opacity: 0.6;
-}
+
 
 #about {
   width: 100%;
@@ -99,22 +102,31 @@ h2 {
     }
   }
   &.single {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 0.6rem;
+    height: 0.6rem;
     margin: -0.75rem 0 0 -0.75rem;
     border-radius: $global-rounded;
-    background-color: #0066A4;
-    border: 4px solid #007FCE;
+    background-color: #008CD3;
+    box-shadow: 5px 5px 5px #222;
   }
   &.secondary {
     width: 1rem;
     height: 1rem;
     background: #444;
     margin: -0.5rem 0 0 -0.5rem;
-    border: 4px solid #777;
+  }
+  &.active {
+    width: 1rem;
+    height: 1rem;
+    margin: -0.75rem 0 0 -0.75rem;
+    border-radius: $global-rounded;
+    background-color: #FF00FF;
+    opacity: 0.7;
   }
 }
 
+
+/*
 #grad {
   position: fixed;
   width: 20rem;
@@ -124,6 +136,7 @@ h2 {
   height: 100%;
   background: linear-gradient(to right, #000, transparent);
 }
+*/
 
 #sidebar {
   position: absolute;
@@ -209,7 +222,7 @@ h2 {
     }
 
     a {
-      opacity: 0.4;
+      opacity: 0.6;
       display: block;
       width: 2.5rem;
       height: 2.5rem;
@@ -222,7 +235,8 @@ h2 {
       border-radius: $global-rounded;
     }
     a:hover {
-      opacity: 0.6;
+      transition: opacity 0.5s ease-in-out;
+      opacity: 0.9;
     }
   }
 }
@@ -238,3 +252,143 @@ h2 {
     padding: 30px;
   }
 }
+
+.projects-marker {
+  background: #0081CB;
+  border-radius: 20rem;
+  opacity: 0.8;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  
+  &:hover {
+    opacity: 0.6;
+  }
+  
+  .project-count {
+    font-size: 16px;
+    width: 200px;
+    display: block;
+    text-align: left;
+    margin-top: -30px;
+  }
+}
+.leaflet-popup-tip {
+  border-top-color: rgba(0, 178, 45, 0.3) !important;
+}
+.leaflet-popup-content-wrapper,
+.map-tooltip {
+  background: rgba(0, 178, 45, 0.3) !important;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.4);
+}
+.leaflet-popup-content {
+ color: #fff;
+ font-size: 15px;
+   
+  p {
+    margin-top: 10px !important;
+  }
+
+  a {
+    background: #009ede;
+    color: #fff !important;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+    text-align: center;
+    
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+ 
+  h2 {
+    font-size: 18px !important;
+    font-weight: bold;
+  }
+} 
+
+#search {
+  background: #000;
+  background: rgba(0, 178, 45, 0.3);
+  width: 40rem;
+  position: fixed;
+  bottom: 20%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 100;
+  padding: 1rem;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+
+
+  #search-box {
+    color: #eee;
+    background: none;
+    border: 1px solid #666;
+    padding: 5px;
+    font-size: 22px;
+    display: none;
+  }
+  
+  #more-info {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: #009ede;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    
+  }
+  
+  #add-project {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #ddd;
+    
+    &:hover {
+      color: #fff;
+    } 
+  }
+
+}
+
+
+
+.leaflet-control-minimap {
+  background: #000 !important;
+  border: 1px solid #666 !important;
+  
+  .leaflet-tile-pane {
+  opacity: 0.7 !important;
+  }
+}
+
+#sidebar nav,
+#sidebar .tour {
+  display: none;
+}
+
+ select {
+      width: 150px;
+    }
+ .ui-widget {
+   font-size: 1em;
+ }
+ .ui-menu {
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+ }
+
+
+

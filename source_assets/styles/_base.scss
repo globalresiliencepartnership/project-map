@@ -100,7 +100,8 @@ h2 {
     width: 2rem;
     height: 2rem;
     border-radius: $global-rounded;
-    background-color: #0081CB;
+    background-color: #008CD3;
+    background-color: rgba(0, 129, 203, 0.8);
 
     p {
       width: 1.5rem;
@@ -121,21 +122,8 @@ h2 {
     margin: -0.75rem 0 0 -0.75rem;
     border-radius: $global-rounded;
     background-color: #008CD3;
-    box-shadow: 5px 5px 5px #222;
-  }
-  &.secondary {
-    width: 1rem;
-    height: 1rem;
-    background: #444;
-    margin: -0.5rem 0 0 -0.5rem;
-  }
-  &.active {
-    width: 1rem;
-    height: 1rem;
-    margin: -0.75rem 0 0 -0.75rem;
-    border-radius: $global-rounded;
-    background-color: #FF00FF;
-    opacity: 0.7;
+    background-color: rgba(0, 129, 203, 0.8);
+    
   }
 }
 
@@ -327,7 +315,7 @@ h2 {
 #search {
   background: #000;
   background: rgba(0, 178, 45, 0.3);
-  width: 40rem;
+  width: 35rem;
   position: fixed;
   bottom: 20%;
   right: 0;
@@ -346,7 +334,6 @@ h2 {
     border: 1px solid #666;
     padding: 5px;
     font-size: 22px;
-    display: none;
   }
   
   #more-info {
@@ -417,4 +404,47 @@ h2 {
 .leaflet-control-zoom {
  margin-top: 20px !important;
  margin-right: 20px !important;
+}
+.leaflet-marker-icon {
+	
+	 box-shadow: 5px 5px 5px #222;
+
+	p {
+	  display: none;
+	} 
+}
+.leaflet-marker-icon p {
+  display: none;
+}
+
+
+.ui-state-default .ui-icon {
+    background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+
+
+/* Small devices (tablets, 600 and up) */
+@media (max-width: 600px) { 
+  #search {
+    width: 250px;
+    
+    h2 {
+      font-size: 14px;
+    }
+    #add-project,
+    #more-info {
+      display: none;
+    }
+    .ui-widget {
+      margin-bottom: 5px;
+    }
+    
+  } 
+  
+  
+   #search-box,
+  .leaflet-popup-content p,
+  .leaflet-control-minimap {
+    display: none;
+  }
 }

@@ -71,6 +71,8 @@ Grp.Views = Grp.Views || {};
       $('#more-info').popover({trigger: 'hover'});
       
       
+      
+      
       _self.tourView.setData(_self.tourItems[0].attributes).render();
       
       console.log(_self.tourItems);
@@ -84,9 +86,9 @@ Grp.Views = Grp.Views || {};
     
                                                                                                                                                                  
       // Create new cluster.
-      /*
       this.markerClusterLayer = new L.MarkerClusterGroup({
         showCoverageOnHover: false,
+        spiderfyOnMaxZoom: true,
         iconCreateFunction: function(cluster) {
           return new L.DivIcon({
             className : 'marker cluster',
@@ -95,11 +97,11 @@ Grp.Views = Grp.Views || {};
           });
         }
       });
-      */
+    
       
-      this.markerClusterLayer = L.mapbox.featureLayer();
+     // this.markerClusterLayer = L.mapbox.featureLayer();
       
-      this.markerAggregateLayer = L.mapbox.featureLayer();
+      //this.markerAggregateLayer = L.mapbox.featureLayer();
   
     
       console.log(_self.mapGeojson);
@@ -136,6 +138,7 @@ Grp.Views = Grp.Views || {};
       $("#select-country-filter").selectmenu();
       $("#select-project-filter").selectmenu();
       $('#select-city-filter-button, #select-project-filter-button').hide();
+      $('.ui-icon').addClass('ui-icon-white');
       
       var location = this.tourItems[0].attributes.location;
       var zoom = this.tourItems[0].attributes.zoom;

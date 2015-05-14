@@ -140,9 +140,8 @@ Grp.Views = Grp.Views || {};
       $('#select-city-filter-button, #select-project-filter-button').hide();
       $('.ui-icon').addClass('ui-icon-white');
       
-      var location = this.tourItems[0].attributes.location;
-      var zoom = this.tourItems[0].attributes.zoom;
-      this.map.setView([location.latitude, location.longitude], zoom);
+      // Set default map view
+      this.map.setView([0, 0], 2);
 
       // Add the processed geoJson layer to the marker cluster.
       this.filteredMarkersLayer = this.getFilteredMarkers(null);

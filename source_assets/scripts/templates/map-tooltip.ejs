@@ -1,8 +1,11 @@
 <article>
   <header>
-    <h1 class="prime-title"><%- project %></h1>
+    <h2><%- project %></h2>
+    <b><% if (city) { %><%- city %>, <% } %><%- country %></b>
   </header>
+   <p><%- description %></p>
+   <a target="blanc" href="<%- url %>">More info &raquo;</a>
   <div class="content">
-    <a href="#" class="view-more" data-pid="<%- pid %>">View more</a>
+    <!-- <a href="#" class="view-more" data-pid="<%- pid %>">View project</a> -->
   </div>
 </article>

@@ -12,7 +12,8 @@ module.exports = function(grunt) {
       // Default options.
       options : {
           sassDir : 'source_assets/styles',
-          cssDir : 'app/assets/styles'
+          cssDir : 'app/assets/styles',
+          raw : 'require "sass-css-importer";'
       },
 
       dev : {
@@ -55,21 +56,26 @@ module.exports = function(grunt) {
       deps: {
         options: {
           mangle: false,
-          sourceMap: false
+          sourceMap: false,
+          compress: false,
         },
         files: {
           './app/assets/scripts/deps.min.js': [
-            'source_assets/bower_components/requirejs/require.js',
             'source_assets/bower_components/jquery/dist/jquery.min.js',
+            'source_assets/bower_components/jquery-ui/jquery-ui.min.js',
             'source_assets/bower_components/underscore/underscore-min.js',
+            'source_assets/bower_components/async/lib/async.js',
             'source_assets/bower_components/backbone/backbone.js',
+            'source_assets/bower_components/leaflet.markercluster/dist/leaflet.markercluster.js',
+            'source_assets/bower_components/turf/turf.min.js',
+            'source_assets/bower_components/parse/index.js',
           ]
         },
       },
       main: {
         files: {
           './app/assets/scripts/main.min.js': [
-            'source_assets/scripts/**.js',
+            'source_assets/scripts/**/*.js',
           ]
         }
       }
@@ -77,38 +83,52 @@ module.exports = function(grunt) {
 
     // https://github.com/gruntjs/grunt-contrib-copy
     copy: {
-      templates: {
-        files: [
-          {expand: true, cwd: 'source_assets/scripts/templates/', src: '*', dest: 'app/assets/templates/'}
-        ]
+        main: {
+          expand: true,
+          flatten: true,
+          src: 'source_assets/styles/images/*', 
+          dest: 'app/assets/styles/images/'
+        },
+    },
+    // https://github.com/gruntjs/grunt-contrib-jst
+    jst: {
+      compile: {
+        options: {
+          processName: function(filepath) {
+            return filepath.replace('source_assets/scripts/templates/', '');
+          }
+        },
+        files: {
+          "app/assets/scripts/templates.js": ["source_assets/scripts/templates/**/*.ejs"]
+        }
       }
     },
 
     // https://github.com/joeytrapp/grunt-focus
     focus: {
       main: {
-        include: ['css', 'js']
+        include: ['css', 'js', 'templates']
       }
     },
 
     // https://npmjs.org/package/grunt-contrib-watch
     watch : {
       css: {
-        files: ['source_assets/styles/**.scss'],
+        files: ['source_assets/styles/**/*.scss'],
         tasks: ['css'],
         options: {
           livereload: true,
         },
       },
       js: {
-        files: ['source_assets/scripts/**.js'],
+        files: ['source_assets/scripts/**/*.js'],
         tasks: ['js'],
         options: {
           livereload: true,
         },
       },
       templates: {
-        files: ['source_assets/scripts/templates/**.html', 'app/*.html'],
+        files: ['source_assets/scripts/templates/**/*.ejs', 'app/*.html'],
         tasks: ['templates'],
         options: {
           livereload: true,
@@ -154,15 +174,16 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-focus');
+  grunt.loadNpmTasks('grunt-contrib-jst');
 
   /////////////////////////////////////
   // Register tasks.
 
   grunt.registerTask('css', ['compass:dev']);
   grunt.registerTask('js', ['jshint:dev', 'uglify:main']);
-  grunt.registerTask('templates', ['copy:templates']);
+  grunt.registerTask('templates', ['jst']);
   // Aggregate tasks.
-  grunt.registerTask('build', ['css', 'uglify:deps', 'js', 'templates']);
+  grunt.registerTask('build', ['css', 'uglify:deps', 'js', 'copy', 'templates']);
   grunt.registerTask('serve', ['connect:server']);
   // Default task with watch.
   grunt.registerTask('default', ['build', 'connect:livereload', 'focus:main']);

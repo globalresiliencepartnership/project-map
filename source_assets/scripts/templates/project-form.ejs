@@ -1,0 +1,71 @@
+<div id="project-submission">
+
+  <a href="#">&laquo; Back to map</a>
+  <h1>Submit new project</h1>
+  <form action="#">
+
+    <fieldset>
+      <label for="name">Project title</label>
+      <input type="text" class="form-control" name="name" id="name">
+    </fieldset>
+
+    <fieldset>
+      <label for="resp_email">Email</label>
+      <input type="text" class="form-control" name="resp_email" id="resp_email">
+    </fieldset>
+
+    <fieldset>
+      <label for="url">Project Url</label>
+      <input type="text" class="form-control" name="url" id="url">
+    </fieldset>
+
+    <fieldset>
+      <label for="type">Type</label>
+      <select name="type" class="form-control" id="type">
+        <option value="--">Select type</option>
+        <option value="Private Sector">Private Sector</option>
+        <option value="Other">Other</option>
+        <option value="Academic Institution">Academic Institution</option>
+      </select>
+     </fieldset>
+
+    <fieldset>
+      <label for="proj_description">Project description</label>
+      <textarea name="proj_description" class="form-control" id="proj_description"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <label for="focus">Focus</label>
+      <input type="text" class="form-control" name="focus" id="focus">
+      <p class="help-text">The geographic focus of your project, e.g."South Asia".</p>
+    </fieldset>
+
+    <fieldset>
+      <label for="innovation">Innovation</label>
+      <input type="text" class="form-control"  name="innovation" id="innovation">
+    </fieldset>
+
+    <fieldset>
+      <label for="partnersint">International partners</label>
+      <textarea name="partnersint" class="form-control" id="partnersint"></textarea>
+      <p class="help-text">Add one partner per line.</p>
+    </fieldset>
+    
+    <fieldset>
+      <label for="partnerslocal">Local partners</label>
+      <textarea name="partnerslocal" class="form-control" id="partnerslocal"></textarea>
+      <p class="help-text">Add one partner per line.</p>
+     </fieldset>
+
+    <fieldset id="proj-locations">
+      <h2>Project locations</h2>
+    </fieldset>
+    
+      <a href="#" class="add" title="Add new project location">Add another location [+]</a>
+
+    <fieldset>
+      <input type="submit" class="btn" name="project_submit" value="Submit project">
+    </fieldset>
+
+  </form>
+</div>

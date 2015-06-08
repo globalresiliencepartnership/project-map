@@ -1,0 +1,450 @@
+// GLOBAL
+html, body {
+  height: 100%;
+  font-size: 100%;
+  line-height: 1.5;
+  background: #000;
+}
+a {
+  color: #009ede;
+}
+a:hover {
+  color: #46863C;
+  text-decoration: none;
+}
+
+#site-canvas {
+  #map {
+    background: #000;
+  }
+}
+
+
+h2 {
+  margin: 0 0 10px 0;
+  font-size: 30px;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  background: #000;
+  
+  .leaflet-tile-pane {
+  opacity: 0.5;
+  }
+}
+
+
+
+#about {
+  width: 100%;
+  background: #000;
+  background: rgba(0,0,0, 0.7);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 500;
+  height: 100%;
+  color: #fff;  
+  padding: 4rem 8rem; 
+  display: none;
+  
+  p {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+  }
+  
+  &.revealed {
+    transition: margin-left 0.3s ease 0s;
+    display: block;
+  }
+}
+
+
+#logo {
+  width: 150px;
+  height: 100px;
+  background: url("images/grp-logo.png") no-repeat;
+  display: block;
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 100;
+  background-size: contain;
+  text-indent: -9999px;
+  outline: none;
+}
+
+#zoom-6 .marker,
+#zoom-7 .marker,
+#zoom-8 .marker,
+#zoom-9 .marker,
+#zoom-10 .marker,
+#zoom-11 .marker,
+#zoom-12 .marker {
+  &.single {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+
+.marker {
+  &.cluster {
+    width: 2rem;
+    height: 2rem;
+    border-radius: $global-rounded;
+    background-color: #008CD3;
+    background-color: rgba(0, 129, 203, 0.8);
+
+    p {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin: 0.25rem 0 0 0.25rem;
+      line-height: 1.5rem;
+      color: #FFF;
+      font-size: 0.825rem;
+      font-weight: bold;
+      text-align: center;
+      border-radius: $global-rounded;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  }
+  &.single {
+    width: 0.6rem;
+    height: 0.6rem;
+    margin: -0.75rem 0 0 -0.75rem;
+    border-radius: $global-rounded;
+    background-color: #008CD3;
+    background-color: rgba(0, 129, 203, 0.8);
+    
+  }
+}
+
+
+/*
+#grad {
+  position: fixed;
+  width: 20rem;
+  z-index: 90;
+  top: 0;
+  left: 0;  
+  height: 100%;
+  background: linear-gradient(to right, #000, transparent);
+}
+*/
+
+#sidebar {
+  position: absolute;
+  left: 0;
+  bottom: 4rem;
+  z-index: 100;
+  width: 15rem;
+  padding: 1.5rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  margin-left: -23rem;
+  color: #FFF;
+
+  &.revealed {
+    transition: margin-left 0.3s ease 0s;
+    margin-left: 0rem;
+  }
+  
+  // Make these wider than their container to maximize space for cilcking markers.
+  .project,
+  .tour {
+    min-width: 20rem;
+  }
+
+	
+  .title {
+    line-height: 1.2;
+    overflow: hidden;
+    font-size: 1.5rem;
+  }
+  .subtitle {
+    text-transform: uppercase;
+  }
+
+  .metadata {
+    font-size: 0.825rem;
+    margin-top: 2rem;
+
+    dt {
+      text-transform: uppercase;
+    }
+    dd {
+      margin-bottom: 1rem;
+      font-size: 0.75rem;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .budget + dd {
+      font-size: 1rem;
+    }
+  }
+}
+
+#sidebar nav {
+  position: fixed;
+  left: 1.5rem;
+  bottom: 1.5rem;
+
+ 
+  
+  .project-cntrl {
+    display: none;
+     
+     &.revealed {
+    display: block;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    width: 100%;
+    @extend .clearfix;
+
+    li {
+      float: left;
+      margin-right: 0.5rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    a {
+      opacity: 0.6;
+      display: block;
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.25rem;
+      font-weight: bold;
+      line-height: 2.5rem;
+      text-align: center;
+      color: #333;
+      background: #FFF;
+      border-radius: $global-rounded;
+    }
+    a:hover {
+      transition: opacity 0.5s ease-in-out;
+      opacity: 0.9;
+    }
+  }
+}
+#tour {
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0, 0.5);
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  color: #fff;
+  .content {
+    padding: 30px;
+  }
+}
+
+.projects-marker {
+  background: #0081CB;
+  border-radius: 20rem;
+  opacity: 0.8;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  
+  &:hover {
+    opacity: 0.6;
+  }
+  
+  .project-count {
+    font-size: 16px;
+    width: 200px;
+    display: block;
+    text-align: left;
+    margin-top: -30px;
+  }
+}
+.leaflet-popup-tip {
+  border-top-color: rgba(0, 178, 45, 0.3) !important;
+}
+.leaflet-popup-content-wrapper,
+.map-tooltip {
+  background: rgba(0, 178, 45, 0.3) !important;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.4);
+}
+.leaflet-popup-content {
+ color: #fff;
+ font-size: 15px;
+   
+  p {
+    margin-top: 10px !important;
+  }
+
+  a {
+    background: #009ede;
+    color: #fff !important;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+    text-align: center;
+    
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+ 
+  h2 {
+    font-size: 18px !important;
+    font-weight: bold;
+  }
+} 
+
+#search {
+  background: #000;
+  background: rgba(0, 178, 45, 0.3);
+  width: 35rem;
+  position: fixed;
+  bottom: 20%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 100;
+  padding: 1rem;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+
+
+  #search-box {
+    color: #eee;
+    background: none;
+    border: 1px solid #666;
+    padding: 5px;
+    font-size: 22px;
+  }
+  
+  #more-info {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: #009ede;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    
+  }
+  
+  #add-project {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #ddd;
+    
+    &:hover {
+      color: #fff;
+    } 
+  }
+
+}
+
+
+
+.leaflet-control-minimap {
+  background: #000 !important;
+  border: 1px solid #666 !important;
+  
+  .leaflet-tile-pane {
+  opacity: 0.7 !important;
+  }
+}
+
+#sidebar nav,
+#sidebar .tour {
+  display: none;
+}
+
+ select {
+      width: 150px;
+    }
+ .ui-widget {
+   font-size: 1em;
+ }
+ .ui-menu {
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+ }
+
+.ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default {
+   background: #009ede;
+   color: #fff;
+   border: none;
+   border-radius: 10rem;
+   outline: none;
+}
+
+.leaflet-control-zoom {
+ margin-top: 20px !important;
+ margin-right: 20px !important;
+}
+.leaflet-marker-icon {
+	
+	 box-shadow: 5px 5px 5px #222;
+
+	p {
+	  display: none;
+	} 
+}
+.leaflet-marker-icon p {
+  display: none;
+}
+
+
+.ui-state-default .ui-icon {
+    background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+
+
+/* Small devices (tablets, 600 and up) */
+@media (max-width: 600px) { 
+  #search {
+    width: 250px;
+    
+    h2 {
+      font-size: 14px;
+    }
+    #add-project,
+    #more-info {
+      display: none;
+    }
+    .ui-widget {
+      margin-bottom: 5px;
+    }
+    
+  } 
+  
+  
+   #search-box,
+  .leaflet-popup-content p,
+  .leaflet-control-minimap {
+    display: none;
+  }
+}

@@ -74,7 +74,7 @@ Grp.Views = Grp.Views || {};
           var $mapContainer = $loc.find('.map');
           $mapContainer.addClass('revealed');
           map = L.mapbox.map($mapContainer[0], 'examples.map-i86nkdio');
-		  map.scrollWheelZoom.disable(); 
+		      map.scrollWheelZoom.disable(); 
 		  
           var marker = null
           // Map click event to get the coordinates.
@@ -100,59 +100,116 @@ Grp.Views = Grp.Views || {};
       // Handle form submission.
       $('#project-submission input[name="project_submit"]').click(function(e) {
         e.preventDefault();
+
+        // Clean errors.
+        $('#project-submission .error').remove();
+
         var control = true;
 
-        var name = $('input[name="name"]').val();
+        var $name = $('input[name="name"]');
+        var name = $name.val();
         if (!$.trim(name)) {
           control = false;
-          console.log('Name is required.');
+          if ($name.siblings('.error').length === 0) {
+            $name.parent().append('<small class="error">Project title is required.</small>');
+          }
         }
 
-        var type = $('select[name="type"]').val();
+        var $type = $('select[name="type"]');
+        var type = $type.val();
         if (type == '--') {
           control = false;
-          console.log('type is required.');
+          if ($type.siblings('.error').length === 0) {
+            $type.parent().append('<small class="error">Type is required.</small>');
+          }
         }
 
-        var focus = $('input[name="focus"]').val();
+        var $focus = $('input[name="focus"]');
+        var focus = $focus.val();
         if (!$.trim(focus)) {
           control = false;
-          console.log('focus is required.');
+          if ($focus.siblings('.error').length === 0) {
+            $focus.parent().append('<small class="error">Focus is required.</small>');
+          }
         }
 
-        var innovation = $('input[name="innovation"]').val();
+        var $resp_email = $('input[name="resp_email"]');
+        var resp_email = $resp_email.val();
+        if (!$.trim(resp_email)) {
+          control = false;
+          if ($resp_email.siblings('.error').length === 0) {
+            $resp_email.parent().append('<small class="error">Email is required.</small>');
+          }
+        }
+
+        var $url = $('input[name="url"]');
+        var url = $url.val();
+        if (!$.trim(url)) {
+          control = false;
+          if ($url.siblings('.error').length === 0) {
+            $url.parent().append('<small class="error">Project url is required.</small>');
+          }
+        }
+
+        var $proj_description = $('textarea[name="proj_description"]');
+        var proj_description = $proj_description.val();
+        if (!$.trim(proj_description)) {
+          control = false;
+          if ($proj_description.siblings('.error').length === 0) {
+            $proj_description.parent().append('<small class="error">Project description is required.</small>');
+          }
+        }
+
+        var $innovation = $('input[name="innovation"]');
+        var innovation = $innovation.val();
         if (!$.trim(innovation)) {
           control = false;
-          console.log('innovation is required.');
+          if ($innovation.siblings('.error').length === 0) {
+            $innovation.parent().append('<small class="error">Innovation is required.</small>');
+          }
         }
 
-        var partnersint = $('textarea[name="partnersint"]').val();
+        var $partnersint = $('textarea[name="partnersint"]');
+        var partnersint = $partnersint.val();
         if (!$.trim(partnersint)) {
           control = false;
-          console.log('partnersint is required.');
+          if ($partnersint.siblings('.error').length === 0) {
+            $partnersint.parent().append('<small class="error">International partners is required.</small>');
+          }
         }
 
-        var partnerslocal = $('textarea[name="partnerslocal"]').val();
+        var $partnerslocal = $('textarea[name="partnerslocal"]');
+        var partnerslocal = $partnerslocal.val();
         if (!$.trim(partnerslocal)) {
           control = false;
-          console.log('partnerslocal is required.');
+          if ($partnerslocal.siblings('.error').length === 0) {
+            $partnerslocal.parent().append('<small class="error">Local partners is required.</small>');
+          }
         }
 
         var locations = [];
-        $('#project-submission .location').each(function() {
+        var $locations = $('#project-submission .location');
+        $locations.each(function() {
+          var errors = [];
           var $loc = $(this);
           var lat = parseFloat($loc.find('input[name="location[lat][]"]').val());
           var lng = parseFloat($loc.find('input[name="location[long][]"]').val());
 
-          if (isNaN(lat) || isNaN(lng)) {
-            control = false;
-            console.log('lat/log invalid.');
-          }
-
           var country = $loc.find('select[name="location[country][]"]').val();
           if (country == '--') {
             control = false;
-            console.log('country is required.');
+            errors.push('Country is required');
+          }
+
+          if (isNaN(lat) || isNaN(lng)) {
+            control = false;
+            errors.push('Latitude or longitude is invalid');
+          }
+
+          if (!control) {
+            $loc.find('.error').remove();
+            $loc.append('<small class="error">' + errors.join(' / ') + '</small>');
+            return;
           }
 
           locations.push({
@@ -166,7 +223,10 @@ Grp.Views = Grp.Views || {};
           project.set('project', name);
           project.set('type', type);
           project.set('focus', focus);
+          project.set('resp_email', resp_email);
+          project.set('url', url);
           project.set('innovation', innovation);
+          project.set('description', proj_description);
           project.set('partnersint', partnersint.replace(/\n/g, '; '));
           project.set('partnerslocal', partnerslocal.replace(/\n/g, '; '));
           project.set('published', 0);
@@ -183,6 +243,8 @@ Grp.Views = Grp.Views || {};
           });
 
           _self.resetForm();
+          // Clean errors.
+          $('#project-submission .error').remove();
         }
 
       });

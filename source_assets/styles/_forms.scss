@@ -13,7 +13,11 @@ fieldset {
     font-size: 0.75rem;
   }
   .error {
-    margin: 0.5rem 0 0 0 ;
+    margin: 0.5rem 0 0 0;
+    background-color: #DA454A;
+    display: block;
+    border-radius: $global-radius;
+    padding: 0.25rem 0.5rem;
   }
 
    label, input, textarea, select {

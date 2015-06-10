@@ -124,15 +124,6 @@ Grp.Views = Grp.Views || {};
           }
         }
 
-        var $focus = $('input[name="focus"]');
-        var focus = $focus.val();
-        if (!$.trim(focus)) {
-          control = false;
-          if ($focus.siblings('.error').length === 0) {
-            $focus.parent().append('<small class="error">Focus is required.</small>');
-          }
-        }
-
         var $resp_email = $('input[name="resp_email"]');
         var resp_email = $resp_email.val();
         if (!$.trim(resp_email)) {
@@ -157,33 +148,6 @@ Grp.Views = Grp.Views || {};
           control = false;
           if ($proj_description.siblings('.error').length === 0) {
             $proj_description.parent().append('<small class="error">Project description is required.</small>');
-          }
-        }
-
-        var $innovation = $('input[name="innovation"]');
-        var innovation = $innovation.val();
-        if (!$.trim(innovation)) {
-          control = false;
-          if ($innovation.siblings('.error').length === 0) {
-            $innovation.parent().append('<small class="error">Innovation is required.</small>');
-          }
-        }
-
-        var $partnersint = $('textarea[name="partnersint"]');
-        var partnersint = $partnersint.val();
-        if (!$.trim(partnersint)) {
-          control = false;
-          if ($partnersint.siblings('.error').length === 0) {
-            $partnersint.parent().append('<small class="error">International partners is required.</small>');
-          }
-        }
-
-        var $partnerslocal = $('textarea[name="partnerslocal"]');
-        var partnerslocal = $partnerslocal.val();
-        if (!$.trim(partnerslocal)) {
-          control = false;
-          if ($partnerslocal.siblings('.error').length === 0) {
-            $partnerslocal.parent().append('<small class="error">Local partners is required.</small>');
           }
         }
 
@@ -222,13 +186,9 @@ Grp.Views = Grp.Views || {};
           var project = new Grp.Models.Project();
           project.set('project', name);
           project.set('type', type);
-          project.set('focus', focus);
           project.set('resp_email', resp_email);
           project.set('url', url);
-          project.set('innovation', innovation);
           project.set('description', proj_description);
-          project.set('partnersint', partnersint.replace(/\n/g, '; '));
-          project.set('partnerslocal', partnerslocal.replace(/\n/g, '; '));
           project.set('published', 0);
 
           locations.forEach(function(location) {

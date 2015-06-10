@@ -51,3 +51,10 @@ All the third party libraries go to `source_assets/bower_components`. Grunt will
 The app uses `Backbone`.
 
 Styles are preprocessed using sass. The source files are in `source_assets/styles`.
+
+### Deploy
+
+After app has been built
+```
+$ git subtree push --prefix app origin gh-pages
+```

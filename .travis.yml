@@ -1,0 +1,22 @@
+language: node_js
+env:
+  global:
+  - GH_REF=github.com/globalresiliencepartnership/project-map.git
+  - DEPLOY_BRANCH=master
+  - secure: "nnB7TQb7CCywWd9F/fHPekv5O0ktDnvLDsRNYWo1TMZPWwhG5ciaQrTsDxXSjyzXgGyNitM1gFG0XEo6/hqB/ews8wnV2YMIqCjWa6z4B284M1Eu8vwFL7YA5FL2vTi2Ab2agzOHNDd17D/ZrkjQDqh7thCKajmliZ5gEY6DBXEPB/6aXXisyiSBEM58z0yUeNEdXHqJeRI/smlvwcleFdXWEwBUyj4MVpL51iuvFErlHT71fxxL986GtakiAhbuQ0ahCJ+ExVKQqEwWy8wIp93F0vsF3fXX3YgAeakQw7s17R6M8VtQXHojqtu80kDWOLyiHJOiXBFg2p+Yn1NV0YItjRqE4FUe7c6Q4dVgkcpn/pWEwMuV5KGPQape77Emrsl9B3Y8kvCn1FiRfWYt03sByZLYFzh7KNfI4bdVwrd/ulwLAvTnzCexPRhcfHYVANihHAvSEYCWHdnTrb4twqSuO8g5BJmZTP8gPxxywONXyNsc3tJAzTLVsrdtb658w8wMdUYQtmN55E6n+KUZS6BEXBISP4myP4e+j3LL28U51LeI4hAi0umomUE87uZZw7rQX8u1c3RBi9SVEkJ67XT5/D0auRCcvkRFfQCbyoQMyRatEd/Ozcpk7tKPl48/JnxqXrkp6QgSNAbrc5fHYxQKbsBrFGnSwWyNebGtwOM="
+
+cache:
+  directories:
+    - node_modules
+    - source_assets/bower_components
+    - bundle/cache
+
+before_install:
+- chmod +x ./.build_scripts/deploy.sh
+- npm install -g grunt-cli
+
+script:
+- grunt prod
+
+after_success:
+- ./.build_scripts/deploy.sh

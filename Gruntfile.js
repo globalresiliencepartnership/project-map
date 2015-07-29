@@ -13,7 +13,8 @@ module.exports = function(grunt) {
       options : {
           sassDir : 'source_assets/styles',
           cssDir : 'app/assets/styles',
-          raw : 'require "sass-css-importer";'
+          raw : 'require "sass-css-importer";',
+          bundleExec: true
       },
 
       dev : {

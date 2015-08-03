@@ -28,17 +28,25 @@
     </fieldset>
 
     <fieldset>
-      <label for="type">Theme</label>
-      <select name="type" class="form-control" id="type">
-        <option value="--">Select theme</option>
-        <option value="Agriculture">Agriculture</option>
-        <option value="Urban">Urban Resilience</option>
-        <option value="DRR">Disaster Reduction and Recovery</option>
-        <option value="Livelihoods">Livelihoods</option>
-        <option value="Research">Research and Policy</option>
+      <label for="type">Focus Area</label>
+      <select multiple name="type" class="form-control" id="type">
+        <option value="Health">Health</option>
+        <option value="Food_Agriculture">Food & Agriculture</option>
+        <option value="Water">Water</option>
+        <option value="Energy">Energy</option>
+        <option value="Ecology_Environment">Ecology & Environment</option>
+        <option value="Finance_Innovation">Finance & Innovation</option>
+        <option value="Oceans_Fisheries">Oceans & Fisheries</option>
+        <option value="Urban_Resilience">Urban Resilience</option>
+        <option value="Gender_Equity">Gender Equity</option>
+        <option value="Economic_Inclusion">Economic Inclusion</option>
+        <option value="Climate_Change">Climate Change</option>
+        <option value="DRR">Disaster Reduction & Recovery</option>
+        <option value="Research_Policy">Research & Policy</option>
+        <option value="Technology">Technology</option>
         <option value="Other">Other</option>
       </select>
-      <p class="help-text">The thematic focus of the project, e.g."Agriculture".</p>
+      <p class="help-text">The thematic focus of the project, e.g."Food & Agriculture". Select all that apply.</p>
     </fieldset>
 
     <fieldset id="proj-locations">
@@ -50,6 +58,8 @@
     <fieldset>
       <input type="submit" class="btn" name="project_submit" value="Submit project">
     </fieldset>
+
+    <p class="help-text add"><a href="mailto:gjacobs@rockfound.org">Contact us</a> with questions or feedback on projects.</p>
 
   </form>
 </div>

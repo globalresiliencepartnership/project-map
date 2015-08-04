@@ -115,12 +115,13 @@ Grp.Views = Grp.Views || {};
           }
         }
 
-        var $type = $('select[name="type"]');
-        var type = $type.val();
-        if (type == '--') {
+        var $focusarea = $('select[name="focusarea"]');
+        var focusarea = $focusarea.val();
+        console.log(focusarea);
+        if (focusarea == '--') {
           control = false;
-          if ($type.siblings('.error').length === 0) {
-            $type.parent().append('<small class="error">Type is required.</small>');
+          if ($focusarea.siblings('.error').length === 0) {
+            $focusarea.parent().append('<small class="error">Focus Area is required.</small>');
           }
         }
 
@@ -185,7 +186,7 @@ Grp.Views = Grp.Views || {};
         if (control) {
           var project = new Grp.Models.Project();
           project.set('project', name);
-          project.set('type', type);
+          project.set('focusarea', focusarea);
           project.set('resp_email', resp_email);
           project.set('url', url);
           project.set('description', proj_description);

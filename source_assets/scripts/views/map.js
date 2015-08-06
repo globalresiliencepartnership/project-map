@@ -193,7 +193,7 @@ Grp.Views = Grp.Views || {};
       });
       */
       
-      $(document).on('click', '#logo', function(e) {
+      $(document).on('click', '#reset', function(e) {
       
         e.preventDefault();
         

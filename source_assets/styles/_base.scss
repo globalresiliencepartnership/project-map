@@ -334,6 +334,7 @@ h2 {
     border: 1px solid #666;
     padding: 5px;
     font-size: 22px;
+    margin-top: 10px;
   }
   
   #more-info {
@@ -359,6 +360,10 @@ h2 {
     &:hover {
       color: #fff;
     } 
+  }
+
+  #reset {
+    cursor: pointer;
   }
 
 }

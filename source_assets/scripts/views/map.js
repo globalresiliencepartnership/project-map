@@ -77,7 +77,7 @@ Grp.Views = Grp.Views || {};
       
       console.log(_self.tourItems);
 
-      this.map = L.mapbox.map('map', 'devseed.la1fieg0', { maxZoom: 12, minZoom: 2, zoomControl: false }).on('ready', function() {
+      this.map = L.mapbox.map('map', 'globalresiliencepartnership.p26a3dl1', { maxZoom: 12, minZoom: 2, zoomControl: false }).on('ready', function() {
        new L.Control.Zoom({ position: 'topright' }).addTo(_self.map);
        new L.Control.MiniMap(L.mapbox.tileLayer('devseed.la1fieg0'), {zoomLevelFixed: 2, aimingRectOptions: {color: '#26C9FF', weight: 3, fill: false}}).addTo(_self.map);
        });
